@@ -48,7 +48,7 @@ ENV sdk_path=${base_path}/libs-release-local/mock-sdk/1.1.5/
 
 # environment variable for Kernel Jars
 ENV kernel_jar_path=${base_path}/libs-release-local/io/mosip/kernel
-
+COPY /src/sms/* ${kernel_jar_path}/
 # environment variable for regproc reprocessor ceylon cache jar path
 ENV test_jar_path=${base_path}/libs-release-local/io/mosip/testing/
 
