@@ -77,9 +77,9 @@ ENV release_maven_path=https://repo1.maven.org/maven2/io/mosip
 #ENV auth_adapter_jar_url_env=${release_maven_path}/kernel/kernel-auth-adapter/${version}/kernel-auth-adapter-${version}.jar
 ENV auth_adapter_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-auth-adapter/1.1.5.5-SNAPSHOT/kernel-auth-adapter-1.1.5.5-20211013.115836-24.jar
 
-# environment variable for msg91_jar url. 
-ENV sms_msg91_jar_url_env=${release_maven_path}/kernel/kernel-smsserviceprovider-msg91/${version}/kernel-smsserviceprovider-msg91-${version}.jar
-#ENV sms_msg91_jar_url_env=https://oss.sonatype.org/service/local/repositories/releases/content/io/mosip/kernel/kernel-smsserviceprovider-msg91/1.1.5-rc1/kernel-smsserviceprovider-msg91-1.1.5-rc1.jar
+# environment variable for fast2sms_jar url.
+ENV sms_fast2sms_jar_url_env=${release_maven_path}/kernel/kernel-smsserviceprovider-fast2sms/${version}/kernel-smsserviceprovider-fast2sms-${version}.jar
+#ENV sms_fast2sms_jar_url_env=https://oss.sonatype.org/service/local/repositories/releases/content/io/mosip/kernel/kernel-smsserviceprovider-fast2sms/1.1.5-rc1/kernel-smsserviceprovider-fast2sms-1.1.5-rc1.jar
 
 # environment variable for ref-idobjectvalidator_jar url
 ENV ref_idobjectvalidator_jar_url_env=${release_maven_path}/kernel/kernel-ref-idobjectvalidator/${version}/kernel-ref-idobjectvalidator-${version}.jar
@@ -131,9 +131,9 @@ RUN wget ${auth_adapter_jar_url_env} -O ${kernel_jar_path}/kernel-auth-adapter.j
 
 echo "Downloaded auth adapter jar" &&\
 
-wget ${sms_msg91_jar_url_env} -O ${kernel_jar_path}/kernel-smsserviceprovider-msg91.jar  &&\
+wget ${sms_fast2sms_jar_url_env} -O ${kernel_jar_path}/kernel-smsserviceprovider-fast2sms-1.1.5.2.jar  &&\
 
-echo "Downloaded msg91 jar" &&\
+echo "Downloaded fast2sms jar" &&\
 
 wget ${ref_idobjectvalidator_jar_url_env} -O ${idobject_jar_path}/kernel-ref-idobjectvalidator.jar &&\
 
