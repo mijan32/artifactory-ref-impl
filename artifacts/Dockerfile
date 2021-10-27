@@ -125,6 +125,8 @@ COPY /src/icu4j/* ${icu4j_jar_path}/
 
 COPY /src/auth/* ${regproc_jar_path}/
 
+COPY /src/sms/* ${kernel_jar_path}/
+
 # Download required respective all the jars and create biosdk zip
 
 RUN wget ${auth_adapter_jar_url_env} -O ${kernel_jar_path}/kernel-auth-adapter.jar  &&\
