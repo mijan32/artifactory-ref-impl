@@ -64,6 +64,9 @@ ENV icu4j_jar_path=${base_path}/libs-release-local/icu4j
 # environment variable for i18n zip path
 ENV i18n_zip_path=${base_path}/libs-release-local/i18n
 
+# environment variable for tech5 jar path
+ENV tech5_zip_path=${base_path}/libs-release-local/tech5
+
 # environment variable for Clamav dependency
 ENV clamav_path=${base_path}/libs-release-local/clamav
 
@@ -101,7 +104,7 @@ ENV cache_url_env=https://repo1.maven.org/maven2/com/hazelcast/hazelcast-all/3.1
 # ENV biosdk_client_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/biosdk/biosdk-client/1.2.0-SNAPSHOT/biosdk-client-1.2.0-20210727.071028-253-jar-with-dependencies.jar
 
 # Create all the Jar paths
-RUN mkdir -p ${biosdk_client_zip_path}/biosdk-client ${biosdk_lib_zip_path}/biosdk-lib ${cache_path} ${ida_sh_path} ${hsm_client_path} ${kernel_jar_path} ${test_jar_path} ${idobject_jar_path} ${regproc_jar_path} ${sdk_path} ${icu4j_jar_path} ${clamav_path}
+RUN mkdir -p ${biosdk_client_zip_path}/biosdk-client ${biosdk_lib_zip_path}/biosdk-lib ${cache_path} ${ida_sh_path} ${hsm_client_path} ${kernel_jar_path} ${test_jar_path} ${idobject_jar_path} ${regproc_jar_path} ${sdk_path} ${icu4j_jar_path} ${clamav_path} ${tech5_zip_path}
 
 # Copy all the respective jars to the location
 
@@ -127,6 +130,7 @@ COPY /src/auth/* ${regproc_jar_path}/
 
 COPY /src/sms/* ${kernel_jar_path}/
 
+COPY /src/tech5/* ${tech5_zip_path}/
 # Download required respective all the jars and create biosdk zip
 
 RUN wget ${auth_adapter_jar_url_env} -O ${kernel_jar_path}/kernel-auth-adapter.jar  &&\
