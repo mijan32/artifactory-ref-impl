@@ -65,7 +65,7 @@ ENV icu4j_jar_path=${base_path}/libs-release-local/icu4j
 ENV i18n_zip_path=${base_path}/libs-release-local/i18n
 
 # environment variable for tech5 jar path
-ENV tech5_zip_path=${base_path}/libs-release-local/tech5
+ENV tech5_zip_path=${base_path}/libs-release-local/sdk/tech5
 
 # environment variable for Clamav dependency
 ENV clamav_path=${base_path}/libs-release-local/clamav
@@ -130,7 +130,7 @@ COPY /src/auth/* ${regproc_jar_path}/
 
 COPY /src/sms/* ${kernel_jar_path}/
 
-COPY /src/tech5/* ${tech5_zip_path}/
+COPY /src/sdk/tech5/* ${tech5_zip_path}/
 # Download required respective all the jars and create biosdk zip
 
 RUN wget ${auth_adapter_jar_url_env} -O ${kernel_jar_path}/kernel-auth-adapter.jar  &&\
