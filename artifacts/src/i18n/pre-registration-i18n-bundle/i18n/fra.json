@@ -371,9 +371,9 @@
   },
   "acknowledgement": {
     "title": "Rendez-vous confirmé",
-    "message": "L'identifiant de pré-enregistrement et les détails du rendez-vous ont été envoyés à l'identifiant et au numéro de téléphone de l'e-mail enregistré.",
+    "message": "L'identifiant de Numéro d'enregistrement et les détails du rendez-vous ont été envoyés à l'identifiant et au numéro de téléphone de l'e-mail enregistré.",
     "label_name": "prénom",
-    "label_pre_id": "ID de pré-inscription",
+    "label_pre_id": "Numéro d'enregistrement",
     "label_reg_cntr": "Nom du centre",
     "label_cntr_contact_number": "Numéro de contact du centre",
     "label_appointment_date_time": "Date et heure du rendez-vous",
@@ -384,8 +384,9 @@
     "label_reg_cntr_dtl": "Adresse du centre"
   },
   "preview": {
-    "title_preview": "Aperçu",
+    "title_preview": "Détails d'inscription",
     "language": "français",
+    "label_pre_id": "Numéro d'enregistrement",
     "subheading_information": "Informations personnelles",
     "label_name": "Nom complet",
     "label_age": "Âge",
@@ -458,7 +459,7 @@
     "action_modify_appointment": "Réserver / modifier un rendez-vous",
     "action_cre_application": "Créer une nouvelle application ",
     "card": {
-      "text_app_id": "ID d'application",
+      "text_app_id": "Numéro d'enregistrement",
       "text_name": "prénom",
       "text_appoinment_date": "Date de rendez-vous",
       "text_status": "Statut",
