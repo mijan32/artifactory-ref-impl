@@ -42,6 +42,8 @@ ENV biosdk_lib_zip_path=${base_path}/libs-release-local/biosdk/
 # environment variable for Biosdk lib Zip path
 ENV jpegsdk_lib_zip_path=${base_path}/libs-release-local/jpeg-sdk/
 
+ENV kernel_jar_path=${base_path}/libs-release-local/io/mosip/kernel
+
 # environment variable for Cache Provider Jar path
 ENV cache_path=${base_path}/libs-release-local/cache
 
@@ -75,10 +77,19 @@ ENV i18n_zip_path=${base_path}/libs-release-local/i18n
 # environment variable for idp auth wrapper jar path
 ENV idp_auth_wrapper_jar_path=${base_path}/libs-release-local/idp/idp-auth-wrapper
 
+# environment variable for tech5 jar path
+ENV tech5_zip_path=${base_path}/libs-release-local/sdk/tech5
+
+# environment variable for thales jar path
+ENV thales_zip_path=${base_path}/libs-release-local/sdk/thales
+
 # environment variable for Clamav dependency
 ENV clamav_path=${base_path}/libs-release-local/clamav
 
 ENV regclient_jar_path=${base_path}/libs-release-local
+
+# environment variable for custom-impl jar path
+ENV custom_zip_path=${base_path}/libs-release-local/impl
 
 # environment variable for child auth filter jar path
 ENV child_auth_filter_jar_path=${base_path}/libs-release-local/io/mosip/authentication/authentication-ref-impl
@@ -90,11 +101,12 @@ ENV prversion=1.2.0.1-B1
 
 ENV master_template_path=${base_path}/libs-release-local/master-templates
 
-# environment variable for maven central mosip artifacts 
+# environment variable for maven central mosip artifacts
 ENV release_maven_path=https://repo1.maven.org/maven2/io/mosip
 
 # environment variable for maven central auth adapter. In case released uncomment this and comment out below duplicate one.
 ENV auth_adapter_jar_url_env=${release_maven_path}/kernel/kernel-auth-adapter/1.2.0.1-B2/kernel-auth-adapter-1.2.0.1-B2.jar
+
 #ENV auth_adapter_jar_url_env=https://oss.sonatype.org/content/repositories/snapshots/io/mosip/kernel/kernel-auth-adapter/${sversion}/kernel-auth-adapter-1.2.0.1-20230103.111650-31.jar
 
 # environment variable for biosdk client jar URL
@@ -105,7 +117,7 @@ ENV biosdk_client_url_env=${release_maven_path}/biosdk/biosdk-client/${prversion
 ENV demosdk_jar_url_env=${release_maven_path}/demosdk/demosdk/${mrversion}/demosdk-${mrversion}-jar-with-dependencies.jar
 #ENV demosdk_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/demosdk/demosdk/${sversion}/demosdk-1.2.0.1-20220317.100513-9-jar-with-dependencies.jar
 
-# environment variable for msg91_jar url. 
+# environment variable for msg91_jar url.
 ENV sms_msg91_url_env=${release_maven_path}/kernel/kernel-smsserviceprovider-msg91/${prversion}/kernel-smsserviceprovider-msg91-${prversion}.jar
 #ENV sms_msg91_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/kernel/kernel-smsserviceprovider-msg91/${sversion}/kernel-smsserviceprovider-msg91-1.2.0.1-20220718.062805-7.jar
 
@@ -127,7 +139,7 @@ ENV sdk_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshot
 #ENV sdk_jar_url_env=${release_maven_path}/mock/sdk/mock-sdk/${rversion}/mock-sdk-${rversion}.jar
 ENV jpeg_extractor_sdk_jar_url_env=https://oss.sonatype.org/service/local/repositories/snapshots/content/io/mosip/mock/sdk/mock-sdk-jpeg-extractor/1.2.0.1-SNAPSHOT/mock-sdk-jpeg-extractor-1.2.0.1-20220922.120649-17-jar-with-dependencies.jar
 
-# environment variable for cache URL 
+# environment variable for cache URL
 ENV cache_url_env=https://repo1.maven.org/maven2/com/hazelcast/hazelcast-all/3.12.12/hazelcast-all-3.12.12.jar
 
 # environment variable for child authentication filter jar URL
@@ -139,7 +151,7 @@ ENV child_auth_filter_jar_url=${release_maven_path}/authentication/authenticatio
 ENV auth_wrapper_url_env=https://repo1.maven.org/maven2/io/mosip/idp/authentication-wrapper/0.9.0/authentication-wrapper-0.9.0.jar
 
 # Create all the Jar paths
-RUN mkdir -p ${biosdk_client_zip_path}/biosdk-client ${demosdk_zip_path}/demosdk ${biosdk_lib_zip_path}/biosdk-lib ${cache_path} ${ida_sh_path} ${hsm_client_path} ${kernel_jar_path} ${test_jar_path} ${idobject_jar_path} ${sdk_path} ${icu4j_jar_path} ${clamav_path} ${i18n_zip_path} ${child_auth_filter_jar_path} ${jpeg_sdk_path} ${jpegsdk_lib_zip_path}/jpeg-sdk-lib ${base_path}/libs-release-local/reg-client ${master_template_path} ${idp_auth_wrapper_jar_path}
+RUN mkdir -p ${biosdk_client_zip_path}/biosdk-client ${demosdk_zip_path}/demosdk ${biosdk_lib_zip_path}/biosdk-lib ${cache_path} ${ida_sh_path} ${hsm_client_path} ${kernel_jar_path} ${test_jar_path} ${idobject_jar_path} ${sdk_path} ${icu4j_jar_path} ${clamav_path} ${i18n_zip_path} ${child_auth_filter_jar_path} ${jpeg_sdk_path} ${jpegsdk_lib_zip_path}/jpeg-sdk-lib ${base_path}/libs-release-local/reg-client ${master_template_path} ${custom_zip_path} ${idp_auth_wrapper_jar_path}
 
 # Copy all the respective jars to the location
 
@@ -157,6 +169,8 @@ COPY /src/testing/glowroot.zip ${test_jar_path}/
 
 COPY /src/i18n/regclient-i18n-bundle/*  ${work_dir}/resources/
 
+COPY /src/sms/* ${kernel_jar_path}/
+
 COPY /src/i18n/admin-entity-spec-bundle/*  ${work_dir}/admin-entity-spec-bundle/
 
 COPY /src/i18n/admin-i18n-bundle/*  ${work_dir}/admin-i18n-bundle/
@@ -171,7 +185,17 @@ COPY /src/i18n/oidc-demo-i18n-bundle/*  ${work_dir}/oidc-demo-i18n-bundle/
 
 COPY /src/i18n/pre-registration-i18n-bundle/*  ${work_dir}/pre-registration-i18n-bundle/
 
+COPY /src/i18n/esignet-i18n-bundle/*  ${work_dir}/esignet-i18n-bundle/
+
+COPY /src/i18n/mock-relying-party-i18n-bundle/*  ${work_dir}/mock-relying-party-i18n-bundle/
+
 COPY /src/master-templates/* ${work_dir}/master-templates/
+
+COPY /src/sdk/tech5/* ${tech5_zip_path}/
+
+COPY /src/sdk/thales/* ${thales_zip_path}/
+
+COPY /src/impl/* ${custom_zip_path}/
 
 RUN zip -r -j ${base_path}/libs-release-local/reg-client/resources.zip ${work_dir}/resources  && \
 zip -r -j ${i18n_zip_path}/admin-entity-spec-bundle.zip ${work_dir}/admin-entity-spec-bundle/*  && \
@@ -181,6 +205,8 @@ zip -r -j ${i18n_zip_path}/oidc-demo-i18n-bundle.zip ${work_dir}/oidc-demo-i18n-
 zip -r -j ${i18n_zip_path}/pmp-entity-spec-bundle.zip ${work_dir}/pmp-entity-spec-bundle/*  && \
 zip -r -j ${i18n_zip_path}/pmp-i18n-bundle.zip ${work_dir}/pmp-i18n-bundle/*  && \
 zip -r -j ${i18n_zip_path}/pre-registration-i18n-bundle.zip ${work_dir}/pre-registration-i18n-bundle/* && \
+zip -r -j ${i18n_zip_path}/mock-relying-party-i18n-bundle.zip ${work_dir}/mock-relying-party-i18n-bundle/* && \
+zip -r -j ${i18n_zip_path}/esignet-i18n-bundle.zip ${work_dir}/esignet-i18n-bundle/* && \
 zip -r -j ${master_template_path}/master-templates.zip ${work_dir}/master-templates/*
 
 COPY /src/jre/zulu11.41.23-ca-fx-jre11.0.8-win_x64.zip ${regclient_jar_path}/zulu11.41.23-ca-fx-jre11.0.8-win_x64.zip
