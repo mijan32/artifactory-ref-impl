@@ -521,6 +521,7 @@
     "text_slots": "slots",
     "action_done": "DONE",
     "action_back": "Back",
+    "action_add": "Add",
     "action_bookLater": "Book Later",
     "action_continue": "Continue",
     "note_text": "Please note that the application details cannot be modified once appointment is booked for it.",
