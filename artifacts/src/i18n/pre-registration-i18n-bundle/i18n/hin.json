@@ -370,7 +370,7 @@
 		"title": "नियुक्ति की पुष्टि",
 		"message": "पंजीकरण संख्या और नियुक्ति विवरण पंजीकृत ईमेल आईडी और फोन नंबर पर भेज दिए गए हैं",
 		"label_name": "नाम",
-		"label_pre_id": "पंजीकरण संख्याी",
+		"label_pre_id": "पंजीकरण संख्या",
 		"label_reg_cntr": "केंद्र का नाम",
 		"label_cntr_contact_number": "केंद्र संपर्क नंबर",
 		"label_appointment_date_time": "अपॉइंटमेंट दिनांक और समय",
@@ -383,7 +383,7 @@
 	"preview": {
 		"title_preview": "पूर्वावलोकन",
 		"language": "हिंदी",
-		"label_pre_id": "पंजीकरण संख्याी",
+		"label_pre_id": "पंजीकरण संख्या",
 		"subheading_information": "निजी जानकारी",
 		"label_name": "पूरा नाम",
 		"label_age": "आयु",
