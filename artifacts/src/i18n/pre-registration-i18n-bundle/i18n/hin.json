@@ -383,6 +383,7 @@
 	"preview": {
 		"title_preview": "पूर्वावलोकन",
 		"language": "हिंदी",
+		"label_pre_id": "पंजीकरण पूर्व आईडी",
 		"subheading_information": "निजी जानकारी",
 		"label_name": "पूरा नाम",
 		"label_age": "आयु",
