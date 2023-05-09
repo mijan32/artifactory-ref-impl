@@ -88,9 +88,6 @@ ENV idp_auth_wrapper_lib_zip_path=${base_path}/libs-release-local/idp/idp-auth-w
 # environment variable for tech5 jar path
 ENV tech5_zip_path=${base_path}/libs-release-local/sdk/tech5
 
-# environment variable for thales jar path
-ENV thales_zip_path=${base_path}/libs-release-local/sdk/thales
-
 # environment variable for esignet wrappers zip path
 ENV esignet_wrapper_lib_zip_path=${base_path}/libs-release-local/esignet
 
@@ -156,8 +153,6 @@ COPY /src/i18n/esignet-i18n-bundle/*  ${work_dir}/esignet-i18n-bundle/
 COPY /src/i18n/mock-relying-party-i18n-bundle/*  ${work_dir}/mock-relying-party-i18n-bundle/
 
 COPY /src/sdk/tech5/* ${tech5_zip_path}/
-
-COPY /src/sdk/thales/* ${thales_zip_path}/
 
 COPY /src/impl/* ${custom_zip_path}/
 
