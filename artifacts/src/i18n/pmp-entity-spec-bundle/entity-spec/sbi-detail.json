@@ -1,13 +1,15 @@
 {
 	"auditEventIds": ["ADM-027", "ADM-049"],
-	"actionButtons": [{
+	"actionButtons": [
+		{
 			"buttonName": {
 				"eng": "Approve",
 				"ara": "Approve_ara",
 				"fra": "Approve_fra",
 				"hin": "Approve_hin",
 				"kan": "Approve_kan",
-				"tam": "Approve_tam"
+				"tam": "Approve_tam",
+				"spa": "Approve_spa"
 			},
 			"actionURL": "",
 			"redirectURL": "",
@@ -22,7 +24,8 @@
 				"fra": "Reject_fra",
 				"hin": "Reject_hin",
 				"kan": "Reject_kan",
-				"tam": "Reject_tam"
+				"tam": "Reject_tam",
+				"spa": "Reject_spa"
 			},
 			"actionURL": "",
 			"redirectURL": "",
@@ -37,7 +40,8 @@
 				"fra": "Edit_fra",
 				"hin": "Edit_hin",
 				"kan": "Edit_kan",
-				"tam": "Edit_tam"
+				"tam": "Edit_tam",
+				"spa": "Edit_spa"
 			},
 			"actionURL": "",
 			"redirectURL": "/pmp/resources/sbidetails/single-view/$id",
@@ -52,7 +56,8 @@
 				"fra": "Create SBI_fra",
 				"hin": "Create SBI_hin",
 				"kan": "Create SBI_kan",
-				"tam": "Create SBI_tam"
+				"tam": "Create SBI_tam",
+				"spa": "Create SBI_spa"
 			},
 			"imagePath": "assets/images/add-icon.png",
 			"redirectURL": "/pmp/resources/sbidetails/create",
@@ -67,7 +72,8 @@
 				"fra": "Filter_fra",
 				"hin": "Filter_hin",
 				"kan": "Filter_kan",
-				"tam": "Filter_tam"
+				"tam": "Filter_tam",
+				"spa": "Filter_spa"
 			},
 			"imagePath": "assets/images/filter.png",
 			"actionListType": "action",
@@ -79,7 +85,8 @@
 			"validations": ""
 		}
 	],
-	"columnsToDisplay": [{
+	"columnsToDisplay": [
+		{
 			"name": "id",
 			"label": {
 				"eng": "ID",
@@ -87,7 +94,8 @@
 				"fra": "ID_fra",
 				"hin": "ID_hin",
 				"kan": "ID_kan",
-				"tam": "ID_tam"
+				"tam": "ID_tam",
+				"spa": "ID_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -106,7 +114,8 @@
 				"fra": "Partner Name_fra",
 				"hin": "Partner Name_hin",
 				"kan": "Partner Name_kan",
-				"tam": "Partner Name_tam"
+				"tam": "Partner Name_tam",
+				"spa": "Partner Name_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -125,7 +134,8 @@
 				"fra": "Partner Name_fra",
 				"hin": "Partner Name_hin",
 				"kan": "Partner Name_kan",
-				"tam": "Partner Name_tam"
+				"tam": "Partner Name_tam",
+				"spa": "Partner Name_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -144,7 +154,8 @@
 				"fra": "Version_fra",
 				"hin": "Version_hin",
 				"kan": "Version_kan",
-				"tam": "Version_tam"
+				"tam": "Version_tam",
+				"spa": "Version_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -163,7 +174,8 @@
 				"fra": "Binary Hash_fra",
 				"hin": "Binary Hash_hin",
 				"kan": "Binary Hash_kan",
-				"tam": "Binary Hash_tam"
+				"tam": "Binary Hash_tam",
+				"spa": "Binary Hash_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -182,7 +194,8 @@
 				"fra": "Created DateTime_fra",
 				"hin": "Created DateTime_hin",
 				"kan": "Created DateTime_kan",
-				"tam": "Created DateTime_tam"
+				"tam": "Created DateTime_tam",
+				"spa": "Created DateTime_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -201,7 +214,8 @@
 				"fra": "Expiry DateTime_fra",
 				"hin": "Expiry DateTime_hin",
 				"kan": "Expiry DateTime_kan",
-				"tam": "Expiry DateTime_tam"
+				"tam": "Expiry DateTime_tam",
+				"spa": "Expiry DateTime_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -220,7 +234,8 @@
 				"fra": "ForRegistrationDevice_fra",
 				"hin": "ForRegistrationDevice_hin",
 				"kan": "ForRegistrationDevice_kan",
-				"tam": "ForRegistrationDevice_tam"
+				"tam": "ForRegistrationDevice_tam",
+				"spa": "ForRegistrationDevice_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -240,7 +255,8 @@
 				"fra": "Status_fra",
 				"hin": "Status_hin",
 				"kan": "Status_kan",
-				"tam": "Status_tam"
+				"tam": "Status_tam",
+				"spa": "Status_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -253,59 +269,66 @@
 		"pageSize": "10",
 		"pageSizeList": [10, 20, 30, 40, 50]
 	},
-	"filterColumns": [{
-		"filtername": "providerId",
-		"filterlabel": {
-			"eng": "Partner Name",
-			"ara": "Partner Name_ara",
-			"fra": "Partner Name_fra",
-			"hin": "Partner Name_hin",
-			"kan": "Partner Name_kan",
-			"tam": "Partner Name_tam"
+	"filterColumns": [
+		{
+			"filtername": "providerId",
+			"filterlabel": {
+				"eng": "Partner Name",
+				"ara": "Partner Name_ara",
+				"fra": "Partner Name_fra",
+				"hin": "Partner Name_hin",
+				"kan": "Partner Name_kan",
+				"tam": "Partner Name_tam",
+				"spa": "Partner Name_spa"
+			},
+			"filterType": "equals",
+			"fieldType": "input",
+			"autocomplete": "false",
+			"dropdown": "false",
+			"datePicker": "false",
+			"apiName": "",
+			"fieldName": "providerId",
+			"methodCallName": ""
 		},
-		"filterType": "equals",
-		"fieldType": "input",
-		"autocomplete": "false",
-		"dropdown": "false",
-		"datePicker": "false",
-		"apiName": "",
-		"fieldName": "providerId",
-		"methodCallName": ""
-	},{
-		"filtername": "swVersion",
-		"filterlabel": {
-			"eng": "Version",
-			"ara": "Version_ara",
-			"fra": "Version_fra",
-			"hin": "Version_hin",
-			"kan": "Version_kan",
-			"tam": "Version_tam"
+		{
+			"filtername": "swVersion",
+			"filterlabel": {
+				"eng": "Version",
+				"ara": "Version_ara",
+				"fra": "Version_fra",
+				"hin": "Version_hin",
+				"kan": "Version_kan",
+				"tam": "Version_tam",
+				"spa": "Version_spa"
+			},
+			"filterType": "equals",
+			"fieldType": "input",
+			"autocomplete": "false",
+			"dropdown": "false",
+			"datePicker": "false",
+			"apiName": "",
+			"fieldName": "swVersion",
+			"methodCallName": ""
 		},
-		"filterType": "equals",
-		"fieldType": "input",
-		"autocomplete": "false",
-		"dropdown": "false",
-		"datePicker": "false",
-		"apiName": "",
-		"fieldName": "swVersion",
-		"methodCallName": ""
-	},{
-		"filtername": "approvalStatus",
-		"filterlabel": {
-			"eng": "Status",
-			"ara": "Status_ara",
-			"fra": "Status_fra",
-			"hin": "Status_hin",
-			"kan": "Status_kan",
-			"tam": "Status_tam"
-		},
-		"filterType": "equals",
-		"fieldType": "input",
-		"autocomplete": "false",
-		"dropdown": "false",
-		"datePicker": "false",
-		"apiName": "",
-		"fieldName": "approvalStatus",
-		"methodCallName": ""
-	}]
+		{
+			"filtername": "approvalStatus",
+			"filterlabel": {
+				"eng": "Status",
+				"ara": "Status_ara",
+				"fra": "Status_fra",
+				"hin": "Status_hin",
+				"kan": "Status_kan",
+				"tam": "Status_tam",
+				"spa": "Status_spa"
+			},
+			"filterType": "equals",
+			"fieldType": "input",
+			"autocomplete": "false",
+			"dropdown": "false",
+			"datePicker": "false",
+			"apiName": "",
+			"fieldName": "approvalStatus",
+			"methodCallName": ""
+		}
+	]
 }

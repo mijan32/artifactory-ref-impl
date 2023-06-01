@@ -1,13 +1,15 @@
 {
 	"auditEventIds": ["ADM-027", "ADM-049"],
-	"actionButtons": [{
+	"actionButtons": [
+		{
 			"buttonName": {
 				"eng": "Approve",
 				"ara": "Approve_ara",
 				"fra": "Approve_fra",
 				"hin": "Approve_hin",
 				"kan": "Approve_kan",
-				"tam": "Approve_tam"
+				"tam": "Approve_tam",
+				"spa": "Approve_spa"
 			},
 			"actionURL": "",
 			"redirectURL": "",
@@ -22,7 +24,8 @@
 				"fra": "Reject_fra",
 				"hin": "Reject_hin",
 				"kan": "Reject_kan",
-				"tam": "Reject_tam"
+				"tam": "Reject_tam",
+				"spa": "Reject_spa"
 			},
 			"actionURL": "",
 			"redirectURL": "",
@@ -37,7 +40,8 @@
 				"fra": "Edit_fra",
 				"hin": "Edit_hin",
 				"kan": "Edit_kan",
-				"tam": "Edit_tam"
+				"tam": "Edit_tam",
+				"spa": "Edit_spa"
 			},
 			"actionURL": "",
 			"redirectURL": "/pmp/resources/devicedetails/single-view/$id",
@@ -52,7 +56,8 @@
 				"fra": "Create Device_fra",
 				"hin": "Create Device_hin",
 				"kan": "Create Device_kan",
-				"tam": "Create Device_tam"
+				"tam": "Create Device_tam",
+				"spa": "Create Device_spa"
 			},
 			"imagePath": "assets/images/add-icon.png",
 			"actionListType": "redirect",
@@ -68,7 +73,8 @@
 				"fra": "Filter_fra",
 				"hin": "Filter_hin",
 				"kan": "Filter_kan",
-				"tam": "Filter_tam"
+				"tam": "Filter_tam",
+				"spa": "Filter_spa"
 			},
 			"imagePath": "assets/images/filter.png",
 			"actionListType": "action",
@@ -80,7 +86,8 @@
 			"validations": ""
 		}
 	],
-	"columnsToDisplay": [{
+	"columnsToDisplay": [
+		{
 			"name": "id",
 			"label": {
 				"eng": "ID",
@@ -88,7 +95,8 @@
 				"fra": "ID_fra",
 				"hin": "ID_hin",
 				"kan": "ID_kan",
-				"tam": "ID_tam"
+				"tam": "ID_tam",
+				"spa": "ID_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -107,7 +115,8 @@
 				"fra": "Partner Name_fra",
 				"hin": "Partner Name_hin",
 				"kan": "Partner Name_kan",
-				"tam": "Partner Name_tam"
+				"tam": "Partner Name_tam",
+				"spa": "Partner Name_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -126,7 +135,8 @@
 				"fra": "Organization Name_fra",
 				"hin": "Organization Name_hin",
 				"kan": "Organization Name_kan",
-				"tam": "Organization Name_tam"
+				"tam": "Organization Name_tam",
+				"spa": "Organization Name_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -145,7 +155,8 @@
 				"fra": "Device Type_fra",
 				"hin": "Device Type_hin",
 				"kan": "Device Type_kan",
-				"tam": "Device Type_tam"
+				"tam": "Device Type_tam",
+				"spa": "Device Type_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -165,96 +176,101 @@
 				"hin": "Device Sub Type_hin",
 				"kan": "Device Sub Type_kan",
 				"tam": "Device Sub Type_tam"
+				},
+				"sortOrder": "",
+				"showAsLink": "",
+				"linkType": "",
+				"LinkURL": "",
+				"inputType": "dropdown",
+				"ismandatory": "true",
+				"showInListView": "true",
+				"showInSingleView": "true"
 			},
-			"sortOrder": "",
-			"showAsLink": "",
-			"linkType": "",
-			"LinkURL": "",
-			"inputType": "dropdown",
-			"ismandatory": "true",
-			"showInListView": "true",
-			"showInSingleView": "true"
-		},
-		{
-			"name": "make",
-			"label": {
-				"eng": "Make",
-				"ara": "Make_ara",
-				"fra": "Make_fra",
-				"hin": "Make_hin",
-				"kan": "Make_kan",
-				"tam": "Make_tam"
+			{
+				"name": "make",
+				"label": {
+					"eng": "Make",
+					"ara": "Make_ara",
+					"fra": "Make_fra",
+					"hin": "Make_hin",
+					"kan": "Make_kan",
+					"tam": "Make_tam",
+					"spa": "Make_spa"
+				},
+				"sortOrder": "",
+				"showAsLink": "",
+				"linkType": "",
+				"LinkURL": "",
+				"inputType": "text",
+				"ismandatory": "true",
+				"showInListView": "true",
+				"showInSingleView": "true"
 			},
-			"sortOrder": "",
-			"showAsLink": "",
-			"linkType": "",
-			"LinkURL": "",
-			"inputType": "text",
-			"ismandatory": "true",
-			"showInListView": "true",
-			"showInSingleView": "true"
-		},
-		{
-			"name": "model",
-			"label": {
-				"eng": "Model",
-				"ara": "Model_ara",
-				"fra": "Model_fra",
-				"hin": "Model_hin",
-				"kan": "Model_kan",
-				"tam": "Model_tam"
+			{
+				"name": "model",
+				"label": {
+					"eng": "Model",
+					"ara": "Model_ara",
+					"fra": "Model_fra",
+					"hin": "Model_hin",
+					"kan": "Model_kan",
+					"tam": "Model_tam",
+					"spa": "Model_spa"
+				},
+				"sortOrder": "",
+				"showAsLink": "",
+				"linkType": "",
+				"LinkURL": "",
+				"inputType": "text",
+				"ismandatory": "true",
+				"showInListView": "true",
+				"showInSingleView": "true"
 			},
-			"sortOrder": "",
-			"showAsLink": "",
-			"linkType": "",
-			"LinkURL": "",
-			"inputType": "text",
-			"ismandatory": "true",
-			"showInListView": "true",
-			"showInSingleView": "true"
-		},
-		{
-			"name": "isItForRegistrationDevice",
-			"label": {
-				"eng": "ForRegistrationDevice",
-				"ara": "ForRegistrationDevice_ara",
-				"fra": "ForRegistrationDevice_fra",
-				"hin": "ForRegistrationDevice_hin",
-				"kan": "ForRegistrationDevice_kan",
-				"tam": "ForRegistrationDevice_tam"
+			{
+				"name": "isItForRegistrationDevice",
+				"label": {
+					"eng": "ForRegistrationDevice",
+					"ara": "ForRegistrationDevice_ara",
+					"fra": "ForRegistrationDevice_fra",
+					"hin": "ForRegistrationDevice_hin",
+					"kan": "ForRegistrationDevice_kan",
+					"tam": "ForRegistrationDevice_tam",
+					"spa": "ForRegistrationDevice_spa"
+				},
+				"sortOrder": "",
+				"showAsLink": "",
+				"linkType": "",
+				"LinkURL": "",
+				"inputType": "dropdown",
+				"ismandatory": "false",
+				"showInListView": "false",
+				"showInSingleView": "false"
 			},
-			"sortOrder": "",
-			"showAsLink": "",
-			"linkType": "",
-			"LinkURL": "",
-			"inputType": "dropdown",
-			"ismandatory": "false",
-			"showInListView": "false",
-			"showInSingleView": "false"
-		},
-		{
-			"name": "approvalStatus",
-			"showInListView": "true",
-			"label": {
-				"eng": "Status",
-				"ara": "Status_ara",
-				"fra": "Status_fra",
-				"hin": "Status_hin",
-				"kan": "Status_kan",
-				"tam": "Status_tam"
-			},
-			"sortOrder": "",
-			"showAsLink": "",
-			"linkType": "",
-			"LinkURL": ""
-		}
+			{
+				"name": "approvalStatus",
+				"showInListView": "true",
+				"label": {
+					"eng": "Status",
+					"ara": "Status_ara",
+					"fra": "Status_fra",
+					"hin": "Status_hin",
+					"kan": "Status_kan",
+					"tam": "Status_tam",
+					"spa": "Status_spa"
+				},
+				"sortOrder": "",
+				"showAsLink": "",
+				"linkType": "",
+				"LinkURL": ""
+			}
 	],
 	"paginator": {
 		"totalEntries": null,
 		"pageSize": "10",
 		"pageSizeList": [10, 20, 30, 40, 50]
 	},
-	"filterColumns": [{
+	"filterColumns": [
+		{
 			"filtername": "deviceProviderId",
 			"filterlabel": {
 				"eng": "Partner Name",
@@ -262,7 +278,8 @@
 				"fra": "Partner Name_fra",
 				"hin": "Partner Name_hin",
 				"kan": "Partner Name_kan",
-				"tam": "Partner Name_tam"
+				"tam": "Partner Name_tam",
+				"spa": "Partner Name_spa"
 			},
 			"filterType": "equals",
 			"fieldType": "input",
@@ -281,7 +298,8 @@
 				"fra": "Organization Name_fra",
 				"hin": "Organization Name_hin",
 				"kan": "Organization Name_kan",
-				"tam": "Organization Name_tam"
+				"tam": "Organization Name_tam",
+				"spa": "Organization Name_spa"
 			},
 			"filterType": "equals",
 			"fieldType": "input",
@@ -300,7 +318,8 @@
 				"fra": "Device Type_fra",
 				"hin": "Device Type_hin",
 				"kan": "Device Type_kan",
-				"tam": "Device Type_tam"
+				"tam": "Device Type_tam",
+				"spa": "Device Type_spa"
 			},
 			"filterType": "equals",
 			"fieldType": "input",
@@ -319,7 +338,8 @@
 				"fra": "Device Sub Type_fra",
 				"hin": "Device Sub Type_hin",
 				"kan": "Device Sub Type_kan",
-				"tam": "Device Sub Type_tam"
+				"tam": "Device Sub Type_tam",
+				"spa": "Device Sub Type_spa"
 			},
 			"filterType": "equals",
 			"fieldType": "input",
@@ -338,7 +358,8 @@
 				"fra": "Make_fra",
 				"hin": "Make_hin",
 				"kan": "Make_kan",
-				"tam": "Make_tam"
+				"tam": "Make_tam",
+				"spa": "Make_spa"
 			},
 			"filterType": "equals",
 			"fieldType": "input",
@@ -357,7 +378,8 @@
 				"fra": "Model_fra",
 				"hin": "Model_hin",
 				"kan": "Model_kan",
-				"tam": "Model_tam"
+				"tam": "Model_tam",
+				"spa": "Model_spa"
 			},
 			"filterType": "equals",
 			"fieldType": "input",

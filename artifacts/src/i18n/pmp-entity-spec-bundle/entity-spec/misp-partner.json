@@ -1,13 +1,15 @@
 {
 	"auditEventIds": ["ADM-027", "ADM-049"],
-	"actionButtons": [{
+	"actionButtons": [
+		{
 			"buttonName": {
 				"eng": "Edit",
 				"ara": "Edit_ara",
 				"fra": "Edit_fra",
 				"hin": "Edit_hin",
 				"kan": "Edit_kan",
-				"tam": "Edit_tam"
+				"tam": "Edit_tam",
+				"spa": "Edit_spa"
 			},
 			"actionURL": "",
 			"redirectURL": "/pmp/resources/partner/single-view/$id",
@@ -22,7 +24,8 @@
 				"fra": "Add Contacts_fra",
 				"hin": "Add Contacts_hin",
 				"kan": "Add Contacts_kan",
-				"tam": "Add Contacts_tam"
+				"tam": "Add Contacts_tam",
+				"spa": "Add Contacts_spa"
 			},
 			"actionURL": "",
 			"redirectURL": "",
@@ -37,7 +40,8 @@
 				"fra": "Upload Certificate_fra",
 				"hin": "Upload Certificate_hin",
 				"kan": "Upload Certificate_kan",
-				"tam": "Upload Certificate_tam"
+				"tam": "Upload Certificate_tam",
+				"spa": "Upload Certificate_spa"
 			},
 			"actionURL": "",
 			"redirectURL": "",
@@ -52,7 +56,8 @@
 				"fra": "View Certificate_fra",
 				"hin": "View Certificate_hin",
 				"kan": "View Certificate_kan",
-				"tam": "View Certificate_tam"
+				"tam": "View Certificate_tam",
+				"spa": "View Certificate_spa"
 			},
 			"actionURL": "",
 			"redirectURL": "",
@@ -67,7 +72,8 @@
 				"fra": "Create Partner_fra",
 				"hin": "Create Partner_hin",
 				"kan": "Create Partner_kan",
-				"tam": "Create Partner_tam"
+				"tam": "Create Partner_tam",
+				"spa": "Create Partner_spa"
 			},
 			"imagePath": "assets/images/add-icon.png",
 			"actionListType": "redirect",
@@ -78,7 +84,6 @@
 		}
 	],
 	"columnsToDisplay": [
-
 		{
 			"name": "id",
 			"showInListView": "true",
@@ -88,7 +93,8 @@
 				"fra": "ID_fra",
 				"hin": "ID_hin",
 				"kan": "ID_kan",
-				"tam": "ID_tam"
+				"tam": "ID_tam",
+				"spa": "ID_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -104,7 +110,8 @@
 				"fra": "Name_fra",
 				"hin": "Name_hin",
 				"kan": "Name_kan",
-				"tam": "Name_tam"
+				"tam": "Name_tam",
+				"spa": "Name_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -120,7 +127,8 @@
 				"fra": "Email id_fra",
 				"hin": "Email id_hin",
 				"kan": "Email id_kan",
-				"tam": "Email id_tam"
+				"tam": "Email id_tam",
+				"spa": "Email id_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -136,7 +144,8 @@
 				"fra": "Policy Group_fra",
 				"hin": "Policy Group_hin",
 				"kan": "Policy Group_kan",
-				"tam": "Policy Group_tam"
+				"tam": "Policy Group_tam",
+				"spa": "Policy Group_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -152,7 +161,8 @@
 				"fra": "Contact Number_fra",
 				"hin": "Contact Number_hin",
 				"kan": "Contact Number_kan",
-				"tam": "Contact Number_tam"
+				"tam": "Contact Number_tam",
+				"spa": "Contact Number_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "false",
@@ -168,7 +178,8 @@
 				"fra": "PolicyName_fra",
 				"hin": "PolicyName_hin",
 				"kan": "PolicyName_kan",
-				"tam": "PolicyName_tam"
+				"tam": "PolicyName_tam",
+				"spa": "PolicyName_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -184,7 +195,8 @@
 				"fra": "Email_fra",
 				"hin": "Email_hin",
 				"kan": "Email_kan",
-				"tam": "Email_tam"
+				"tam": "Email_tam",
+				"spa": "Email_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -200,7 +212,8 @@
 				"fra": "Status_fra",
 				"hin": "Status_hin",
 				"kan": "Status_kan",
-				"tam": "Status_tam"
+				"tam": "Status_tam",
+				"spa": "Status_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -216,7 +229,8 @@
 				"fra": "Address_fra",
 				"hin": "Address_hin",
 				"kan": "Address_kan",
-				"tam": "Address_tam"
+				"tam": "Address_tam",
+				"spa": "Address_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -232,7 +246,8 @@
 				"fra": "Submit Request Status_fra",
 				"hin": "Submit Request Status_hin",
 				"kan": "Submit Request Status_kan",
-				"tam": "Submit Request Status_tam"
+				"tam": "Submit Request Status_tam",
+				"spa": "Submit Request Status_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -243,6 +258,6 @@
 	"paginator": {
 		"totalEntries": null,
 		"pageSize": "10",
-		"pageSizeList": [10, 20, 30, 40, 50]
+		"pageSizeList": [10,20,30,40,50]
 	}
 }

@@ -1,13 +1,15 @@
 {
 	"auditEventIds": ["ADM-027", "ADM-049"],
-	"actionButtons": [{
+	"actionButtons": [
+		{
 			"buttonName": {
 				"eng": "Manage Policy",
 				"ara": "Manage Policy_ara",
 				"fra": "Manage Policy_fra",
 				"hin": "Manage Policy_hin",
 				"kan": "Manage Policy_kan",
-				"tam": "Manage Policy_tam"
+				"tam": "Manage Policy_tam",
+				"spa": "Manage Policy_spa"
 			},
 			"actionURL": "",
 			"redirectURL": "",
@@ -22,7 +24,8 @@
 				"fra": "Map Policy_fra",
 				"hin": "Map Policy_hin",
 				"kan": "Map Policy_kan",
-				"tam": "Map Policy_tam"
+				"tam": "Map Policy_tam",
+				"spa": "Map Policy_spa"
 			},
 			"imagePath": "assets/images/add-icon.png",
 			"actionListType": "redirect",
@@ -38,7 +41,8 @@
 				"fra": "Filter_fra",
 				"hin": "Filter_hin",
 				"kan": "Filter_kan",
-				"tam": "Filter_tam"
+				"tam": "Filter_tam",
+				"spa": "Filter_spa"
 			},
 			"imagePath": "assets/images/filter.png",
 			"actionListType": "action",
@@ -56,7 +60,8 @@
 				"fra": "Generate API Key_fra",
 				"hin": "Generate API Key_hin",
 				"kan": "Generate API Key_kan",
-				"tam": "Generate API Key_tam"
+				"tam": "Generate API Key_tam",
+				"spa": "Generate API Key_spa"
 			},
 			"actionURL": "",
 			"redirectURL": "/pmp/resources/policymapping/single-view/$id",
@@ -71,7 +76,8 @@
 				"fra": "Edit_fra",
 				"hin": "Edit_hin",
 				"kan": "Edit_kan",
-				"tam": "Edit_tam"
+				"tam": "Edit_tam",
+				"spa": "Edit_spa"
 			},
 			"actionURL": "",
 			"redirectURL": "/pmp/resources/policymapping/single-view/$id",
@@ -89,7 +95,8 @@
 				"fra": "Partner Name_fra",
 				"hin": "Partner Name_hin",
 				"kan": "Partner Name_kan",
-				"tam": "Partner Name_tam"
+				"tam": "Partner Name_tam",
+				"spa": "Partner Name_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -108,7 +115,8 @@
 				"fra": "Policy Name_fra",
 				"hin": "Policy Name_hin",
 				"kan": "Policy Name_kan",
-				"tam": "Policy Name_tam"
+				"tam": "Policy Name_tam",
+				"spa": "Policy Name_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -127,7 +135,8 @@
 				"fra": "Partner Name_fra",
 				"hin": "Partner Name_hin",
 				"kan": "Partner Name_kan",
-				"tam": "Partner Name_tam"
+				"tam": "Partner Name_tam",
+				"spa": "Partner Name_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -146,7 +155,8 @@
 				"fra": "Policy Name_fra",
 				"hin": "Policy Name_hin",
 				"kan": "Policy Name_kan",
-				"tam": "Policy Name_tam"
+				"tam": "Policy Name_tam",
+				"spa": "Policy Name_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -165,7 +175,8 @@
 				"fra": "Request Detail_fra",
 				"hin": "Request Detail_hin",
 				"kan": "Request Detail_kan",
-				"tam": "Request Detail_tam"
+				"tam": "Request Detail_tam",
+				"spa": "Request Detail_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -184,7 +195,8 @@
 				"fra": "Status_fra",
 				"hin": "Status_hin",
 				"kan": "Status_kan",
-				"tam": "Status_tam"
+				"tam": "Status_tam",
+				"spa": "Status_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -210,7 +222,8 @@
 				"fra": "Partner Name_fra",
 				"hin": "Partner Name_hin",
 				"kan": "Partner Name_kan",
-				"tam": "Partner Name_tam"
+				"tam": "Partner Name_tam",
+				"spa": "Partner Name_spa"
 			},
 			"filterType": "equals",
 			"fieldType": "input",
@@ -229,7 +242,8 @@
 				"fra": "Policy Name_fra",
 				"hin": "Policy Name_hin",
 				"kan": "Policy Name_kan",
-				"tam": "Policy Name_tam"
+				"tam": "Policy Name_tam",
+				"spa": "Policy Name_spa"
 			},
 			"filterType": "equals",
 			"fieldType": "input",
@@ -248,7 +262,8 @@
 				"fra": "Request Detail_fra",
 				"hin": "Request Detail_hin",
 				"kan": "Request Detail_kan",
-				"tam": "Request Detail_tam"
+				"tam": "Request Detail_tam",
+				"spa": "Request Detail_spa"
 			},
 			"filterType": "equals",
 			"fieldType": "input",

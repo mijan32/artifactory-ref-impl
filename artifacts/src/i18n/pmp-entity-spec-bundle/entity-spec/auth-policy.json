@@ -1,13 +1,15 @@
 {
 	"auditEventIds": ["ADM-028", "ADM-028"],
-	"actionButtons": [{
+	"actionButtons": [
+		{
 			"buttonName": {
 				"eng": "Activate",
 				"ara": "Activate_ara",
 				"fra": "Activate_fra",
 				"hin": "Activate_hin",
 				"kan": "Activate_kan",
-				"tam": "Activate_tam"
+				"tam": "Activate_tam",
+				"spa": "Activate_spa"
 			},
 			"actionURL": "",
 			"redirectURL": "",
@@ -22,7 +24,8 @@
 				"fra": "Edit_fra",
 				"hin": "Edit_hin",
 				"kan": "Edit_kan",
-				"tam": "Edit_tam"
+				"tam": "Edit_tam",
+				"spa": "Edit_spa"
 			},
 			"actionURL": "",
 			"redirectURL": "/pmp/resources/authpolicy/single-view/$id",
@@ -37,7 +40,8 @@
 				"fra": "Create Policy_fra",
 				"hin": "Create Policy_hin",
 				"kan": "Create Policy_kan",
-				"tam": "Create Policy_tam"
+				"tam": "Create Policy_tam",
+				"spa": "Create Policy_spa"
 			},
 			"imagePath": "assets/images/add-icon.png",
 			"actionListType": "redirect",
@@ -53,7 +57,8 @@
 				"fra": "Filter_fra",
 				"hin": "Filter_hin",
 				"kan": "Filter_kan",
-				"tam": "Filter_tam"
+				"tam": "Filter_tam",
+				"spa": "Filter_spa"
 			},
 			"imagePath": "assets/images/filter.png",
 			"actionListType": "action",
@@ -65,7 +70,8 @@
 			"validations": ""
 		}
 	],
-	"columnsToDisplay": [{
+	"columnsToDisplay": [
+		{
 			"name": "id",
 			"label": {
 				"eng": "Policy ID",
@@ -73,7 +79,8 @@
 				"fra": "Policy ID_fra",
 				"hin": "Policy ID_hin",
 				"kan": "Policy ID_kan",
-				"tam": "Policy ID_tam"
+				"tam": "Policy ID_tam",
+				"spa": "Policy ID_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -92,7 +99,8 @@
 				"fra": "Name_fra",
 				"hin": "Name_hin",
 				"kan": "Name_kan",
-				"tam": "Name_tam"
+				"tam": "Name_tam",
+				"spa": "Name_spa"
 			},
 			"sortOrder": "3",
 			"showAsLink": "",
@@ -111,7 +119,8 @@
 				"fra": "Description_fra",
 				"hin": "Description_hin",
 				"kan": "Description_kan",
-				"tam": "Description_tam"
+				"tam": "Description_tam",
+				"spa": "Description_spa"
 			},
 			"sortOrder": "3",
 			"showAsLink": "",
@@ -130,7 +139,8 @@
 				"fra": "Policy Group_fra",
 				"hin": "Policy Group_hin",
 				"kan": "Policy Group_kan",
-				"tam": "Policy Group_tam"
+				"tam": "Policy Group_tam",
+				"spa": "Policy Group_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -149,7 +159,8 @@
 				"fra": "Policy Version_fra",
 				"hin": "Policy Version_hin",
 				"kan": "Policy Version_kan",
-				"tam": "Policy Version_tam"
+				"tam": "Policy Version_tam",
+				"spa": "Policy Version_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -168,7 +179,8 @@
 				"fra": "Policy Type_fra",
 				"hin": "Policy Type_hin",
 				"kan": "Policy Type_kan",
-				"tam": "Policy Type_tam"
+				"tam": "Policy Type_tam",
+				"spa": "Policy Type_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -187,7 +199,8 @@
 				"fra": "Policies Data_fra",
 				"hin": "Policies Data_hin",
 				"kan": "Policies Data_kan",
-				"tam": "Policies Data_tam"
+				"tam": "Policies Data_tam",
+				"spa": "Policies Data_spa"
 			},
 			"sortOrder": "3",
 			"showAsLink": "",
@@ -207,7 +220,8 @@
 				"fra": "Status_fra",
 				"hin": "Status_hin",
 				"kan": "Status_kan",
-				"tam": "Status_tam"
+				"tam": "Status_tam",
+				"spa": "Status_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -220,7 +234,8 @@
 		"pageSize": "10",
 		"pageSizeList": [10, 20, 30, 40, 50]
 	},
-	"filterColumns": [{
+	"filterColumns": [
+		{
 			"filtername": "name",
 			"filterlabel": {
 				"eng": "Name",
@@ -228,7 +243,8 @@
 				"fra": "Name_fra",
 				"hin": "Name_hin",
 				"kan": "Name_kan",
-				"tam": "Name_tam"
+				"tam": "Name_tam",
+				"spa": "Name_spa"
 			},
 			"filterType": "equals",
 			"fieldType": "input",
@@ -247,7 +263,8 @@
 				"fra": "Description_fra",
 				"hin": "Description_hin",
 				"kan": "Description_kan",
-				"tam": "Description_tam"
+				"tam": "Description_tam",
+				"spa": "Description_spa"
 			},
 			"filterType": "equals",
 			"fieldType": "input",
@@ -266,7 +283,8 @@
 				"fra": "Policy Group_fra",
 				"hin": "Policy Group_hin",
 				"kan": "Policy Group_kan",
-				"tam": "Policy Group_tam"
+				"tam": "Policy Group_tam",
+				"spa": "Policy Group_spa"
 			},
 			"filterType": "equals",
 			"fieldType": "input",
