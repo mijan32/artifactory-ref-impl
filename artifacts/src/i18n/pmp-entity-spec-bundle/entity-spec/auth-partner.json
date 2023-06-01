@@ -1,99 +1,98 @@
 {
 	"auditEventIds": ["ADM-027", "ADM-049"],
 	"actionButtons": [{
-			"buttonName": {
-				"eng": "Edit",
-				"ara": "Edit_ara",
-				"fra": "Edit_fra",
-				"hin": "Edit_hin",
-				"kan": "Edit_kan",
-				"tam": "Edit_tam"
-			},
-			"actionURL": "",
-			"redirectURL": "/pmp/resources/partner/single-view/$id",
-			"showIn": "Ellipsis",
-			"validations": "",
-			"callBackFunction": "partnerEdit"
+		"buttonName": {
+			"eng": "Edit",
+			"ara": "Edit_ara",
+			"fra": "Edit_fra",
+			"hin": "Edit_hin",
+			"kan": "Edit_kan",
+			"tam": "Edit_tam",
+			"spa": "Edit_spa"
 		},
-		{
-			"buttonName": {
-				"eng": "Add Contacts",
-				"ara": "Add Contacts_ara",
-				"fra": "Add Contacts_fra",
-				"hin": "Add Contacts_hin",
-				"kan": "Add Contacts_kan",
-				"tam": "Add Contacts_tam"
-			},
-			"actionURL": "",
-			"redirectURL": "",
-			"showIn": "Ellipsis",
-			"validations": "",
-			"callBackFunction": "submitPartnerAPIKeyRequest"
+		"actionURL": "",
+		"redirectURL": "/pmp/resources/partner/single-view/$id",
+		"showIn": "Ellipsis",
+		"validations": "",
+		"callBackFunction": "partnerEdit"
+	}, {
+		"buttonName": {
+			"eng": "Add Contacts",
+			"ara": "Add Contacts_ara",
+			"fra": "Add Contacts_fra",
+			"hin": "Add Contacts_hin",
+			"kan": "Add Contacts_kan",
+			"tam": "Add Contacts_tam",
+			"spa": "Add Contacts_spa"
 		},
-		{
-			"buttonName": {
-				"eng": "Upload Certificate",
-				"ara": "Upload Certificate_ara",
-				"fra": "Upload Certificate_fra",
-				"hin": "Upload Certificate_hin",
-				"kan": "Upload Certificate_kan",
-				"tam": "Upload Certificate_tam"
-			},
-			"actionURL": "",
-			"redirectURL": "",
-			"showIn": "Ellipsis",
-			"validations": "",
-			"callBackFunction": "submitPartnerAPIKeyRequest"
+		"actionURL": "",
+		"redirectURL": "",
+		"showIn": "Ellipsis",
+		"validations": "",
+		"callBackFunction": "submitPartnerAPIKeyRequest"
+	}, {
+		"buttonName": {
+			"eng": "Upload Certificate",
+			"ara": "Upload Certificate_ara",
+			"fra": "Upload Certificate_fra",
+			"hin": "Upload Certificate_hin",
+			"kan": "Upload Certificate_kan",
+			"tam": "Upload Certificate_tam",
+			"spa": "Upload Certificate_spa"
 		},
-		{
-			"buttonName": {
-				"eng": "View Certificate",
-				"ara": "View Certificate_ara",
-				"fra": "View Certificate_fra",
-				"hin": "View Certificate_hin",
-				"kan": "View Certificate_kan",
-				"tam": "View Certificate_tam"
-			},
-			"actionURL": "",
-			"redirectURL": "",
-			"showIn": "Ellipsis",
-			"validations": "",
-			"callBackFunction": "viewCertificate"
+		"actionURL": "",
+		"redirectURL": "",
+		"showIn": "Ellipsis",
+		"validations": "",
+		"callBackFunction": "submitPartnerAPIKeyRequest"
+	}, {
+		"buttonName": {
+			"eng": "View Certificate",
+			"ara": "View Certificate_ara",
+			"fra": "View Certificate_fra",
+			"hin": "View Certificate_hin",
+			"kan": "View Certificate_kan",
+			"tam": "View Certificate_tam",
+			"spa": "View Certificate_spa"
 		},
-		{
-			"buttonName": {
-				"eng": "Device Detail",
-				"ara": "Device Detail_ara",
-				"fra": "Device Detail_fra",
-				"hin": "Device Detail_hin",
-				"kan": "Device Detail_kan",
-				"tam": "Device Detail_tam"
-			},
-			"actionURL": "",
-			"redirectURL": "/pmp/resources/authpartner/authdevicedetail/view/$id",
-			"showIn": "Ellipsis",
-			"validations": "",
-			"callBackFunction": "deviceDetail"
+		"actionURL": "",
+		"redirectURL": "",
+		"showIn": "Ellipsis",
+		"validations": "",
+		"callBackFunction": "viewCertificate"
+	}, {
+		"buttonName": {
+			"eng": "Device Detail",
+			"ara": "Device Detail_ara",
+			"fra": "Device Detail_fra",
+			"hin": "Device Detail_hin",
+			"kan": "Device Detail_kan",
+			"tam": "Device Detail_tam",
+			"spa": "Device Detail_spa"
 		},
-		{
-			"buttonName": {
-				"eng": "Create Partner",
-				"ara": "Create Partner_ara",
-				"fra": "Create Partner_fra",
-				"hin": "Create Partner_hin",
-				"kan": "Create Partner_kan",
-				"tam": "Create Partner_tam"
-			},
-			"imagePath": "assets/images/add-icon.png",
-			"actionListType": "redirect",
-			"actionURL": "",
-			"redirectURL": "pmp/resources/partner/create",
-			"showIn": "Button",
-			"validations": ""
-		}
-	],
+		"actionURL": "",
+		"redirectURL": "/pmp/resources/authpartner/authdevicedetail/view/$id",
+		"showIn": "Ellipsis",
+		"validations": "",
+		"callBackFunction": "deviceDetail"
+	}, {
+		"buttonName": {
+			"eng": "Create Partner",
+			"ara": "Create Partner_ara",
+			"fra": "Create Partner_fra",
+			"hin": "Create Partner_hin",
+			"kan": "Create Partner_kan",
+			"tam": "Create Partner_tam",
+			"spa": "Create Partner_spa"
+		},
+		"imagePath": "assets/images/add-icon.png",
+		"actionListType": "redirect",
+		"actionURL ": "",
+		"redirectURL": "pmp/resources/partner/create",
+		"showIn": "Button",
+		"validations": ""
+	}],
 	"columnsToDisplay": [
-
 		{
 			"name": "id",
 			"showInListView": "true",
@@ -103,7 +102,8 @@
 				"fra": "ID_fra",
 				"hin": "ID_hin",
 				"kan": "ID_kan",
-				"tam": "ID_tam"
+				"tam": "ID_tam",
+				"spa": "ID_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -119,7 +119,8 @@
 				"fra": "Name_fra",
 				"hin": "Name_hin",
 				"kan": "Name_kan",
-				"tam": "Name_tam"
+				"tam": "Name_tam",
+				"spa": "Name_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -135,7 +136,8 @@
 				"fra": "Email id_fra",
 				"hin": "Email id_hin",
 				"kan": "Email id_kan",
-				"tam": "Email id_tam"
+				"tam": "Email id_tam",
+				"spa": "Email id_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -151,7 +153,8 @@
 				"fra": "Policy Group_fra",
 				"hin": "Policy Group_hin",
 				"kan": "Policy Group_kan",
-				"tam": "Policy Group_tam"
+				"tam": "Policy Group_tam",
+				"spa": "Policy Group_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -167,7 +170,8 @@
 				"fra": "Contact Number_fra",
 				"hin": "Contact Number_hin",
 				"kan": "Contact Number_kan",
-				"tam": "Contact Number_tam"
+				"tam": "Contact Number_tam",
+				"spa": "Contact Number_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "false",
@@ -183,7 +187,8 @@
 				"fra": "PolicyName_fra",
 				"hin": "PolicyName_hin",
 				"kan": "PolicyName_kan",
-				"tam": "PolicyName_tam"
+				"tam": "PolicyName_tam",
+				"spa": "PolicyName_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -199,7 +204,8 @@
 				"fra": "Email_fra",
 				"hin": "Email_hin",
 				"kan": "Email_kan",
-				"tam": "Email_tam"
+				"tam": "Email_tam",
+				"spa": "Email_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -215,7 +221,8 @@
 				"fra": "Status_fra",
 				"hin": "Status_hin",
 				"kan": "Status_kan",
-				"tam": "Status_tam"
+				"tam": "Status_tam",
+				"spa": "Status_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -231,7 +238,8 @@
 				"fra": "Address_fra",
 				"hin": "Address_hin",
 				"kan": "Address_kan",
-				"tam": "Address_tam"
+				"tam": "Address_tam",
+				"spa": "Address_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -247,7 +255,8 @@
 				"fra": "Submit Request Status_fra",
 				"hin": "Submit Request Status_hin",
 				"kan": "Submit Request Status_kan",
-				"tam": "Submit Request Status_tam"
+				"tam": "Submit Request Status_tam",
+				"spa": "Submit Request Status_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "",

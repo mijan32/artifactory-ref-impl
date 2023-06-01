@@ -1,13 +1,15 @@
 {
 	"auditEventIds": ["ADM-028", "ADM-028"],
-	"actionButtons": [{
+	"actionButtons": [
+		{
 			"buttonName": {
 				"eng": "Activate",
 				"ara": "Activate_ara",
 				"fra": "Activate_fra",
 				"hin": "Activate_hin",
 				"kan": "Activate_kan",
-				"tam": "Activate_tam"
+				"tam": "Activate_tam",
+				"spa": "Activate_spa"
 			},
 			"actionURL": "",
 			"redirectURL": "",
@@ -22,7 +24,8 @@
 				"fra": "Deactivate_fra",
 				"hin": "Deactivate_hin",
 				"kan": "Deactivate_kan",
-				"tam": "Deactivate_tam"
+				"tam": "Deactivate_tam",
+				"spa": "Deactivate_spa"
 			},
 			"actionURL": "",
 			"redirectURL": "",
@@ -37,7 +40,8 @@
 				"fra": "Edit_fra",
 				"hin": "Edit_hin",
 				"kan": "Edit_kan",
-				"tam": "Edit_tam"
+				"tam": "Edit_tam",
+				"spa": "Edit_spa"
 			},
 			"actionURL": "",
 			"redirectURL": "/pmp/resources/policygroup/single-view/$id",
@@ -52,7 +56,8 @@
 				"fra": "Create Policy Group_fra",
 				"hin": "Create Policy Group_hin",
 				"kan": "Create Policy Group_kan",
-				"tam": "Create Policy Group_tam"
+				"tam": "Create Policy Group_tam",
+				"spa": "Create Policy Group_spa"
 			},
 			"imagePath": "assets/images/add-icon.png",
 			"actionListType": "redirect",
@@ -68,7 +73,8 @@
 				"fra": "Filter_fra",
 				"hin": "Filter_hin",
 				"kan": "Filter_kan",
-				"tam": "Filter_tam"
+				"tam": "Filter_tam",
+				"spa": "Filter_spa"
 			},
 			"imagePath": "assets/images/filter.png",
 			"actionListType": "action",
@@ -80,7 +86,8 @@
 			"validations": ""
 		}
 	],
-	"columnsToDisplay": [{
+	"columnsToDisplay": [
+		{
 			"name": "id",
 			"label": {
 				"eng": "ID",
@@ -88,7 +95,8 @@
 				"fra": "ID_fra",
 				"hin": "ID_hin",
 				"kan": "ID_kan",
-				"tam": "ID_tam"
+				"tam": "ID_tam",
+				"spa": "ID_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -107,7 +115,8 @@
 				"fra": "Name_fra",
 				"hin": "Name_hin",
 				"kan": "Name_kan",
-				"tam": "Name_tam"
+				"tam": "Name_tam",
+				"spa": "Name_spa"
 			},
 			"sortOrder": "3",
 			"showAsLink": "",
@@ -126,7 +135,8 @@
 				"fra": "Description_fra",
 				"hin": "Description_hin",
 				"kan": "Description_kan",
-				"tam": "Description_tam"
+				"tam": "Description_tam",
+				"spa": "Description_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -145,7 +155,8 @@
 				"fra": "Status_fra",
 				"hin": "Status_hin",
 				"kan": "Status_kan",
-				"tam": "Status_tam"
+				"tam": "Status_tam",
+				"spa": "Status_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -162,7 +173,8 @@
 		"pageSize": "10",
 		"pageSizeList": [10, 20, 30, 40, 50]
 	},
-	"filterColumns": [{
+	"filterColumns": [
+		{
 			"filtername": "name",
 			"filterlabel": {
 				"eng": "Name",
@@ -170,7 +182,8 @@
 				"fra": "Name_fra",
 				"hin": "Name_hin",
 				"kan": "Name_kan",
-				"tam": "Name_tam"
+				"tam": "Name_tam",
+				"spa": "Name_spa"
 			},
 			"filterType": "equals",
 			"fieldType": "input",
@@ -189,7 +202,8 @@
 				"fra": "Description_fra",
 				"hin": "Description_hin",
 				"kan": "Description_kan",
-				"tam": "Description_tam"
+				"tam": "Description_tam",
+				"spa": "Description_spa"
 			},
 			"filterType": "equals",
 			"fieldType": "input",

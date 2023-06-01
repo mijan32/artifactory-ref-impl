@@ -7,7 +7,8 @@
 				"fra": "Activate Partner_fra",
 				"hin": "Activate Partner_hin",
 				"kan": "Activate Partner_kan",
-				"tam": "Activate Partner_tam"
+				"tam": "Activate Partner_tam",
+				"spa": "Activate Partner_spa"
 			},
 			"actionURL": "",
 			"redirectURL": "",
@@ -22,7 +23,8 @@
 				"fra": "Deactivate Partner_fra",
 				"hin": "Deactivate Partner_hin",
 				"kan": "Deactivate Partner_kan",
-				"tam": "Deactivate Partner_tam"
+				"tam": "Deactivate Partner_tam",
+				"spa": "Deactivate Partner_spa"
 			},
 			"actionURL": "",
 			"redirectURL": "",
@@ -37,7 +39,8 @@
 				"fra": "Approve ApikeyReq_fra",
 				"hin": "Approve ApikeyReq_hin",
 				"kan": "Approve ApikeyReq_kan",
-				"tam": "Approve ApikeyReq_tam"
+				"tam": "Approve ApikeyReq_tam",
+				"spa": "Approve ApikeyReq_spa"
 			},
 			"actionURL": "",
 			"redirectURL": "",
@@ -52,7 +55,8 @@
 				"fra": "Reject ApikeyReq_fra",
 				"hin": "Reject ApikeyReq_hin",
 				"kan": "Reject ApikeyReq_kan",
-				"tam": "Reject ApikeyReq_tam"
+				"tam": "Reject ApikeyReq_tam",
+				"spa": "Reject ApikeyReq_spa"
 			},
 			"actionURL": "",
 			"redirectURL": "",
@@ -67,7 +71,8 @@
 				"fra": "Deactivate APIKey_fra",
 				"hin": "Deactivate APIKey_hin",
 				"kan": "Deactivate APIKey_kan",
-				"tam": "Deactivate APIKey_tam"
+				"tam": "Deactivate APIKey_tam",
+				"spa": "Deactivate APIKey_spa"
 			},
 			"actionURL": "",
 			"redirectURL": "",
@@ -82,7 +87,8 @@
 				"fra": "Activate APIKey_fra",
 				"hin": "Activate APIKey_hin",
 				"kan": "Activate APIKey_kan",
-				"tam": "Activate APIKey_tam"
+				"tam": "Activate APIKey_tam",
+				"spa": "Activate APIKey_spa"
 			},
 			"actionURL": "",
 			"redirectURL": "",
@@ -97,7 +103,8 @@
 				"fra": "Change Policy_fra",
 				"hin": "Change Policy_hin",
 				"kan": "Change Policy_kan",
-				"tam": "Change Policy_tam"
+				"tam": "Change Policy_tam",
+				"spa": "Change Policy_spa"
 			},
 			"actionURL": "",
 			"redirectURL": "/pmp/resources/pmanager/single-view/$id",
@@ -106,7 +113,8 @@
 			"callBackFunction": "pmanagerEdit"
 		}
 	],
-	"columnsToDisplay": [{
+	"columnsToDisplay": [
+		{
 			"name": "partnerID",
 			"showInListView": "True",
 			"label": {
@@ -115,7 +123,8 @@
 				"fra": "partnerID_fra",
 				"hin": "partnerID_hin",
 				"kan": "partnerID_kan",
-				"tam": "partnerID_tam"
+				"tam": "partnerID_tam",
+				"spa": "partnerID_spa"
 			},
 			"sortOrder": "3",
 			"showAsLink": "",
@@ -131,7 +140,8 @@
 				"fra": "policyName_fra",
 				"hin": "policyName_hin",
 				"kan": "policyName_kan",
-				"tam": "policyName_tam"
+				"tam": "policyName_tam",
+				"spa": "policyName_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -147,7 +157,8 @@
 				"fra": "partnerStatus_fra",
 				"hin": "partnerStatus_hin",
 				"kan": "partnerStatus_kan",
-				"tam": "partnerStatus_tam"
+				"tam": "partnerStatus_tam",
+				"spa": "partnerStatus_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "false",
@@ -163,7 +174,8 @@
 				"fra": "apikeyReqID_fra",
 				"hin": "apikeyReqID_hin",
 				"kan": "apikeyReqID_kan",
-				"tam": "apikeyReqID_tam"
+				"tam": "apikeyReqID_tam",
+				"spa": "apikeyReqID_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -179,7 +191,8 @@
 				"fra": "apikeyReqIDStatus_fra",
 				"hin": "apikeyReqIDStatus_hin",
 				"kan": "apikeyReqIDStatus_kan",
-				"tam": "apikeyReqIDStatus_tam"
+				"tam": "apikeyReqIDStatus_tam",
+				"spa": "apikeyReqIDStatus_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -195,7 +208,8 @@
 				"fra": "partnerAPIKey_fra",
 				"hin": "partnerAPIKey_hin",
 				"kan": "partnerAPIKey_kan",
-				"tam": "partnerAPIKey_tam"
+				"tam": "partnerAPIKey_tam",
+				"spa": "partnerAPIKey_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -211,7 +225,8 @@
 				"fra": "partnerAPIKeyStatus_fra",
 				"hin": "partnerAPIKeyStatus_hin",
 				"kan": "partnerAPIKeyStatus_kan",
-				"tam": "partnerAPIKeyStatus_tam"
+				"tam": "partnerAPIKeyStatus_tam",
+				"spa": "partnerAPIKeyStatus_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -224,7 +239,8 @@
 		"pageSize": "10",
 		"pageSizeList": [10, 20, 30, 40, 50]
 	},
-	"filterColumns": [{
+	"filterColumns": [
+		{
 			"filtername": "partnerID",
 			"filterlabel": "partnerID",
 			"filterType": "contains",

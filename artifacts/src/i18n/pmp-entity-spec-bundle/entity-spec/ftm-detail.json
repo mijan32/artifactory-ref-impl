@@ -1,21 +1,21 @@
 {
 	"auditEventIds": ["ADM-027", "ADM-049"],
-	"actionButtons": [
-		{
-			"buttonName": {
-				"eng": "Upload Certificate",
-				"ara": "Upload Certificate_ara",
-				"fra": "Upload Certificate_fra",
-				"hin": "Upload Certificate_hin",
-				"kan": "Upload Certificate_kan",
-				"tam": "Upload Certificate_tam"
-			},
-			"actionURL": "",
-			"redirectURL": "",
-			"showIn": "Ellipsis",
-			"validations": "",
-			"callBackFunction": "uploadCertificatepopup"
+	"actionButtons": [{
+		"buttonName": {
+			"eng": "Upload Certificate",
+			"ara": "Upload Certificate_ara",
+			"fra": "Upload Certificate_fra",
+			"hin": "Upload Certificate_hin",
+			"kan": "Upload Certificate_kan",
+			"tam": "Upload Certificate_tam",
+			"spa": "Upload Certificate_spa"
 		},
+		"actionURL": "",
+		"redirectURL": "",
+		"showIn": "Ellipsis",
+		"validations": "",
+		"callBackFunction": "uploadCertificatepopup"
+	},
 		{
 			"buttonName": {
 				"eng": "View Certificate",
@@ -23,7 +23,8 @@
 				"fra": "View Certificate_fra",
 				"hin": "View Certificate_hin",
 				"kan": "View Certificate_kan",
-				"tam": "View Certificate_tam"
+				"tam": "View Certificate_tam",
+				"spa": "View Certificate_spa"
 			},
 			"actionURL": "",
 			"redirectURL": "",
@@ -38,7 +39,8 @@
 				"fra": "Approve_fra",
 				"hin": "Approve_hin",
 				"kan": "Approve_kan",
-				"tam": "Approve_tam"
+				"tam": "Approve_tam",
+				"spa": "Approve_spa"
 			},
 			"actionURL": "",
 			"redirectURL": "",
@@ -53,7 +55,8 @@
 				"fra": "Reject_fra",
 				"hin": "Reject_hin",
 				"kan": "Reject_kan",
-				"tam": "Reject_tam"
+				"tam": "Reject_tam",
+				"spa": "Reject_spa"
 			},
 			"actionURL": "",
 			"redirectURL": "",
@@ -68,7 +71,8 @@
 				"fra": "Edit_fra",
 				"hin": "Edit_hin",
 				"kan": "Edit_kan",
-				"tam": "Edit_tam"
+				"tam": "Edit_tam",
+				"spa": "Edit_spa"
 			},
 			"actionURL": "",
 			"redirectURL": "pmp/resources/ftmdetails/single-view/$id",
@@ -83,7 +87,8 @@
 				"fra": "Create FTM_fra",
 				"hin": "Create FTM_hin",
 				"kan": "Create FTM_kan",
-				"tam": "Create FTM_tam"
+				"tam": "Create FTM_tam",
+				"spa": "Create FTM_spa"
 			},
 			"imagePath": "assets/images/add-icon.png",
 			"actionListType": "redirect",
@@ -99,7 +104,8 @@
 				"fra": "Filter_fra",
 				"hin": "Filter_hin",
 				"kan": "Filter_kan",
-				"tam": "Filter_tam"
+				"tam": "Filter_tam",
+				"spa": "Filter_spa"
 			},
 			"imagePath": "assets/images/filter.png",
 			"actionListType": "action",
@@ -112,24 +118,25 @@
 		}
 	],
 	"columnsToDisplay": [{
-			"name": "ftpChipDetailId",
-			"label": {
-				"eng": "ID",
-				"ara": "ID_ara",
-				"fra": "ID_fra",
-				"hin": "ID_hin",
-				"kan": "ID_kan",
-				"tam": "ID_tam"
-			},
-			"sortOrder": "",
-			"showAsLink": "",
-			"linkType": "",
-			"LinkURL": "",
-			"inputType": "",
-			"ismandatory": "",
-			"showInListView": "false",
-			"showInSingleView": "false"
+		"name": "ftpChipDetailId",
+		"label": {
+			"eng": "ID",
+			"ara": "ID_ara",
+			"fra": "ID_fra",
+			"hin": "ID_hin",
+			"kan": "ID_kan",
+			"tam": "ID_tam",
+			"spa": "ID_spa"
 		},
+		"sortOrder": "",
+		"showAsLink": "",
+		"linkType": "",
+		"LinkURL": "",
+		"inputType": "",
+		"ismandatory": "",
+		"showInListView": "false",
+		"showInSingleView": "false"
+	},
 		{
 			"name": "ftpProviderId",
 			"label": {
@@ -138,7 +145,8 @@
 				"fra": "Partner Name_fra",
 				"hin": "Partner Name_hin",
 				"kan": "Partner Name_kan",
-				"tam": "Partner Name_tam"
+				"tam": "Partner Name_tam",
+				"spa": "Partner Name_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -157,7 +165,8 @@
 				"fra": "Organization Name_fra",
 				"hin": "Organization Name_hin",
 				"kan": "Organization Name_kan",
-				"tam": "Organization Name_tam"
+				"tam": "Organization Name_tam",
+				"spa": "Organization Name_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -176,7 +185,8 @@
 				"fra": "Make_fra",
 				"hin": "Make_hin",
 				"kan": "Make_kan",
-				"tam": "Make_tam"
+				"tam": "Make_tam",
+				"spa": "Make_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -195,7 +205,8 @@
 				"fra": "Model_fra",
 				"hin": "Model_hin",
 				"kan": "Model_kan",
-				"tam": "Model_tam"
+				"tam": "Model_tam",
+				"spa": "Model_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -215,7 +226,8 @@
 				"fra": "Status_fra",
 				"hin": "Status_hin",
 				"kan": "Status_kan",
-				"tam": "Status_tam"
+				"tam": "Status_tam",
+				"spa": "Status_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -229,24 +241,25 @@
 		"pageSizeList": [10, 20, 30, 40, 50]
 	},
 	"filterColumns": [{
-			"filtername": "ftpProviderId",
-			"filterlabel": {
-				"eng": "Partner Name",
-				"ara": "Partner Name_ara",
-				"fra": "Partner Name_fra",
-				"hin": "Partner Name_hin",
-				"kan": "Partner Name_kan",
-				"tam": "Partner Name_tam"
-			},
-			"filterType": "equals",
-			"fieldType": "input",
-			"autocomplete": "false",
-			"dropdown": "false",
-			"datePicker": "false",
-			"apiName": "",
-			"fieldName": "ftpProviderId",
-			"methodCallName": ""
+		"filtername": "ftpProviderId",
+		"filterlabel": {
+			"eng": "Partner Name",
+			"ara": "Partner Name_ara",
+			"fra": "Partner Name_fra",
+			"hin": "Partner Name_hin",
+			"kan": "Partner Name_kan",
+			"tam": "Partner Name_tam",
+			"spa": "Partner Name_spa"
 		},
+		"filterType": "equals",
+		"fieldType": "input",
+		"autocomplete": "false",
+		"dropdown": "false",
+		"datePicker": "false",
+		"apiName": "",
+		"fieldName": "ftpProviderId",
+		"methodCallName": ""
+	},
 		{
 			"filtername": "partnerOrganizationName",
 			"filterlabel": {
@@ -255,7 +268,8 @@
 				"fra": "Organization Name_fra",
 				"hin": "Organization Name_hin",
 				"kan": "Organization Name_kan",
-				"tam": "Organization Name_tam"
+				"tam": "Organization Name_tam",
+				"spa": "Organization Name_spa"
 			},
 			"filterType": "equals",
 			"fieldType": "input",
@@ -274,7 +288,8 @@
 				"fra": "Make_fra",
 				"hin": "Make_hin",
 				"kan": "Make_kan",
-				"tam": "Make_tam"
+				"tam": "Make_tam",
+				"spa": "Make_spa"
 			},
 			"filterType": "equals",
 			"fieldType": "input",
@@ -293,7 +308,8 @@
 				"fra": "Model_fra",
 				"hin": "Model_hin",
 				"kan": "Model_kan",
-				"tam": "Model_tam"
+				"tam": "Model_tam",
+				"spa": "Model_spa"
 			},
 			"filterType": "equals",
 			"fieldType": "input",

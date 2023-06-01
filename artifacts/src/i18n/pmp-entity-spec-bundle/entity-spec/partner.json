@@ -1,21 +1,21 @@
 {
 	"auditEventIds": ["ADM-027", "ADM-049"],
-	"actionButtons": [
-		{
-			"buttonName": {
-				"eng": "Activate",
-				"ara": "Activate_ara",
-				"fra": "Activate_fra",
-				"hin": "Activate_hin",
-				"kan": "Activate_kan",
-				"tam": "Activate_tam"
-			},
-			"actionURL": "",
-			"redirectURL": "",
-			"showIn": "Ellipsis",
-			"validations": "",
-			"callBackFunction": "activatePolicy"
+	"actionButtons": [{
+		"buttonName": {
+			"eng": "Activate",
+			"ara": "Activate_ara",
+			"fra": "Activate_fra",
+			"hin": "Activate_hin",
+			"kan": "Activate_kan",
+			"tam": "Activate_tam",
+			"spa": "Activate_spa"
 		},
+		"actionURL": "",
+		"redirectURL": "",
+		"showIn": "Ellipsis",
+		"validations": "",
+		"callBackFunction": "activatePolicy"
+	},
 		{
 			"buttonName": {
 				"eng": "Deactivate",
@@ -23,7 +23,8 @@
 				"fra": "Deactivate_fra",
 				"hin": "Deactivate_hin",
 				"kan": "Deactivate_kan",
-				"tam": "Deactivate_tam"
+				"tam": "Deactivate_tam",
+				"spa": "Deactivate_spa"
 			},
 			"actionURL": "",
 			"redirectURL": "",
@@ -38,7 +39,8 @@
 				"fra": "Upload Certificate_fra",
 				"hin": "Upload Certificate_hin",
 				"kan": "Upload Certificate_kan",
-				"tam": "Upload Certificate_tam"
+				"tam": "Upload Certificate_tam",
+				"spa": "Upload Certificate_spa"
 			},
 			"actionURL": "",
 			"redirectURL": "",
@@ -53,7 +55,8 @@
 				"fra": "View Certificate_fra",
 				"hin": "View Certificate_hin",
 				"kan": "View Certificate_kan",
-				"tam": "View Certificate_tam"
+				"tam": "View Certificate_tam",
+				"spa": "View Certificate_spa"
 			},
 			"actionURL": "",
 			"redirectURL": "",
@@ -68,7 +71,8 @@
 				"fra": "Filter_fra",
 				"hin": "Filter_hin",
 				"kan": "Filter_kan",
-				"tam": "Filter_tam"
+				"tam": "Filter_tam",
+				"spa": "Filter_spa"
 			},
 			"imagePath": "assets/images/filter.png",
 			"actionListType": "action",
@@ -81,21 +85,22 @@
 		}
 	],
 	"columnsToDisplay": [{
-			"name": "id",
-			"showInListView": "false",
-			"label": {
-				"eng": "ID",
-				"ara": "ID_ara",
-				"fra": "ID_fra",
-				"hin": "ID_hin",
-				"kan": "ID_kan",
-				"tam": "ID_tam"
-			},
-			"sortOrder": "",
-			"showAsLink": "",
-			"linkType": "",
-			"LinkURL": ""
+		"name": "id",
+		"showInListView": "false",
+		"label": {
+			"eng": "ID",
+			"ara": "ID_ara",
+			"fra": "ID_fra",
+			"hin": "ID_hin",
+			"kan": "ID_kan",
+			"tam": "ID_tam",
+			"spa": "ID_spa"
 		},
+		"sortOrder": "",
+		"showAsLink": "",
+		"linkType": "",
+		"LinkURL": ""
+	},
 		{
 			"name": "name",
 			"showInListView": "true",
@@ -105,7 +110,8 @@
 				"fra": "Organization Name_fra",
 				"hin": "Organization Name_hin",
 				"kan": "Organization Name_kan",
-				"tam": "Organization Name_tam"
+				"tam": "Organization Name_tam",
+				"spa": "Organization Name_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -121,7 +127,8 @@
 				"fra": "Partner Type_fra",
 				"hin": "Partner Type_hin",
 				"kan": "Partner Type_kan",
-				"tam": "Partner Type_tam"
+				"tam": "Partner Type_tam",
+				"spa": "Partner Type_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -137,7 +144,8 @@
 				"fra": "Email id_fra",
 				"hin": "Email id_hin",
 				"kan": "Email id_kan",
-				"tam": "Email id_tam"
+				"tam": "Email id_tam",
+				"spa": "Email id_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -153,7 +161,8 @@
 				"fra": "Policy Group_fra",
 				"hin": "Policy Group_hin",
 				"kan": "Policy Group_kan",
-				"tam": "Policy Group_tam"
+				"tam": "Policy Group_tam",
+				"spa": "Policy Group_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -169,7 +178,8 @@
 				"fra": "Contact Number_fra",
 				"hin": "Contact Number_hin",
 				"kan": "Contact Number_kan",
-				"tam": "Contact Number_tam"
+				"tam": "Contact Number_tam",
+				"spa": "Contact Number_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "false",
@@ -185,7 +195,8 @@
 				"fra": "Approval Status_fra",
 				"hin": "Approval Status_hin",
 				"kan": "Approval Status_kan",
-				"tam": "Approval Status_tam"
+				"tam": "Approval Status_tam",
+				"spa": "Approval Status_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -200,7 +211,8 @@
 				"fra": "Status_fra",
 				"hin": "Status_hin",
 				"kan": "Status_kan",
-				"tam": "Status_tam"
+				"tam": "Status_tam",
+				"spa": "Status_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -220,7 +232,8 @@
 				"fra": "PolicyName_fra",
 				"hin": "PolicyName_hin",
 				"kan": "PolicyName_kan",
-				"tam": "PolicyName_tam"
+				"tam": "PolicyName_tam",
+				"spa": "PolicyName_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -236,7 +249,8 @@
 				"fra": "Email_fra",
 				"hin": "Email_hin",
 				"kan": "Email_kan",
-				"tam": "Email_tam"
+				"tam": "Email_tam",
+				"spa": "Email_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -252,7 +266,8 @@
 				"fra": "Status_fra",
 				"hin": "Status_hin",
 				"kan": "Status_kan",
-				"tam": "Status_tam"
+				"tam": "Status_tam",
+				"spa": "Status_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -268,7 +283,8 @@
 				"fra": "Address_fra",
 				"hin": "Address_hin",
 				"kan": "Address_kan",
-				"tam": "Address_tam"
+				"tam": "Address_tam",
+				"spa": "Address_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -284,7 +300,8 @@
 				"fra": "Submit Request Status_fra",
 				"hin": "Submit Request Status_hin",
 				"kan": "Submit Request Status_kan",
-				"tam": "Submit Request Status_tam"
+				"tam": "Submit Request Status_tam",
+				"spa": "Submit Request Status_spa"
 			},
 			"sortOrder": "",
 			"showAsLink": "",
@@ -298,24 +315,24 @@
 		"pageSizeList": [10, 20, 30, 40, 50]
 	},
 	"filterColumns": [{
-			"filtername": "name",
-			"filterlabel": {
-				"eng": "Organization Name",
-				"ara": "Organization Name_ara",
-				"fra": "Organization Name_fra",
-				"hin": "Organization Name_hin",
-				"kan": "Organization Name_kan",
-				"tam": "Organization Name_tam"
-			},
-			"filterType": "equals",
-			"fieldType": "input",
-			"autocomplete": "false",
-			"dropdown": "false",
-			"datePicker": "false",
-			"apiName": "",
-			"fieldName": "name",
-			"methodCallName": ""
+		"filtername": "name",
+		"filterlabel": {
+			"eng": "Organization Name",
+			"ara": "Organization Name_ara",
+			"fra": "Organization Name_fra",
+			"hin": "Organization Name_hin",
+			"kan": "Organization Name_kan",
+			"tam": "Organization Name_tam"
 		},
+		"filterType": "equals",
+		"fieldType": "input",
+		"autocomplete": "false",
+		"dropdown": "false",
+		"datePicker": "false",
+		"apiName": "",
+		"fieldName": "name",
+		"methodCallName": ""
+	},
 		{
 			"filtername": "partnerTypeCode",
 			"filterlabel": {
