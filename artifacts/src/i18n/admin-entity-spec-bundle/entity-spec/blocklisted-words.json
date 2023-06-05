@@ -1,23 +1,26 @@
 {
   "auditEventIds": ["ADM-025", "ADM-047"],
-  "actionButtons": [{
-    "buttonName": {
-      "eng": "Activate",
-      "ara": "تنشيط",
-      "fra": "déclencher",
-      "tam": "செயல்படுத்த",
-      "hin": "सक्रिय",
-      "kan": "ಸಕ್ರಿಯಗೊಳಿಸಿ"
+  "actionButtons": [
+    {
+      "buttonName": {
+        "eng": "Activate",
+        "spa": "Activar",
+        "ara": "تنشيط",
+        "fra": "déclencher",
+        "tam": "செயல்படுத்த",
+        "hin": "सक्रिय",
+        "kan": "ಸಕ್ರಿಯಗೊಳಿಸಿ"
+      },
+      "actionURL": "",
+      "redirectURL": "",
+      "showIn": "Ellipsis",
+      "validations": "",
+      "callBackFunction": "activateCenter"
     },
-    "actionURL": "",
-    "redirectURL": "",
-    "showIn": "Ellipsis",
-    "validations": "",
-    "callBackFunction": "activateCenter"
-  },
     {
       "buttonName": {
         "eng": "Deactivate",
+        "spa": "Desactivar",
         "ara": "الغاء تنشيط",
         "fra": "désactiver",
         "tam": "செயலிழக்க",
@@ -33,6 +36,7 @@
     {
       "buttonName": {
         "eng": "Edit",
+        "spa": "Editar",
         "ara": "تصحيح",
         "fra": "modifier",
         "tam": "தொகு",
@@ -48,6 +52,7 @@
     {
       "buttonName": {
         "eng": "Create",
+        "spa": "Crear",
         "ara": "إضافة مركز",
         "fra": "Ajouter le centre",
         "tam": "உருவாக்கு",
@@ -64,6 +69,7 @@
     {
       "buttonName": {
         "eng": "Filter",
+        "spa": "Filtrar",
         "fra": "filtre",
         "ara": "تصفيه",
         "tam": "வடிகட்டி",
@@ -80,31 +86,34 @@
       "validations": ""
     }
   ],
-  "columnsToDisplay": [{
-    "name": "word",
-    "showInListView": "true",
-    "showInSingleView": "true",
-    "label": {
-      "eng": "Blocklisted Words",
-      "ara": "الكلمات المحظورة",
-      "fra": "Mots bloqués",
-      "tam": "தடுப்புப்பட்டியலில் உள்ள வார்த்தைகள்",
-      "kan": "ನಿರ್ಬಂಧಿತ ಪದಗಳು",
-      "hin": "ब्लॉक लिस्टेड शब्द"
+  "columnsToDisplay": [
+    {
+      "name": "word",
+      "showInListView": "true",
+      "showInSingleView": "true",
+      "label": {
+        "eng": "Blocklisted Words",
+        "spa": "Palabras Bloqueadas",
+        "ara": "الكلمات المحظورة",
+        "fra": "Mots bloqués",
+        "tam": "தடுப்புப்பட்டியலில் உள்ள வார்த்தைகள்",
+        "kan": "ನಿರ್ಬಂಧಿತ ಪದಗಳು",
+        "hin": "ब्लॉक लिस्टेड शब्द"
+      },
+      "sortOrder": "",
+      "showAsLink": "",
+      "linkType": "",
+      "LinkURL": "",
+      "inputType": "text",
+      "ismandatory": "true"
     },
-    "sortOrder": "",
-    "showAsLink": "",
-    "linkType": "",
-    "LinkURL": "",
-    "inputType": "text",
-    "ismandatory": "true"
-  },
     {
       "name": "description",
       "showInListView": "true",
       "showInSingleView": "true",
       "label": {
         "eng": "Description",
+        "spa": "Descripción",
         "ara": "وصف",
         "fra": "description",
         "tam": "விளக்கம்",
@@ -123,6 +132,7 @@
       "showInListView": "false",
       "label": {
         "eng": "Deleted",
+        "spa": "Eliminado",
         "ara": "حاله",
         "fra": "statut",
         "tam": "நீக்கப்பட்டது",
@@ -134,18 +144,17 @@
       "linkType": "",
       "LinkURL": ""
     },
-
     {
       "name": "createdBy",
       "showInListView": "false",
       "label": {
         "eng": "Created By",
+        "spa": "Creado por",
         "ara": "تم إنشاؤه من قبل",
         "fra": "Créé par",
         "tam": "உருவாக்கப்பட்டது",
         "hin": "के द्वारा बनाई गई",
         "kan": "ರಚಿಸಿದವರು"
-
       },
       "sortOrder": "",
       "showAsLink": "",
@@ -157,12 +166,12 @@
       "showInListView": "false",
       "label": {
         "eng": "Updated By",
+        "spa": "Actualizado por",
         "ara": "تم التحديث بواسطة",
         "fra": "Mise à jour par",
         "tam": "புதுப்பிக்கப்பட்டது",
         "hin": "द्वारा अपडेट",
         "kan": "ಇವರಿಂದ ನವೀಕರಿಸಲಾಗಿದೆ"
-
       },
       "sortOrder": "",
       "showAsLink": "",
@@ -174,6 +183,7 @@
       "showInListView": "true",
       "label": {
         "eng": "Created Time",
+        "spa": "Tiempo de creación",
         "ara": "الوقت الذي تم إنشاؤه",
         "fra": "Temps créé",
         "tam": "Created Time",
@@ -191,6 +201,7 @@
       "showInSingleView": "false",
       "label": {
         "eng": "Status",
+        "spa": "Estado",
         "ara": "حاله",
         "fra": "statut",
         "tam": "நிலை",
@@ -210,28 +221,31 @@
     "pageSize": "10",
     "pageSizeList": [10, 20, 30, 40, 50]
   },
-  "filterColumns": [{
-    "filtername": "word",
-    "filterlabel": {
-      "eng": " Blocklisted Words",
-      "ara": "الكلمات المحظورة",
-      "fra": "Mots bloqués",
-      "tam": "தடுப்புப்பட்டியல் சொற்கள்",
-      "hin": "ब्लॉक लिस्टेड शब्द",
-      "kan": "ನಿರ್ಬಂಧಿಸಲಾದ ಪದಗಳು"
+  "filterColumns": [
+    {
+      "filtername": "word",
+      "filterlabel": {
+        "eng": "Blocklisted Words",
+        "spa": "Palabras Bloqueadas",
+        "ara": "الكلمات المحظورة",
+        "fra": "Mots bloqués",
+        "tam": "தடுப்புப்பட்டியல் சொற்கள்",
+        "hin": "ब्लॉक लिस्टेड शब्द",
+        "kan": "ನಿರ್ಬಂಧಿಸಲಾದ ಪದಗಳು"
+      },
+      "filterType": "equals",
+      "autocomplete": "false",
+      "dropdown": "false",
+      "datePicker": "false",
+      "apiName": "blocklistedwords",
+      "fieldName": "word",
+      "methodCallName": ""
     },
-    "filterType": "equals",
-    "autocomplete": "false",
-    "dropdown": "false",
-    "datePicker": "false",
-    "apiName": "blocklistedwords",
-    "fieldName": "word",
-    "methodCallName": ""
-  },
     {
       "filtername": "isActive",
       "filterlabel": {
         "eng": "Status",
+        "spa": "Estado",
         "ara": "حاله",
         "fra": "statut",
         "tam": "நிலை",

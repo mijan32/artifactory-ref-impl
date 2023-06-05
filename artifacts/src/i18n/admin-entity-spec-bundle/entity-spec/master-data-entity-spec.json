@@ -6,9 +6,10 @@
           "eng": "Center Types",
           "ara": "نوع المركز",
           "fra": "Type de centre",
-          "hin": "केंद्र प्रकार   ",
-          "kan": "ಕೇಂದ್ರ ಪ್ರಕಾರಗಳು    ",
-          "tam": "மைய வகைகள்  "
+          "hin": "केंद्र प्रकार",
+          "kan": "ಕೇಂದ್ರ ಪ್ರಕಾರಗಳು",
+          "tam": "மைய வகைகள்",
+          "spa": "Tipos de centros"
         },
         "actionURL": "admin/masterdata/center-type/view",
         "auditEventId": "ADM-010"
@@ -20,7 +21,8 @@
           "fra": "Mots bloqués",
           "tam": "தடுப்புப்பட்டியலில் உள்ள வார்த்தைகள்",
           "kan": "ನಿರ್ಬಂಧಿತ ಪದಗಳು",
-          "hin": "ब्लॉक लिस्टेड शब्द"
+          "hin": "ब्लॉक लिस्टेड शब्द",
+          "spa": "Palabras en la lista negra"
         },
         "actionURL": "admin/masterdata/blocklisted-words/view",
         "auditEventId": "ADM-011"
@@ -30,9 +32,10 @@
           "eng": "List Of Holidays",
           "ara": "قائمة عطلة",
           "fra": "Liste de vacances",
-          "hin": "छुट्टियों की सूची    ",
-          "kan": "ರಜಾದಿನಗಳ ಪಟ್ಟಿ   ",
-          "tam": "விடுமுறை பட்டியல்   "
+          "hin": "छुट्टियों की सूची",
+          "kan": "ರಜಾದಿನಗಳ ಪಟ್ಟಿ",
+          "tam": "விடுமுறை பட்டியல்",
+          "spa": "Lista de días festivos"
         },
         "actionURL": "admin/masterdata/holiday/view",
         "auditEventId": "ADM-014"
@@ -42,9 +45,10 @@
           "eng": "Templates",
           "ara": "قوالب",
           "fra": "Modèles",
-          "hin": "टेम्पलेट्स     ",
-          "kan": "ಟೆಂಪ್ಲೇಟ್‌ಗಳು  ",
-          "tam": "வார்ப்புருக்கள்    "
+          "hin": "टेम्पलेट्स",
+          "kan": "ಟೆಂಪ್ಲೇಟ್‌ಗಳು",
+          "tam": "வார்ப்புருக்கள்",
+          "spa": "Plantillas"
         },
         "actionURL": "admin/masterdata/templates/view",
         "auditEventId": "ADM-016"
@@ -56,9 +60,10 @@
           "eng": "Device Specs",
           "ara": "مواصفات الجهاز",
           "fra": "Spécifications de l'appareil",
-          "hin": "डिवाइस चश्मा      ",
-          "kan": "ಸಾಧನ ವಿವರಣೆಗಳು ",
-          "tam": "சாதன விவரக்குறிப்புகள்    "
+          "hin": "डिवाइस चश्मा",
+          "kan": "ಸಾಧನ ವಿವರಣೆಗಳು",
+          "tam": "சாதன விவரக்குறிப்புகள்",
+          "spa": "Especificaciones del dispositivo"
         },
         "actionURL": "admin/masterdata/device-specs/view",
         "auditEventId": "ADM-018"
@@ -68,9 +73,10 @@
           "eng": "Device Types",
           "ara": "أنواع الأجهزة",
           "fra": "Types de périphériques",
-          "hin": "डिवाइस के प्रकार  ",
-          "kan": "ಸಾಧನ ಪ್ರಕಾರಗಳು ",
-          "tam": "சாதன வகைகள்     "
+          "hin": "डिवाइस के प्रकार",
+          "kan": "ಸಾಧನ ಪ್ರಕಾರಗಳು",
+          "tam": "சாதன வகைகள்",
+          "spa": "Tipos de dispositivos"
         },
         "actionURL": "admin/masterdata/device-types/view",
         "auditEventId": "ADM-019"
@@ -82,9 +88,10 @@
           "eng": "Machine Specs",
           "ara": "المواصفات الجهاز",
           "fra": "Spécifications de la machine",
-          "hin": "मशीन चश्मा  ",
-          "kan": "ಯಂತ್ರ ವಿವರಣೆಗಳು  ",
-          "tam": "இயந்திர விவரக்குறிப்புகள்    "
+          "hin": "मशीन चश्मा",
+          "kan": "ಯಂತ್ರ ವಿವರಣೆಗಳು",
+          "tam": "இயந்திர விவரக்குறிப்புகள்",
+          "spa": "Especificaciones de la máquina"
         },
         "actionURL": "admin/masterdata/machine-specs/view",
         "auditEventId": "ADM-020"
@@ -94,9 +101,10 @@
           "eng": "Machine Types",
           "ara": "أنواع الآلات",
           "fra": "Types de machines",
-          "hin": "मशीन के प्रकार   ",
+          "hin": "मशीन के प्रकार",
           "kan": "ಯಂತ್ರ ಪ್ರಕಾರಗಳು",
-          "tam": "இயந்திர வகைகள்      "
+          "tam": "இயந்திர வகைகள்",
+          "spa": "Tipos de máquinas"
         },
         "actionURL": "admin/masterdata/machine-type/view",
         "auditEventId": "ADM-021"
@@ -108,9 +116,10 @@
           "eng": "Document Types",
           "ara": "أنواع المستندات",
           "fra": "Types de documents",
-          "hin": "दस्तावेज़ प्रकार  ",
-          "kan": "ಡಾಕ್ಯುಮೆಂಟ್ ಪ್ರಕಾರಗಳು  ",
-          "tam": "ஆவண வகைகள்    "
+          "hin": "दस्तावेज़ प्रकार",
+          "kan": "ಡಾಕ್ಯುಮೆಂಟ್ ಪ್ರಕಾರಗಳು",
+          "tam": "ஆவண வகைகள்",
+          "spa": "Tipos de documentos"
         },
         "actionURL": "admin/masterdata/document-type/view",
         "auditEventId": "ADM-022"
@@ -120,9 +129,10 @@
           "eng": "Document Categories",
           "ara": "فئات المستندات",
           "fra": "Catégories de document",
-          "hin": "दस्तावेज़ श्रेणियाँ   ",
-          "kan": "ಡಾಕ್ಯುಮೆಂಟ್ ವರ್ಗಗಳು  ",
-          "tam": "ஆவண வகைகள்      "
+          "hin": "दस्तावेज़ श्रेणियाँ",
+          "kan": "ಡಾಕ್ಯುಮೆಂಟ್ ವರ್ಗಗಳು",
+          "tam": "ஆவண வகைகள்",
+          "spa": "Categorías de documentos"
         },
         "actionURL": "admin/masterdata/document-categories/view",
         "auditEventId": "ADM-023"
@@ -132,9 +142,10 @@
           "eng": "Document Category - Type Mapping",
           "ara": "فئة الوثيقة - نوع التعيين",
           "fra": "Catégorie de document - Mappage de types",
-          "hin": "दस्तावेज़ श्रेणी - प्रकार मानचित्रण ",
-          "kan": "ಡಾಕ್ಯುಮೆಂಟ್ ವರ್ಗ - ಟೈಪ್ ಮ್ಯಾಪಿಂಗ್  ",
-          "tam": "  ஆவண வகை - வகை மேப்பிங்  "
+          "hin": "दस्तावेज़ श्रेणी - प्रकार मानचित्रण",
+          "kan": "ಡಾಕ್ಯುಮೆಂಟ್ ವರ್ಗ - ಟೈಪ್ ಮ್ಯಾಪಿಂಗ್",
+          "tam": "ஆவண வகை - வகை மேப்பிங்",
+          "spa": "Mapeo de Categoría de Documento - Tipo"
         },
         "actionURL": "admin/masterdata/documentCategoryMapping",
         "auditEventId": "ADM-024"
