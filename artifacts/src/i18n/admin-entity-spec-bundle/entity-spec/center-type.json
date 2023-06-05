@@ -105,7 +105,8 @@
           "fra": "Type de centre non disponible en français",
           "tam": "மைய வகை ஆங்கிலத்தில் கிடைக்கவில்லை",
           "hin": "केंद्र प्रकार अंग्रेजी में उपलब्ध नहीं है",
-          "kan": "ಕೇಂದ್ರ ಪ್ರಕಾರ ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಲಭ್ಯವಿಲ್ಲ"
+          "kan": "ಕೇಂದ್ರ ಪ್ರಕಾರ ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಲಭ್ಯವಿಲ್ಲ",
+          "spa": "Tipo de centro no disponible en inglés"
         },
         "columnNames": [
           {
@@ -287,7 +288,13 @@
   "paginator": {
     "totalEntries": null,
     "pageSize": "10",
-    "pageSizeList": [10, 20, 30, 40, 50]
+    "pageSizeList": [
+      10,
+      20,
+      30,
+      40,
+      50
+    ]
   },
   "filterColumns": [
     {
