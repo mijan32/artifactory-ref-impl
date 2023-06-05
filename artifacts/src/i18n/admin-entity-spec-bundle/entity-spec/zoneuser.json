@@ -1,6 +1,6 @@
 {
   "auditEventIds": ["ADM-027", "ADM-049"],
-  "actionButtons": [    
+  "actionButtons": [
     {
       "buttonName": {
         "eng": "Remap",
@@ -8,7 +8,8 @@
         "fra": "remapper",
         "hin": "सरीमैप ",
         "kan": "ರೀಮ್ಯಾಪ್",
-        "tam": "மறுவடிவமைப்பு "
+        "tam": "மறுவடிவமைப்பு",
+        "spa": "Remapear"
       },
       "actionURL": "",
       "redirectURL": "/admin/resources/zoneuser/single-view/$id",
@@ -23,7 +24,8 @@
         "fra": "Supprimer",
         "hin": "हटाएं",
         "kan": "ಅಳಿಸು",
-        "tam": "அழி "
+        "tam": "அழி",
+        "spa": "Eliminar"
       },
       "actionURL": "",
       "redirectURL": "",
@@ -38,7 +40,8 @@
         "fra": "déclencher",
         "hin": "सक्रिय",
         "kan": "ಸಕ್ರಿಯಗೊಳಿಸಿ",
-        "tam": "செயல்படுத்த"
+        "tam": "செயல்படுத்த",
+        "spa": "Activar"
       },
       "actionURL": "",
       "redirectURL": "",
@@ -53,7 +56,8 @@
         "fra": "désactiver",
         "hin": "निष्क्रिय करें",
         "kan": "ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ",
-        "tam": "செயலிழக்க"
+        "tam": "செயலிழக்க",
+        "spa": "Desactivar"
       },
       "actionURL": "",
       "redirectURL": "",
@@ -68,7 +72,8 @@
         "fra": "Zone de carte",
         "hin": "मानचित्र क्षेत्र",
         "kan": "ನಕ್ಷೆ ವಲಯ",
-        "tam": "வரைபட மண்டலம்"
+        "tam": "வரைபட மண்டலம்",
+        "spa": "Mapear Zona"
       },
       "imagePath": "assets/images/add-icon.png",
       "actionListType": "redirect",
@@ -84,7 +89,8 @@
         "ara": "تصفيه",
         "tam": "வடிகட்டி",
         "hin": "फ़िल्टर",
-        "kan": "ಫಿಲ್ಟರ್ ಮಾಡಿ"
+        "kan": "ಫಿಲ್ಟರ್ ಮಾಡಿ",
+        "spa": "Filtrar"
       },
       "imagePath": "assets/images/filter.png",
       "actionListType": "action",
@@ -98,13 +104,14 @@
     {
       "name": "userName",
       "showInListView": "true",
-      "label": { 
-        "eng": "Name", 
-        "ara": "ماسم", 
+      "label": {
+        "eng": "Name",
+        "ara": "ماسم",
         "fra": "Nom",
         "tam": "பெயர்",
         "hin": "नाम",
-        "kan": "ಹೆಸರು" 
+        "kan": "ಹೆಸರು",
+        "spa": "Nombre"
       },
       "sortOrder": "3",
       "showAsLink": "",
@@ -121,7 +128,8 @@
         "fra": "Type de centre",
         "hin": "जोन कोड",
         "kan": "ವಲಯ ಕೋಡ್ ",
-        "tam": "மண்டல குறியீடு"
+        "tam": "மண்டல குறியீடு",
+        "spa": "Nombre de Zona"
       },
       "sortOrder": "",
       "showAsLink": "",
@@ -138,7 +146,8 @@
         "fra": "Personne-ressource",
         "hin": "के द्वारा बनाई गई ",
         "kan": "ರಚಿಸಿದವರು",
-        "tam": "உருவாக்கப்பட்டது  "
+        "tam": "உருவாக்கப்பட்டது",
+        "spa": "Creado Por"
       },
       "sortOrder": "",
       "showAsLink": "",
@@ -154,7 +163,8 @@
         "fra": "Temps créé",
         "hin": "बनाया गया समय ",
         "kan": "ಸಮಯವನ್ನು ರಚಿಸಲಾಗಿದೆ ",
-        "tam": "நேரம் உருவாக்கப்பட்டது "
+        "tam": "நேரம் உருவாக்கப்பட்டது",
+        "spa": "Tiempo de Creación"
       },
       "sortOrder": "",
       "showAsLink": "",
@@ -164,7 +174,15 @@
     {
       "name": "isActive",
       "showInListView": "true",
-      "label": { "eng": "Status", "ara": "حاله", "fra": "statut","hin": "स्थिति", "kan": "ಸ್ಥಿತಿ", "tam": "நிலை" },
+      "label": {
+        "eng": "Status",
+        "ara": "حاله",
+        "fra": "statut",
+        "hin": "स्थिति",
+        "kan": "ಸ್ಥಿತಿ",
+        "tam": "நிலை",
+        "spa": "Estado"
+      },
       "sortOrder": "",
       "showAsLink": "false",
       "linkType": "",
@@ -179,7 +197,15 @@
   "filterColumns": [
     {
       "filtername": "userName",
-      "filterlabel": { "eng": "Name", "ara": "اسم", "fra": "Nom", "tam": "பெயர்", "hin": "नाम","kan": "ಹೆಸರು" },
+      "filterlabel": {
+        "eng": "Name",
+        "ara": "اسم",
+        "fra": "Nom",
+        "tam": "பெயர்",
+        "hin": "नाम",
+        "kan": "ಹೆಸರು",
+        "spa": "Nombre"
+      },
       "filterType": "equals",
       "fieldType": "input",
       "autocomplete": "false",
@@ -191,7 +217,15 @@
     },
     {
       "filtername": "zoneName",
-      "filterlabel": { "eng": "Zone Name", "ara": "اسم المنطقة", "fra": "Nom de la zone", "tam": "மண்டல பெயர்", "hin": "क्षेत्र का नाम","kan": "ವಲಯದ ಹೆಸರು" },
+      "filterlabel": {
+        "eng": "Zone Name",
+        "ara": "اسم المنطقة",
+        "fra": "Nom de la zone",
+        "tam": "மண்டல பெயர்",
+        "hin": "क्षेत्र का नाम",
+        "kan": "ವಲಯದ ಹೆಸರು",
+        "spa": "Nombre de Zona"
+      },
       "filterType": "equals",
       "fieldType": "input",
       "autocomplete": "false",

@@ -1,8 +1,5 @@
 {
-  "auditEventIds": [
-    "ADM-026",
-    "ADM-048"
-  ],
+  "auditEventIds": ["ADM-026", "ADM-048"],
   "actionButtons": [
     {
       "buttonName": {

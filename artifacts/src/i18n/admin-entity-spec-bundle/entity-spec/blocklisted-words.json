@@ -4,6 +4,7 @@
     {
       "buttonName": {
         "eng": "Activate",
+        "spa": "Activar",
         "ara": "تنشيط",
         "fra": "déclencher",
         "tam": "செயல்படுத்த",
@@ -20,6 +21,7 @@
     {
       "buttonName": {
         "eng": "Deactivate",
+        "spa": "Desactivar",
         "ara": "الغاء تنشيط",
         "fra": "désactiver",
         "tam": "செயலிழக்க",
@@ -36,6 +38,7 @@
     {
       "buttonName": {
         "eng": "Edit",
+        "spa": "Editar",
         "ara": "تصحيح",
         "fra": "modifier",
         "tam": "தொகு",
@@ -52,6 +55,7 @@
     {
       "buttonName": {
         "eng": "Create",
+        "spa": "Crear",
         "ara": "إضافة مركز",
         "fra": "Ajouter le centre",
         "tam": "உருவாக்கு",
@@ -69,6 +73,7 @@
     {
       "buttonName": {
         "eng": "Filter",
+        "spa": "Filtrar",
         "fra": "filtre",
         "ara": "تصفيه",
         "tam": "வடிகட்டி",
@@ -93,6 +98,7 @@
       "showInSingleView": "true",
       "label": {
         "eng": "Blocklisted Words",
+        "spa": "Palabras Bloqueadas",
         "ara": "الكلمات المحظورة",
         "fra": "Mots bloqués",
         "tam": "தடுப்புப்பட்டியலில் உள்ள வார்த்தைகள்",
@@ -113,6 +119,7 @@
       "showInSingleView": "true",
       "label": {
         "eng": "Description",
+        "spa": "Descripción",
         "ara": "وصف",
         "fra": "description",
         "tam": "விளக்கம்",
@@ -132,6 +139,7 @@
       "showInListView": "false",
       "label": {
         "eng": "Deleted",
+        "spa": "Eliminado",
         "ara": "حاله",
         "fra": "statut",
         "tam": "நீக்கப்பட்டது",
@@ -149,6 +157,7 @@
       "showInListView": "false",
       "label": {
         "eng": "Created By",
+        "spa": "Creado por",
         "ara": "تم إنشاؤه من قبل",
         "fra": "Créé par",
         "tam": "உருவாக்கப்பட்டது",
@@ -166,6 +175,7 @@
       "showInListView": "false",
       "label": {
         "eng": "Updated By",
+        "spa": "Actualizado por",
         "ara": "تم التحديث بواسطة",
         "fra": "Mise à jour par",
         "tam": "புதுப்பிக்கப்பட்டது",
@@ -183,6 +193,7 @@
       "showInListView": "true",
       "label": {
         "eng": "Created Time",
+        "spa": "Tiempo de creación",
         "ara": "الوقت الذي تم إنشاؤه",
         "fra": "Temps créé",
         "tam": "Created Time",
@@ -201,6 +212,7 @@
       "showInSingleView": "false",
       "label": {
         "eng": "Status",
+        "spa": "Estado",
         "ara": "حاله",
         "fra": "statut",
         "tam": "நிலை",
@@ -225,22 +237,27 @@
     {
       "filtername": "word",
       "filterlabel": {
-        "eng": " Blocklisted Words",
+        "eng": "Blocklisted Words",
+        "spa": "Palabras Bloqueadas",
         "ara": "الكلمات المحظورة",
         "fra": "Mots bloqués",
         "tam": "தடுப்புப்பட்டியல் சொற்கள்",
         "hin": "ब्लॉक लिस्टेड शब्द",
-        "kan": "ನಿರ್ಬಂಧಿಸಲಾದ ಪದಗಳು",
-        "spa": "Palabras en Lista Negra"
+        "kan": "ನಿರ್ಬಂಧಿಸಲಾದ ಪದಗಳು"
       },
       "filterType": "equals",
-      "inputType": "text",
-      "ismandatory": "false"
+      "autocomplete": "false",
+      "dropdown": "false",
+      "datePicker": "false",
+      "apiName": "blocklistedwords",
+      "fieldName": "word",
+      "methodCallName": ""
     },
     {
       "filtername": "isActive",
       "filterlabel": {
         "eng": "Status",
+        "spa": "Estado",
         "ara": "حاله",
         "fra": "statut",
         "tam": "நிலை",

@@ -1,13 +1,15 @@
 {
   "auditEventIds": ["ADM-030", "ADM-052"],
-  "actionButtons": [{
+  "actionButtons": [
+  {
     "buttonName": {
       "eng": "Activate",
       "ara": "تنشيط",
       "fra": "déclencher",
       "tam": "செயல்படுத்த",
       "hin": "सक्रिय",
-      "kan": "ಸಕ್ರಿಯಗೊಳಿಸಿ"
+      "kan": "ಸಕ್ರಿಯಗೊಳಿಸಿ",
+      "spa": "Activar"
     },
     "actionURL": "",
     "redirectURL": "",
@@ -15,102 +17,109 @@
     "validations": "",
     "callBackFunction": "activateCenter"
   },
-    {
-      "buttonName": {
-        "eng": "Deactivate",
-        "ara": "الغاء تنشيط",
-        "fra": "désactiver",
-        "tam": "செயலிழக்க",
-        "hin": "निष्क्रिय करें",
-        "kan": "ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ"
-      },
-      "actionURL": "",
-      "redirectURL": "",
-      "showIn": "Ellipsis",
-      "validations": "",
-      "callBackFunction": "deactivateCenter"
+  {
+    "buttonName": {
+      "eng": "Deactivate",
+      "ara": "الغاء تنشيط",
+      "fra": "désactiver",
+      "tam": "செயலிழக்க",
+      "hin": "निष्क्रिय करें",
+      "kan": "ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ",
+      "spa": "Desactivar"
     },
-    {
-      "buttonName": {
-        "eng": "Decommission",
-        "ara": "وقف التشغيل",
-        "fra": "mettre hors service",
-        "tam": "நீக்கம்",
-        "hin": "डीकमिशन",
-        "kan": "ಡಿಕೊಮಿಷನ್"
-      },
-      "actionURL": "",
-      "redirectURL": "",
-      "showIn": "Ellipsis",
-      "validations": "",
-      "callBackFunction": "decommission"
-    },
-    {
-      "buttonName": {
-        "eng": "Edit",
-        "ara": "تصحيح",
-        "fra": "modifier",
-        "tam": "தொகு",
-        "hin": "संपादित करें",
-        "kan": "ತಿದ್ದು"
-      },
-      "actionURL": "",
-      "redirectURL": "/admin/resources/devices/single-view/$id",
-      "showIn": "Ellipsis",
-      "validations": "",
-      "callBackFunction": "centerEdit"
-    },
-    {
-      "buttonName": {
-        "eng": "Create Device",
-        "ara": "إإنشاء الجهاز",
-        "fra": "Créer un appareil",
-        "tam": "சாதனத்தை உருவாக்கவும்",
-        "hin": "डिवाइस बनाएं",
-        "kan": "ಸಾಧನವನ್ನು ರಚಿಸಿ"
-      },
-      "imagePath": "assets/images/add-icon.png",
-      "actionListType": "redirect",
-      "actionURL": "",
-      "redirectURL": "admin/resources/devices/create",
-      "showIn": "Button",
-      "validations": ""
-    },
-    {
-      "buttonName": {
-        "eng": "Filter",
-        "ara": "تصفيه",
-        "fra": "filtre",
-        "tam": "வடிகட்டி",
-        "hin": "फ़िल्टर",
-        "kan": "ಫಿಲ್ಟರ್ ಮಾಡಿ"
-      },
-      "imagePath": "assets/images/filter.png",
-      "actionListType": "action",
-      "actionURL": {
-        "case": "filter"
-      },
-      "redirectURL": "",
-      "showIn": "Button",
-      "validations": ""
-    }
-  ],
-  "columnsToDisplay": [{
-    "name": "name",
-    "showInListView": "True",
-    "label": {
-      "eng": "Device Name",
-      "ara": "اسم الجهاز",
-      "fra": "Nom de la Device",
-      "tam": "சாதனத்தின் பெயர்",
-      "hin": "डिवाइस का नाम",
-      "kan": "ಸಾಧನದ ಹೆಸರು"
-    },
-    "sortOrder": "3",
-    "showAsLink": "",
-    "linkType": "",
-    "LinkURL": ""
+    "actionURL": "",
+    "redirectURL": "",
+    "showIn": "Ellipsis",
+    "validations": "",
+    "callBackFunction": "deactivateCenter"
   },
+  {
+    "buttonName": {
+      "eng": "Decommission",
+      "ara": "وقف التشغيل",
+      "fra": "mettre hors service",
+      "tam": "நீக்கம்",
+      "hin": "डीकमिशन",
+      "kan": "ಡಿಕೊಮಿಷನ್",
+      "spa": "Desactivar"
+    },
+    "actionURL": "",
+    "redirectURL": "",
+    "showIn": "Ellipsis",
+    "validations": "",
+    "callBackFunction": "decommission"
+  },
+  {
+    "buttonName": {
+      "eng": "Edit",
+      "ara": "تصحيح",
+      "fra": "modifier",
+      "tam": "தொகு",
+      "hin": "संपादित करें",
+      "kan": "ತಿದ್ದು",
+      "spa": "Editar"
+    },
+    "actionURL": "",
+    "redirectURL": "/admin/resources/devices/single-view/$id",
+    "showIn": "Ellipsis",
+    "validations": "",
+    "callBackFunction": "centerEdit"
+  },
+  {
+    "buttonName": {
+      "eng": "Create Device",
+      "ara": "إإنشاء الجهاز",
+      "fra": "Créer un appareil",
+      "tam": "சாதனத்தை உருவாக்கவும்",
+      "hin": "डिवाइस बनाएं",
+      "kan": "ಸಾಧನವನ್ನು ರಚಿಸಿ",
+      "spa": "Crear dispositivo"
+    },
+    "imagePath": "assets/images/add-icon.png",
+    "actionListType": "redirect",
+    "actionURL": "",
+    "redirectURL": "admin/resources/devices/create",
+    "showIn": "Button",
+    "validations": ""
+  },
+  {
+    "buttonName": {
+      "eng": "Filter",
+      "ara": "تصفيه",
+      "fra": "filtre",
+      "tam": "வடிகட்டி",
+      "hin": "फ़िल्टर",
+      "kan": "ಫಿಲ್ಟರ್ ಮಾಡಿ",
+      "spa": "Filtrar"
+    },
+    "imagePath": "assets/images/filter.png",
+    "actionListType": "action",
+    "actionURL": {
+      "case": "filter"
+    },
+    "redirectURL": "",
+    "showIn": "Button",
+    "validations": ""
+  }
+],
+  "columnsToDisplay": [
+    {
+      "name": "name",
+      "showInListView": "True",
+      "label": {
+        "eng": "Device Name",
+        "ara": "اسم الجهاز",
+        "fra": "Nom de la Device",
+        "tam": "சாதனத்தின் பெயர்",
+        "hin": "डिवाइस का नाम",
+        "kan": "ಸಾಧನದ ಹೆಸರು",
+        "spa": "Nombre del dispositivo"
+      },
+      "sortOrder": "3",
+      "showAsLink": "",
+      "linkType": "",
+      "LinkURL": ""
+    },
     {
       "name": "deviceTypeName",
       "showInListView": "true",
@@ -120,7 +129,8 @@
         "fra": "Type de Device",
         "tam": "கருவியின் வகை",
         "hin": "उपकरण का प्रकार",
-        "kan": "ಸಾಧನ ಪ್ರಕಾರ"
+        "kan": "ಸಾಧನ ಪ್ರಕಾರ",
+        "spa": "Tipo de dispositivo"
       },
       "sortOrder": "",
       "showAsLink": "",
@@ -136,7 +146,8 @@
         "fra": "Mac Adresse",
         "tam": "Mac முகவரி",
         "hin": "मैक पते",
-        "kan": "ಮ್ಯಾಕ್ ವಿಳಾಸ"
+        "kan": "ಮ್ಯಾಕ್ ವಿಳಾಸ",
+        "spa": "Dirección Mac"
       },
       "sortOrder": "",
       "showAsLink": "",
@@ -152,7 +163,8 @@
         "fra": "numéro",
         "tam": "வரிசை எண்",
         "hin": "क्रमिक संख्या",
-        "kan": "ಕ್ರಮ ಸಂಖ್ಯೆ"
+        "kan": "ಕ್ರಮ ಸಂಖ್ಯೆ",
+        "spa": "Número de serie"
       },
       "sortOrder": "",
       "showAsLink": "",
@@ -168,7 +180,8 @@
         "fra": "Centre",
         "hin": "केंद्र",
         "kan": "ಕೇಂದ್ರ",
-        "tam": "மையம்"
+        "tam": "மையம்",
+        "spa": "Centro"
       },
       "sortOrder": "",
       "showAsLink": "",
@@ -184,7 +197,8 @@
         "fra": "Temps créé",
         "tam": "நேரம் உருவாக்கப்பட்டது",
         "hin": "बनाया गया समय",
-        "kan": "ಸಮಯವನ್ನು ರಚಿಸಲಾಗಿದೆ"
+        "kan": "ಸಮಯವನ್ನು ರಚಿಸಲಾಗಿದೆ",
+        "spa": "Hora de creación"
       },
       "sortOrder": "",
       "showAsLink": "",
@@ -200,7 +214,8 @@
         "fra": "statut",
         "tam": "நிலை",
         "hin": "स्थिति",
-        "kan": "ಸ್ಥಿತಿ"
+        "kan": "ಸ್ಥಿತಿ",
+        "spa": "Estado"
       },
       "sortOrder": "",
       "showAsLink": "false",
@@ -213,25 +228,27 @@
     "pageSize": "10",
     "pageSizeList": [10, 20, 30, 40, 50]
   },
-  "filterColumns": [{
-    "filtername": "name",
-    "filterlabel": {
-      "eng": "Device Name",
-      "ara": "اسم الجهاز",
-      "fra": "Nom de l'appareil",
-      "tam": "பெயர்",
-      "hin": "नाम",
-      "kan": "ಹೆಸರು"
+  "filterColumns": [
+    {
+      "filtername": "name",
+      "filterlabel": {
+        "eng": "Device Name",
+        "ara": "اسم الجهاز",
+        "fra": "Nom de l'appareil",
+        "tam": "பெயர்",
+        "hin": "नाम",
+        "kan": "ಹೆಸರು",
+        "spa": "Nombre del dispositivo"
+      },
+      "filterType": "contains",
+      "fieldType": "input",
+      "autocomplete": "false",
+      "dropdown": "false",
+      "datePicker": "false",
+      "apiName": "devices",
+      "fieldName": "name",
+      "methodCallName": ""
     },
-    "filterType": "contains",
-    "fieldType": "input",
-    "autocomplete": "false",
-    "dropdown": "false",
-    "datePicker": "false",
-    "apiName": "devices",
-    "fieldName": "name",
-    "methodCallName": ""
-  },
     {
       "filtername": "isActive",
       "filterlabel": {
@@ -240,7 +257,8 @@
         "fra": "Statut",
         "tam": "நிலை",
         "hin": "स्थिति",
-        "kan": "ಸ್ಥಿತಿ"
+        "kan": "ಸ್ಥಿತಿ",
+        "spa": "Estado"
       },
       "filterType": "contains",
       "fieldType": "input",
@@ -259,7 +277,8 @@
         "fra": "Adresse Mac",
         "tam": "Mac முகவரி",
         "hin": "मैक पते",
-        "kan": "ಮ್ಯಾಕ್ ವಿಳಾಸ"
+        "kan": "ಮ್ಯಾಕ್ ವಿಳಾಸ",
+        "spa": "Dirección MAC"
       },
       "filterType": "equals",
       "autocomplete": "false",
@@ -277,7 +296,8 @@
         "fra": "Numéro de série",
         "tam": "வரிசை எண்",
         "hin": "क्रमिक संख्या",
-        "kan": "ಕ್ರಮ ಸಂಖ್ಯೆ"
+        "kan": "ಕ್ರಮ ಸಂಖ್ಯೆ",
+        "spa": "Número de serie"
       },
       "filterType": "equals",
       "autocomplete": "false",
@@ -295,7 +315,8 @@
         "fra": "Type d'appareil",
         "tam": "கருவியின் வகை",
         "hin": "उपकरण का प्रकार",
-        "kan": "ಸಾಧನ ಪ್ರಕಾರ"
+        "kan": "ಸಾಧನ ಪ್ರಕಾರ",
+        "spa": "Tipo de dispositivo"
       },
       "filterType": "equals",
       "autocomplete": "false",
