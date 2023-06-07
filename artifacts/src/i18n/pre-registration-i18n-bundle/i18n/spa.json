@@ -370,9 +370,9 @@
   },
   "acknowledgement": {
     "title": "Cita Confirmada",
-    "message": "El ID de solicitud y los detalles de la cita se han enviado al correo electrónico y número de teléfono registrados",
+    "message": "El número de registro y los detalles de la cita se han enviado a la identificación de correo electrónico y al número de teléfono registrados.",
     "label_name": "Nombre",
-    "label_pre_id": "ID de Solicitud",
+    "label_pre_id": "Número de registro",
     "label_reg_cntr": "Nombre del Centro",
     "label_cntr_contact_number": "Número de Contacto del Centro",
     "label_appointment_date_time": "Fecha y Hora de la Cita",
@@ -383,7 +383,7 @@
     "label_reg_cntr_dtl": "Dirección del Centro"
   },
   "preview": {
-    "title_preview": "Vista Previa",
+    "title_preview": "Detalles de registro",
     "language": "English",
     "subheading_information": "Información Personal",
     "label_name": "Nombre Completo",
@@ -458,7 +458,7 @@
     "action_lost_uin": "UIN Perdido",
     "action_update_registration": "Actualizar Registro",
     "card": {
-      "text_app_id": "ID de Solicitud",
+      "text_app_id": "Número de registro",
       "text_name": "Nombre",
       "text_type": "Tipo de Solicitud",
       "text_appoinment_date": "Fecha de Cita",
