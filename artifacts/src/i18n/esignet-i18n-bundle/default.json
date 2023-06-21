@@ -1,6 +1,7 @@
 {
   "languages_2Letters": {
     "en": "English",
+    "sp": "Española",
     "hi": "हिंदी",
     "ar": "عربى",
     "kn": "ಕನ್ನಡ",
@@ -9,6 +10,7 @@
   "rtlLanguages": ["ar"],
   "langCodeMapping": {
     "eng": "en",
+    "spa": "sp",
     "hin": "hi",
     "ara": "ar",
     "kan": "kn",
