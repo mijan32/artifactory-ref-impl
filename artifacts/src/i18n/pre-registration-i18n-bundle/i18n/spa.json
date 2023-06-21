@@ -1,0 +1,832 @@
+{
+  "quick_guide": {
+    "breadcrumb": {
+      "home": "Inicio",
+      "getting_started": "Empezar"
+    },
+    "headerText": {
+      "line1": "Para preinscribir a uno o más solicitantes, complete los datos demográficos y cargue los documentos requeridos. Para reservar una cita, elija su centro de registro, fecha y hora preferidos. Al realizar la preinscripción con éxito, recibirá la notificación en su correo electrónico o número de teléfono proporcionado.",
+      "line2": "Haga clic en las siguientes secciones para obtener más información sobre cómo completar el formulario de preinscripción."
+    },
+    "select_language": {
+      "name": "Seleccionar idioma preferido",
+      "list": {
+        "line1": "En la página de inicio de sesión, haga clic en el menú desplegable de idiomas para ver la lista de idiomas.",
+        "line2": "Seleccione el idioma de su preferencia."
+      },
+      "note": "Nota: Los campos y etiquetas de los botones, los mensajes de error e información en toda la aplicación se mostrarán en el idioma preferido."
+    },
+    "login": {
+      "name": "Inicio de sesión",
+      "list": {
+        "line1": "En la página de inicio de sesión, ingrese su dirección de correo electrónico o número de teléfono móvil válido en el cuadro de texto de correo electrónico o número de teléfono móvil.",
+        "line2": "Seleccione el campo de captcha.",
+        "line3": "Haga clic en Enviar OTP para recibir una Contraseña de Un Solo Uso (OTP) en la dirección de correo electrónico o número de teléfono móvil proporcionados.",
+        "line4": "Ingrese el OTP en el cuadro de texto Ingresar OTP y haga clic en el botón Verificar."
+      },
+      "note": "Nota: Si no ha recibido el OTP, haga clic en Reenviar para recibir otro OTP. Ingrese el nuevo OTP recibido.",
+      "line": "Cuando se haya verificado su OTP, podrá crear, ver o modificar su solicitud de preinscripción."
+    },
+    "select_data_capture_language": {
+      "name": "Seleccionar idioma de captura de datos",
+      "list": {
+        "line1": "A un usuario que inicia sesión por primera vez y no tiene solicitudes se le mostrará una ventana emergente de selección de idioma de captura de datos. El mismo conjunto de idiomas se utilizará para las próximas solicitudes creadas en la misma sesión.",
+        "line2": "El idioma seleccionado por el usuario en la pantalla de inicio de sesión se preseleccionará en la ventana emergente de selección de idioma de captura de datos.",
+        "line3": "El usuario puede cambiar esto haciendo clic en el botón CAMBIAR IDIOMAS DE CAPTURA DE DATOS."
+      },
+      "note": "Nota: Esta opción solo estará disponible si el emisor de la identificación ha configurado el uso de idiomas opcionales."
+    },
+    "t&c": {
+      "name": "Acceptar Términos y Condiciones",
+      "list": {
+        "line1": "En la página de Detalles demográficos, se le recomienda leer los Términos y Condiciones y marcar la casilla de verificación para aceptarlos. Este acuerdo es para proporcionar el consentimiento para el almacenamiento y procesamiento de su información personal.",
+        "line2": "Haga clic en Aceptar para aceptar y luego complete los detalles demográficos."
+      },
+      "note": "Nota: El consentimiento del usuario es obligatorio para crear/actualizar solicitudes. El contenido se mostrará en todos los idiomas de captura de datos."
+    },
+    "demographic": {
+      "name": "Completar los Detalles Demográficos",
+      "list": {
+        "line1": "Complete todos sus detalles demográficos, que incluyen nombre, edad/fecha de nacimiento, género, estado de residencia, dirección, número de móvil, dirección de correo electrónico, etc.",
+        "line1_note": "Nota: Puede ingresar su edad o su fecha de nacimiento (DOB).",
+        "line2": "También puede cambiar o verificar sus detalles demográficos en el segundo idioma a la derecha.",
+        "line3": "Después de haber completado y verificado sus detalles demográficos, haga clic en Continuar para cargar sus documentos."
+      },
+      "line": "Nota: Los campos y etiquetas de los botones, los mensajes de error e información se mostrarán en el idioma preferido seleccionado por el usuario en la pantalla de inicio de sesión."
+    },
+    "documents": {
+      "name": "Cargar Documentos",
+      "list": {
+        "line1": "En la página de Cargar Documentos, seleccione el documento (por ejemplo, pasaporte, número de identidad de referencia, etc.) de la lista desplegable de documentos según la categoría de documento correspondiente.",
+        "line2": "Haga clic en Examinar para abrir una ventana emergente y buscar la carpeta en su computadora o unidad extraíble donde haya guardado el documento escaneado.",
+        "line3": "Seleccione el archivo que desea cargar.",
+        "line4": "Cuando se haya cargado correctamente, el documento aparecerá en el lado derecho. Verifique que haya cargado el documento correcto.",
+        "line5": "Repita los pasos 1-4 para cargar el documento para cada categoría de documento correspondiente.",
+        "line6": "Cuando agregue un solicitante nuevo, si el documento de prueba de dirección (POA) del solicitante recién agregado es el mismo que el del usuario existente que ya ha cargado el documento POA, haga clic en la opción Igual que y seleccione el nombre del solicitante.",
+        "line7": "Cuando haya completado la carga de todos los documentos, haga clic en Continuar para obtener una vista previa de su solicitud."
+      }
+    },
+    "preview": {
+      "name": "Vista Previa de los Datos",
+      "list": {
+        "line1": "En la página de Vista Previa, si desea cambiar sus detalles demográficos (nombre, edad, etc.), haga clic en Modificar en la parte superior derecha junto a la sección Detalles Demográficos, para ir a la página de Detalles Demográficos y cambiar los detalles según sea necesario.",
+        "line2": "Para modificar sus documentos cargados, haga clic en Modificar en la parte inferior derecha junto a la sección Documentos, para ir a la página de Cargar Documentos y modificar el documento cargado según sea necesario.",
+        "line3": "Si desea agregar un nuevo solicitante, haga clic en Agregar Solicitante.",
+        "line3_note": "Nota: Al hacer clic en la opción Agregar Solicitante, se le redirigirá a la página de Detalles Demográficos para proporcionar el consentimiento y continuar con la entrega de los datos/documentos requeridos.",
+        "line4": "Haga clic en Reservar Ahora para programar su cita."
+      }
+    },
+    "CenterSelection": {
+      "name": "Elegir un Centro de Registro",
+      "list": {
+        "line1": "En la página de Reservar Cita, puede encontrar un centro de registro a través de las tres opciones siguientes:",
+        "line1_note": "Nota: Los centros de registro recomendados se muestran automáticamente según sus detalles demográficos (código postal).",
+        "subList": {
+          "line1": "Haga clic en Centros Cercanos para ver los centros de registro según su ubicación geográfica.",
+          "line2": "Use la caja de búsqueda para encontrar el centro de registro según sus criterios de búsqueda.",
+          "line3": "Haga clic en Centros Recomendados para ver los centros de registro según sus detalles demográficos (código postal)."
+        },
+        "line2": "El mapa del centro de registro seleccionado se mostrará en el lado derecho de la pantalla.",
+        "line3": "Usando cualquiera de las tres opciones, seleccione el centro de registro al que desea ir y haga clic en Continuar para reservar una cita."
+      }
+    },
+    "Booking": {
+      "name": "Reservar una Cita",
+      "list": {
+        "line1": "El sistema muestra una lista de días disponibles en el calendario con la cantidad de citas disponibles. Seleccione su fecha preferida.",
+        "line2": "La lista de franjas horarias disponibles para la fecha seleccionada se divide en Mañana y Tarde. Seleccione su opción preferida.",
+        "line3": "Seleccione la franja horaria que prefiera de la lista.",
+        "line4": "Seleccione el nombre del solicitante en particular para reservar una cita.",
+        "line4_note": "Nota: Se muestra una lista de nombre(s) de solicitantes en la parte inferior derecha.",
+        "line5": "Verifique las franjas horarias seleccionadas para el/los nombre(s) del/de los solicitante(s).",
+        "line6": "Haga clic en Enviar para ver el acuse de recibo de su solicitud."
+      }
+    },
+    "Acknowledgement": {
+      "name": "Ver Acuse de Recibo",
+      "list": {
+        "line1": "Después de completar satisfactoriamente la solicitud de Preinscripción, recibirá un acuse de recibo.",
+        "line2": "Puede imprimir, descargar, enviar por correo electrónico o SMS su acuse de recibo.",
+        "subList": {
+          "line1": "Para imprimir su acuse de recibo, haga clic en Imprimir.",
+          "line2": "Para descargar su acuse de recibo, haga clic en Descargar PDF.",
+          "line3": "Para agregar destinatarios adicionales que reciban el acuse de recibo de su solicitud, siga estos pasos:",
+          "subList": {
+            "line1": "Haga clic en Enviar Email/SMS.",
+            "line2": "Ingrese el número de móvil en el cuadro de texto Ingresar número de móvil y/o ingrese la dirección de correo electrónico en el cuadro de texto Ingresar dirección de correo electrónico.",
+            "line3": "Haga clic en Enviar para recibir el acuse de recibo en su dirección de correo electrónico o número de móvil proporcionado."
+          }
+        }
+      }
+    },
+    "status": {
+      "name": "Explicación del Estado",
+      "headers": {
+        "status": "Estado",
+        "explanation": "Explicación"
+      },
+      "status": {
+        "pendingAppointment": "Cita Pendiente",
+        "booked": "Reservada",
+        "expired": "Caducada",
+        "canceled": "Cancelada"
+      },
+      "explanation": {
+        "pendingAppointment": {
+          "line1": "Solo se han completado los detalles demográficos",
+          "line1_action": "Acción: Cargue sus documentos y reserve una cita",
+          "line2": "2. Se han completado los detalles demográficos y se han cargado los documentos",
+          "line2_action": "Acción: Reserve una cita"
+        },
+        "booked": {
+          "line1": "Se han completado los detalles demográficos, se han cargado los documentos y se ha reservado una cita",
+          "line1_action": "Acción: Visite el centro de registro en la fecha y hora de su cita"
+        },
+        "cancelled": {
+          "line1": "La cita ha sido cancelada"
+        },
+        "expired": {
+          "line1": "La fecha de la cita ha pasado"
+        }
+      }
+    },
+    "addApplicant": {
+      "name": "Agregar Nuevo Solicitante",
+      "line": "En la página de Sus Solicitudes, haga clic en Crear Nueva Solicitud para generar una nueva solicitud para el nuevo solicitante."
+    },
+    "modify": {
+      "name": "Modificar Datos",
+      "list": {
+        "line1": "En la página de Sus Solicitudes, haga clic en Modificar información para ir a la página de Detalles Demográficos.",
+        "line2": "En la página de Detalles Demográficos, puede cambiar la información según sea necesario y hacer clic en Continuar para ir a la página de Cargar Documentos.",
+        "line3": "En la página de Cargar Documentos, puede modificar los documentos según sea necesario."
+      }
+    },
+    "rebook": {
+      "name": "Volver a Reservar una Cita",
+      "list": {
+        "line1": "En la página de Sus Solicitudes, seleccione la casilla de verificación del solicitante correspondiente.",
+        "line2": "Haga clic en Reservar / Modificar Cita para volver a reservar una cita.",
+        "line3": "Para obtener más información sobre cómo reservar una cita, consulte la sección Reservar una Cita."
+      }
+    },
+    "cancelAppointment": {
+      "name": "Cancelar una Cita",
+      "list": {
+        "line1": "En la página de Sus Solicitudes, haga clic en el ícono de eliminar junto a la solicitud de preinscripción de un solicitante, aparecerá una ventana emergente en la pantalla.",
+        "line2": "Seleccione la opción Cancelar cita y guarde los detalles en la ventana emergente.",
+        "line3": "Haga clic en ENVIAR para cancelar una cita."
+      }
+    },
+    "discard": {
+      "name": "Descartar una Solicitud",
+      "list": {
+        "line1": "En la página de Sus Solicitudes, haga clic en el ícono de eliminar junto a la solicitud de preinscripción de un solicitante, aparecerá una ventana emergente en la pantalla.",
+        "line2": "Seleccione la opción Descartar solicitud completa en la ventana emergente.",
+        "line3": "Haga clic en ENVIAR para descartar su solicitud."
+      }
+    },
+    "Logout": {
+      "name": "Cerrar Sesión",
+      "list": {
+        "line1": "Haga clic en Cerrar Sesión en la esquina superior derecha.",
+        "line2": "Haga clic en ACEPTAR para cerrar la sesión de la aplicación de Preinscripción."
+      },
+      "line": "Inicie sesión con el mismo número de móvil o dirección de correo electrónico para acceder a las solicitudes guardadas."
+    }
+  },
+  "faq": {
+    "breadcrumb": {
+      "home": "Inicio",
+      "getting_started": "Preguntas Frecuentes"
+    },
+    "answer": "Respuesta",
+    "questions": [
+      {
+        "question": "No tengo un número de móvil o dirección de correo electrónico. ¿Cómo puedo crear la solicitud de preinscripción?",
+        "answer": "Puedes utilizar el número de móvil o la dirección de correo electrónico de un amigo o familiar para iniciar sesión en la solicitud de preinscripción."
+      },
+      {
+        "question": "He perdido el número de móvil/ dirección de correo electrónico que utilicé para crear la solicitud de preinscripción. ¿Qué debo hacer?",
+        "answer": "Crea una nueva cuenta utilizando un nuevo número de móvil o dirección de correo electrónico."
+      },
+      {
+        "question": "¿Qué sucede cuando selecciono un idioma específico en la pantalla de inicio de sesión?",
+        "answer": "Selecciona el idioma que puedas leer y escribir con facilidad, ya que todo el formulario se mostrará en el idioma específico que hayas elegido."
+      },
+      {
+        "question": "¿Qué sucede si no tengo el/los documento(s) requerido(s) disponible(s) al completar la solicitud de preinscripción?",
+        "answer": "Completa los datos demográficos y guarda la solicitud. Puedes cargar los documentos más tarde."
+      },
+      {
+        "question": "¿Puedo reservar una cita solo para dos personas de las cinco solicitantes en la solicitud de preinscripción?",
+        "answer": "Sí, puedes reservar una cita para cualquier número de personas entre el total de solicitantes."
+      },
+      {
+        "question": "¿Qué sucede si pierdo una cita?",
+        "answer": "Intenta no perder una cita. Si aún así la pierdes, puedes reprogramar la cita utilizando la opción \"Modificar\"."
+      },
+      {
+        "question": "He reservado una cita para el 10 de febrero. ¿Puedo cambiar la fecha de mi cita al 18 de febrero?",
+        "answer": "Sí. Si tu cita ha caducado, puedes reservar una nueva cita con una fecha futura."
+      },
+      {
+        "question": "He reservado una cita en el centro de registro de Casablanca. ¿Puedo cambiar el centro de registro de mi cita a Rabat?",
+        "answer": "No, pero puedes cancelar la cita actual y reservar una nueva cita en una nueva ubicación de tu elección."
+      },
+      {
+        "question": "He modificado mi información después de recibir una confirmación. ¿Tengo que volver a descargar o imprimir la confirmación?",
+        "answer": "La página de confirmación es solo un documento de referencia para recordar la ubicación y hora de la cita, etc. En el centro de registro, tu información más reciente estará disponible automáticamente. Por lo tanto, no hay necesidad oficial de volver a imprimir o descargarla."
+      },
+      {
+        "question": "He reprogramado una cita después de recibir una confirmación. ¿Tengo que volver a descargar o imprimir la confirmación?",
+        "answer": "La página de confirmación es solo un documento de referencia para recordar la ubicación y hora de la cita, etc. Puedes volver a imprimir o descargar la confirmación para ayudarte a recordar cuándo es tu cita, pero no hay necesidad oficial de hacerlo."
+      },
+      {
+        "question": "¿Puede alguien más presentar una solicitud en mi nombre durante el proceso de registro?",
+        "answer": "No, el proceso de registro requiere la captura de datos biométricos y fotografía. Por lo tanto, debes estar presente en persona en el centro de registro."
+      },
+      {
+        "question": "Estoy viviendo lejos de mi residencia permanente durante dos años. ¿Qué comprobante de residencia debo proporcionar?",
+        "answer": "El Gobierno decidirá la idoneidad de las preguntas y respuestas."
+      },
+      {
+        "question": "No tengo comprobante de residencia para mi dirección actual. ¿Qué debo hacer?",
+        "answer": "El Gobierno decidirá la idoneidad de las preguntas y respuestas."
+      },
+      {
+        "question": "No tengo ningún documento. ¿Qué debo hacer?",
+        "answer": "El Gobierno decidirá la idoneidad de las preguntas y respuestas."
+      },
+      {
+        "question": "¿Cuántos días antes puedo cancelar o reprogramar una cita?",
+        "answer": "El Gobierno decidirá la idoneidad de las preguntas y respuestas."
+      },
+      {
+        "question": "¿Debo llevar documentos originales o copias certificadas de documentos cuando visite el centro de registro?",
+        "answer": "El Gobierno decidirá la idoneidad de las preguntas y respuestas."
+      }
+    ]
+  },
+  "header": {
+    "link_about": "EMPEZAR",
+    "link_faq": "PREGUNTAS FRECUENTES",
+    "link_contact": "CONTACTO",
+    "link_applications": "Tus Solicitudes",
+    "link_logout": "Cerrar sesión",
+    "link_login": "INICIAR SESIÓN"
+  },
+  "login": {
+    "text": "Pasos rápidos y fáciles",
+    "sub_text": "Pre-registro para",
+    "sub_text_UID": "Número de Identificación Único",
+    "label_email_num": "Correo electrónico o número de teléfono",
+    "label_otp": "Ingrese el OTP",
+    "action_send": "Enviar OTP",
+    "action_resend": "Reenviar",
+    "action_verify": "Verificar",
+    "logout_msg": "El usuario debe iniciar sesión con el mismo número de teléfono móvil o correo electrónico para acceder a las solicitudes creadas.",
+    "otp_valid_label": "Válido por",
+    "invalidEmail": "Has ingresado una dirección de correo electrónico no válida",
+    "invalidMobile": "Has ingresado un número de teléfono no válido",
+    "invalidInput": "Has ingresado una dirección de correo electrónico o número de teléfono no válidos",
+    "serverUnavailable": "No se puede enviar el OTP. Vuelve a intentarlo.",
+    "loading": "Enviando..."
+  },
+  "stepper": {
+    "link_demographic": "Detalles demográficos",
+    "link_upload_doc": "Cargar documento",
+    "link_book": "Reservar cita",
+    "link_confirm": "Confirmación"
+  },
+  "demographic": {
+    "title": "Detalles demográficos",
+    "language": "Idioma",
+    "label_name": "Nombre completo",
+    "label_age": "Edad",
+    "date_dd": "DD",
+    "date_mm": "MM",
+    "date_yyyy": "AAAA",
+    "text_or": "O",
+    "text_years": "Años",
+    "text_gender": "Género",
+    "button_male": "Masculino",
+    "button_female": "Femenino",
+    "text_residence_status": "Estado de residencia",
+    "button_national": "Nacional",
+    "button_foreigner": "Extranjero",
+    "label_address1": "Dirección (línea 1)",
+    "label_address2": "Dirección (línea 2)",
+    "label_address3": "Dirección (línea 3)",
+    "label_region": "Región",
+    "label_province": "Provincia",
+    "label_city": "Ciudad",
+    "label_zone": "Zona",
+    "label_mob_num": "Número de teléfono móvil",
+    "label_postalCode": "Código postal",
+    "label_email_id": "ID de correo electrónico",
+    "label_pin": "Número de identificación de referencia",
+    "action_back": "ATRÁS",
+    "action_continue": "CONTINUAR",
+    "action_preview": "VISTA PREVIA",
+    "read_only_message": "** No puedes editar esta solicitud, ya que actualmente o anteriormente has reservado una cita para ella. Si aún deseas realizar cambios, descarta esta solicitud y crea una nueva.",
+    "read_only_message_prefetched": "** No puedes editar esta solicitud, ya que la aplicación está precargada. Si aún deseas realizar cambios, descarta esta solicitud y crea una nueva.",
+    "lookup_search_message": "Buscar",
+    "lookup_no_results_found": "No se encontraron resultados coincidentes.",
+    "change_data_capture_langs": "Cambiar idiomas de captura de datos",
+    "change_data_capture_langs_msg": "Todos los datos ingresados se descartarán y deberás reiniciar. Por favor, confirma.",
+    "consent": {
+      "title": "Términos y condiciones",
+      "subtitle": "Tu acuerdo",
+      "message": "Para otorgar consentimiento para el almacenamiento y uso de información personal como se indica",
+      "checkCondition": "Haz clic para aceptar los términos y condiciones",
+      "acceptButton": "Aceptar",
+      "cancelButton": "Cancelar",
+      "alertMessageFirst": "Cerrarás sesión por no aceptar los términos y condiciones",
+      "alertMessageSecond": "Serás redirigido a 'Tu página de solicitud' por no aceptar los términos y condiciones",
+      "alertMessageThird": "Serás redirigido a la 'Página de vista previa' por no aceptar los términos y condiciones"
+    },
+    "validation": {
+      "DOB_validation": "Ingresa una fecha de nacimiento o edad válida",
+      "requiredMessage": "es obligatorio",
+      "InvalidMessage": "no es válido"
+    }
+  },
+  "documents": {
+    "title_document": "Cargar documentos",
+    "text_filetype": "Tipo de archivo permitido ",
+    "text_filesize": "y tamaño de archivo permitido",
+    "action_browse": "BUSCAR",
+    "action_back": "ATRÁS",
+    "action_skip": "OMITIR",
+    "action_continue": "CONTINUAR",
+    "label_sameas": "Igual que",
+    "text_or": "O",
+    "action_view": "vista previa",
+    "OR": "O",
+    "text_docrefid": "ID de referencia del documento",
+    "sameAs": "Igual que",
+    "sameAsNone": "Ninguno"
+  },
+  "acknowledgement": {
+    "title": "Cita Confirmada",
+    "message": "El número de registro y los detalles de la cita se han enviado a la identificación de correo electrónico y al número de teléfono registrados.",
+    "label_name": "Nombre",
+    "label_pre_id": "Número de registro",
+    "label_reg_cntr": "Nombre del Centro",
+    "label_cntr_contact_number": "Número de Contacto del Centro",
+    "label_appointment_date_time": "Fecha y Hora de la Cita",
+    "container_guideline": "Directrices Importantes",
+    "action_send": "ENVIAR CORREO ELECTRÓNICO/SMS",
+    "action_download": "DESCARGAR PDF",
+    "action_print": "IMPRIMIR",
+    "label_reg_cntr_dtl": "Dirección del Centro"
+  },
+  "preview": {
+    "title_preview": "Detalles de registro",
+    "language": "English",
+    "subheading_information": "Información Personal",
+    "label_name": "Nombre Completo",
+    "label_age": "Edad",
+    "label_DOB": "Fecha de Nacimiento",
+    "text_years": "Años",
+    "text_gender": "Género",
+    "text_resident_status": "Estado de Residencia",
+    "subheading_contact": "Detalles de Contacto",
+    "label_address": "Dirección",
+    "label_region": "Región",
+    "label_province": "Provincia",
+    "label_city": "Ciudad",
+    "label_zone": "Zona",
+    "label_mob_num": "Número de Teléfono Móvil",
+    "label_alt_mob_num": "Número de Teléfono Móvil Alternativo",
+    "label_email_id": "Correo Electrónico",
+    "label_pin": "Número de Identificación de Referencia",
+    "title_document": "Documentos Cargados",
+    "text_not_uploaded": "No Cargado",
+    "action_modify": "modificar",
+    "action_back": "ATRÁS",
+    "action_add_applicant": "AGREGAR SOLICITANTE",
+    "action_continue": "CONTINUAR"
+  },
+  "message": {
+    "login": {
+      "msg1": "La dirección de correo electrónico no es válida",
+      "msg2": "El número de teléfono no es válido",
+      "msg3": "El OTP ingresado no es válido",
+      "msg4": "Inicio de sesión exitoso"
+    },
+    "demographicDetails": {
+      "msg1": "Se ha ingresado una palabra en la lista negra"
+    },
+    "uploadDocuments": {
+      "msg1": "Documento excede el tamaño permitido",
+      "msg2": "El escaneo de virus falló",
+      "msg3": "Tipo de archivo no compatible",
+      "msg4": "El archivo es demasiado grande",
+      "msg5": "El nombre del archivo no debe superar los 50 caracteres",
+      "msg6": "Tipo de archivo incorrecto, por favor vuelve a subirlo",
+      "msg7": "No se pudo subir el archivo, por favor inténtalo de nuevo.",
+      "msg8": "No se pudo copiar el documento",
+      "msg9": "Faltan documentos",
+      "msg10": "No se pudo eliminar el archivo. Inténtalo de nuevo.",
+      "msg11": "Por favor, confirma que deseas eliminar el archivo",
+      "msg12": "Por favor, ingresa solo texto o números",
+      "msg13": "Por favor, ingresa solo 50 caracteres o menos",
+      "title_confirm": "Eliminar",
+      "button_cancel": "Cancelar",
+      "none": "Ninguno"
+    },
+    "appointmentCentreSearch": {
+      "msg1": "No se encontraron resultados",
+      "msg2": "Ubicación no habilitada"
+    },
+    "bookAppointment": {
+      "msg1": "El siguiente usuario no ha seleccionado ningún horario",
+      "msg2": "(Por favor proporciona el nombre de usuario) ¿Deseas continuar con la reserva?"
+    },
+    "cancelAppointment": {
+      "msg1": "Se cancelará la cita para la solicitud seleccionada",
+      "msg2": "Se ha cancelado la cita para la solicitud seleccionada correctamente"
+    }
+  },
+  "dashboard": {
+    "title": "Tus Solicitudes",
+    "action_modify_information": "Modificar Información",
+    "action_modify_appointment": "Reservar/Modificar Cita",
+    "action_cre_application": "Pre Registro",
+    "action_lost_uin": "UIN Perdido",
+    "action_update_registration": "Actualizar Registro",
+    "card": {
+      "text_app_id": "Número de registro",
+      "text_name": "Nombre",
+      "text_type": "Tipo de Solicitud",
+      "text_appoinment_date": "Fecha de Cita",
+      "text_status": "Estado",
+      "action_modify_information": "Modificar Información",
+      "action_view_acknowledgement": "Ver Reconocimiento",
+      "action_view_information": "Ver Información",
+      "data_capture_langs": "Idiomas de Captura de Datos"
+    },
+    "discard": {
+      "title_confirm": "Confirmar",
+      "title_success": "Éxito",
+      "title_error": "Error",
+      "cancelAppointment": {
+        "msg_confirm": "La cita para la solicitud seleccionada será cancelada.",
+        "msg_deleted": "La cita para la solicitud seleccionada ha sido cancelada con éxito.",
+        "msg_could_not_deleted": "No se pudo cancelar la cita para la solicitud seleccionada."
+      },
+      "deletePreregistration": {
+        "msg_confirm": "La solicitud seleccionada será eliminada. Por favor confirma.",
+        "msg_deleted": "La solicitud seleccionada ha sido eliminada exitosamente",
+        "msg_could_not_deleted": "No se pudo eliminar la solicitud seleccionada"
+      },
+      "button_confirm": "Confirmar",
+      "button_cancel": "Cancelar"
+    },
+    "status": {
+      "pendingAppointment": "Cita Pendiente",
+      "booked": "Reservada",
+      "expired": "Caducada",
+      "cancelled": "Cancelada",
+      "Application_Incomplete": "Solicitud Incompleta",
+      "prefetched": "Prefetch"
+    },
+    "error": {
+      "error": "Error interno del servidor. Por favor, intenta de nuevo más tarde.",
+      "button_ok": "Aceptar"
+    },
+    "dataCaptureLanguage": {
+      "title": "Seleccionar Idioma",
+      "message": [
+        "Por favor, selecciona",
+        "Puedes seleccionar un mínimo de",
+        "y un máximo de",
+        "idiomas para la entrada de datos.",
+        "es obligatorio que el residente seleccione según las pautas del gobierno.",
+        "El orden de selección determinará la vista de página para los datos demográficos."
+      ],
+      "error_text": [
+        "Puedes seleccionar un máximo de ",
+        "idiomas para la entrada de datos."
+      ],
+      "cancel_btn": "Cancelar",
+      "submit_btn": "Enviar"
+    }
+  },
+  "timeSelection": {
+    "title_book": "Reservar cita",
+    "text_prev": "Anterior",
+    "text_next": "Siguiente",
+    "text_morning": "Mañana",
+    "text_afternoon": "Tarde",
+    "text_available": "Solicitantes disponibles",
+    "text_selected": "Solicitantes seleccionados",
+    "text_availability": "Reservas disponibles",
+    "text_slots": "espacios",
+    "action_done": "HECHO",
+    "action_back": "Volver",
+    "action_bookLater": "Reservar más tarde",
+    "action_continue": "Continuar",
+    "note_text": "Ten en cuenta que los detalles de la solicitud no se pueden modificar una vez que se haya reservado una cita para ella.",
+    "booking": {
+      "title_success": "Éxito",
+      "msg_success": "La cita se ha reservado correctamente",
+      "title_failure": "Error",
+      "msg_failure": "Error al reservar la cita",
+      "noSlotsSelectedForApplicant": "No se ha seleccionado ninguna fecha/horario para una solicitud",
+      "noApplicantSelected": "No se ha seleccionado ningún solicitante para una solicitud",
+      "deletedApplicant1": [
+        "No has seleccionado ningún horario para el siguiente usuario \r\n",
+        "¿Deseas continuar con la reserva?"
+      ],
+      "yesButtonText": "Sí",
+      "noButtonText": "No",
+      "applicationLockConfirm": {
+        "title": "Confirmación",
+        "message": "¿Estás seguro de que deseas enviar los detalles? Una vez enviados, no se pueden modificar.",
+        "yesButtonText": "Confirmar",
+        "noButtonText": "Cancelar"
+      }
+    }
+  },
+  "appointmentCentreSearch": {
+    "title": "Reservar cita",
+    "text_recommended_centres": "Centros recomendados",
+    "text_finding_result": "buscando resultados para",
+    "text_nearBy": "Cerca de",
+    "action_back": "VOLVER",
+    "action_bookLater": "RESERVAR MÁS TARDE",
+    "action_continue": "CONTINUAR"
+  },
+  "appointmentConfirmed": {
+    "title": "Cita confirmada",
+    "text_confirmation": "El ID de preinscripción y los detalles de la cita se han enviado al correo electrónico y número de teléfono registrados",
+    "action_download": "DESCARGAR",
+    "action_print": "IMPRIMIR"
+  },
+  "dialog": {
+    "title_applicant": "Enviar confirmación de cita",
+    "content_applicant": "Agradecimiento por correo electrónico / SMS",
+    "text_email": "Ingrese el correo electrónico",
+    "text_mobile": "Ingrese el número de teléfono móvil",
+    "invalidApplicantNumber": "Número de teléfono móvil no válido",
+    "invalidApplicantEmailId": "ID de correo electrónico no válido",
+    "action_ok": "OK",
+    "title_discard": "Descartar",
+    "action_discard_app": "Descartar toda la solicitud",
+    "action_cancel": "Cancelar cita y guardar los detalles",
+    "action_submit": "Enviar",
+    "action_dismiss": "Aceptar",
+    "action_add": "Agregar",
+    "action_close": "Cerrar",
+    "action_add_to_slot": "Agregar al horario",
+    "navigation_alert": "¿Estás seguro de que deseas navegar? Los datos ingresados no se guardarán. Por favor, confirma"
+  },
+  "centerSelection": {
+    "title": "Reservar cita",
+    "action_nearBy": "Cerca",
+    "display_recommended": "Centros recomendados",
+    "text_found": "Encontrados",
+    "text_centers": "centros.",
+    "use_search_option": "Utilice la opción de búsqueda para encontrar un centro.",
+    "text_timing": "Horario",
+    "text_open": "Abierto",
+    "text_select": "Seleccionar tipos de ubicación",
+    "text_enter": "Ingrese",
+    "text_search": "Buscar...",
+    "action_back": "Volver",
+    "action_book_later": "Reservar más tarde",
+    "action_continue": "Continuar",
+    "noResult_found": "No se encontraron resultados",
+    "lunch_hours": "Hora del almuerzo"
+  },
+  "autologout": {
+    "preview": "Se agotará el tiempo de espera en 60 segundos debido a inactividad. Haz clic en cualquier lugar para reactivar tu sesión.",
+    "post": "Has cerrado la sesión debido a inactividad."
+  },
+  "helpText": {
+    "applicationId": "ID de solicitud para tu preinscripción",
+    "status": {
+      "pendingAppointment": "La cita aún no ha sido reservada",
+      "booked": "La cita se ha reservado exitosamente",
+      "expired": "La fecha de la cita ha pasado",
+      "cancelled": "La cita ha sido cancelada",
+      "Application_Incomplete": "La solicitud está incompleta",
+      "prefetched": "La solicitud fue precargada en el centro de registro"
+    },
+    "deleteIcon": "Puedes descartar toda la solicitud o cancelar la cita y guardar los detalles.",
+    "book/modify_appointment": "Debes marcar la casilla junto al ID de preinscripción para uno o varios solicitantes para reservar/modificar la cita",
+    "bookAppointment": "Primero, selecciona el intervalo de tiempo preferido según se indique y luego selecciona al solicitante correspondiente para el intervalo de tiempo seleccionado. Para varias solicitudes, repite el mismo proceso para los solicitantes restantes",
+    "send_email/sms": "Puedes agregar un destinatario adicional para recibir la(s) notificación(es).",
+    "modify_at_DemoPreview": "Haz clic en modificar para corregir los detalles demográficos",
+    "modify_at_DocumentPreview": "Haz clic en modificar para corregir el documento cargado",
+    "same_as": "Si la prueba de domicilio es la misma que la del solicitante ya ingresado, puedes usar la opción Same As",
+    "add_applicant": "Haz clic en Agregar solicitante para agregar más solicitantes.",
+    "recommended_centers": "Lista de los centros recomendados según tu código postal",
+    "nearBy": "Centros de registro según tu ubicación geográfica",
+    "magnifying_glass": "Buscar según la selección del menú desplegable.",
+    "preview_continue": "Carga todos los archivos para continuar",
+    "lockIcon": "No se pueden modificar los detalles de la solicitud una vez reservada, cancelada o vencida la cita",
+    "prefetchedLockIcon": "No se pueden modificar los detalles de la solicitud una vez que se haya precargado en el centro de registro"
+  },
+  "error": {
+    "error": "Se produjo un error técnico y no se puede completar la operación. Es posible que los datos proporcionados no se guarden.",
+    "contactInformation": [
+      "\n \nComunícate con el administrador del sistema a través del correo electrónico:",
+      " y el número de contacto: ",
+      "\n\nCódigo de error: "
+    ],
+    "sessionInvalidLogout": "Tu sesión ha expirado. Por favor, inicia sesión nuevamente.",
+    "button_ok": "OK",
+    "postalCode": "El PIN ingresado no es válido",
+    "email": "El correo electrónico ingresado no es válido",
+    "phone": "El número de teléfono ingresado no es válido",
+    "dateOfBirth": "La fecha de nacimiento ingresada no es válida",
+    "referenceIdentityNumber": "El número de identificación de referencia ingresado no es válido",
+    "tokenExpiredLogout": "Has sido desconectado debido a la inactividad.",
+    "slotNotAvailable": "No se puede reservar/reprogramar la cita ya que el intervalo solicitado no está disponible. Por favor, selecciona otro intervalo o intenta nuevamente más tarde",
+    "timeExpired_1": "La cita no se puede reprogramar dentro de las ",
+    "timeExpired_2": " horas de la reserva",
+    "errorLabel": "ERROR",
+    "regCenterNotavailabe": "El centro de registro no está disponible.",
+    "centerDetailsNotAvailable": "No hay intervalos disponibles. No se puede reservar/reprogramar la cita. Por favor, inténtalo nuevamente más tarde.",
+    "fileUploadDeactivateMsg": "Por favor, carga el documento requerido para continuar."
+  },
+  "residentTypesMapping": {
+    "NFR": "Nacional",
+    "FR": "Extranjero"
+  },
+  "sameAs": "Documento cargado usando el mismo",
+  "DAYS": [
+    "Domingo",
+    "Lunes",
+    "Martes",
+    "Miércoles",
+    "Jueves",
+    "Viernes",
+    "Sábado"
+  ],
+  "recaptcha": {
+    "errorMessage": "Recaptcha falló. Por favor, inténtelo de nuevo"
+  },
+  "API_ERROR_CODES": {
+    "PRG_MSD_APP_001": "Error al obtener la información de los datos maestros",
+    "KER-MSD-046": "Plantilla no encontrada",
+    "KER-MSD-026": "Ubicación no encontrada",
+    "KER-IOV-004": "Parámetro de entrada no válido: identidad/estadoResidencia",
+    "KER-MSD-150": "No se encontró la asignación de categoría de documento - tipo de documento",
+    "KER-MSD-042": "Centro de registro no encontrado",
+    "PRG_PAM_LGN_001": "No se pudo enviar el OTP a través del canal especificado",
+    "PRG_PAM_LGN_002": "Autenticación fallida",
+    "PRG_PAM_LGN_003": "No se pudo invalidar el token de autenticación",
+    "PRG_PAM_LGN_004": "Se recibió un Id de solicitud no válido",
+    "PRG_PAM_LGN_005": "Se recibió una versión de solicitud no válida",
+    "PRG_PAM_LGN_006": "Se recibió una marca de tiempo de solicitud no válida",
+    "PRG_PAM_LGN_007": "Se recibió una solicitud no válida",
+    "PRG_PAM_LGN_008": "Se recibió un userId de solicitud no válido",
+    "PRG_PAM_LGN_009": "Se recibió un código de idioma de solicitud no válido",
+    "PRG_PAM_LGN_010": "El OTP ingresado no es válido",
+    "PRG_PAM_LGN_011": "Error al analizar la respuesta del kernel",
+    "PRG_PAM_LGN_012": "Archivo de configuración no encontrado en el servidor de configuración",
+    "PRG_PAM_LGN_013": "El OTP ingresado no es válido",
+    "PRG_PAM_LGN_014": "Propiedades de idioma de Mosip no definidas",
+    "PRG_PAM_LGN_015": "Propiedades de idioma de Mosip no definidas",
+    "PRE-REG-OTP-101": "Se recibieron innumerables solicitudes de OTP",
+    "PRE-REG-OTP-401": "No se pudo generar/enviar el OTP",
+    "PRE-REG-OTP-402": "Vuelva a generar el OTP y vuelva a intentarlo más tarde",
+    "PRE-REG-OTP-403": "El OTP no es válido. Proporcione el valor correcto del OTP",
+    "PRE-REG-OTP-404": "Parámetro de entrada no válido - %s",
+    "PRE-REG-OTP-405": "Parámetro de entrada faltante - %s",
+    "PRE-REG-OTP-406": "Error de validación de datos de entrada",
+    "PRE-REG-OTP-407": "Error al generar el token",
+    "PRE-REG-OTP-408": "Ya se ha generado y enviado un OTP a su dirección de correo electrónico/número de teléfono. Si desea un nuevo OTP, vuelva a intentarlo más tarde.",
+    "PRE-REG-OTP-409": "Se superó el intento de validación del OTP. Vuelva a generar el OTP y vuelva a intentarlo más tarde",
+    "PRG_PAM_APP_001": "Error al crear la preinscripción con los datos demográficos proporcionados",
+    "PRG_PAM_APP_002": "No se puede acceder a la tabla de preinscripción",
+    "PRG_PAM_APP_003": "No se permite la operación de eliminación",
+    "PRG_PAM_APP_004": "Error al eliminar los datos de preinscripción",
+    "PRG_PAM_APP_005": "No se encontraron datos para el ID de preinscripción solicitado, no se encontraron registros para el rango de fechas solicitado",
+    "PRG_PAM_APP_006": "El código de estado no es válido",
+    "PRG_PAM_APP_007": "Error de análisis JSON, error de validación JSON, excepción de solicitud HTTP JSON, excepción de procesamiento de validación JSON, excepción de E/S JSON, excepción de E/S de esquema JSON",
+    "PRG_PAM_APP_008": "Error al actualizar los detalles de la aplicación. Por favor, inténtelo de nuevo más tarde.",
+    "PRG_PAM_APP_009": "Excepción de E/S de archivo, juego de caracteres de codificación no compatible",
+    "PRG_PAM_APP_011": "Por favor, ingrese la fecha en un formato de fecha válido",
+    "PRG_PAM_APP_012": "Falta el parámetro de solicitud",
+    "PRG_PAM_APP_013": "No se encontraron registros",
+    "PRG_PAM_APP_014": "Error en la llamada de servicio de documentos",
+    "PRG_PAM_APP_015": "El tamaño de página debe ser mayor que cero",
+    "PRG_PAM_APP_016": "No se encontraron registros para el índice de página solicitado",
+    "PRG_PAM_APP_017": "El ID de preinscripción solicitado no pertenece al usuario",
+    "PRG_PAM_APP_018": "Error al leer el JSON de identidad desde el servidor",
+    "PRG_PAM_APP_019": "Valor de índice de página no válido",
+    "PRG_PAM_APP_020": "Error en la llamada REST para obtener prid, error al obtener el esquema de ID",
+    "PRG_PAM_APP_021": "Clave duplicada para prid",
+    "PRG_PAM_APP_022": "No se puede modificar su solicitud.",
+    "PRG_PAM_DOC_001": "Error en la verificación de calidad del documento",
+    "PRG_PAM_DOC_002": "Error al cifrar el documento",
+    "PRG_PAM_DOC_003": "Error al descifrar el documento",
+    "PRG_PAM_DOC_004": "Por favor, cargue el documento en formato: pdf, jpg",
+    "PRG_PAM_DOC_005": "Documento no encontrado para el ID de preinscripción fuente, error al obtenerlo del servidor de sistema de archivos",
+    "PRG_PAM_DOC_006": "Error al eliminar los documentos",
+    "PRG_PAM_DOC_007": "El documento cargado excede el límite de tamaño permitido. Por favor, cargue un documento con un tamaño inferior a $MB.",
+    "PRG_PAM_DOC_008": "Tipo de documento no compatible",
+    "PRG_PAM_DOC_009": "Error al cargar el documento",
+    "PRG_PAM_DOC_010": "Error en el escaneo de virus del documento",
+    "PRG_PAM_DOC_011": "Error al copiar el documento de origen a destino",
+    "PRG_PAM_DOC_012": "No se puede acceder a la tabla de documentos",
+    "PRG_PAM_DOC_013": "Excepción de E/S de documentos",
+    "PRG_PAM_DOC_014": "Campo obligatorio no encontrado",
+    "PRG_PAM_DOC_015": "Excepción de JSON",
+    "PRG_PAM_DOC_016": "La conexión CEPH no es válida",
+    "PRG_PAM_DOC_017": "La conexión no está disponible",
+    "PRG_PAM_DOC_018": "Parámetro de solicitud no válido, el ID de preinscripción no es válido, el código de estado no es válido, el cargado por no es válido, la fecha y hora de actualización no son válidas",
+    "PRG_PAM_DOC_019": "No se encontraron datos demográficos para el ID de preinscripción, error al obtener el registro demográfico",
+    "PRG_PAM_DOC_021": "El documento ya está presente",
+    "PRG_PAM_DOC_022": "El ID del documento no pertenece al ID de preinscripción",
+    "PRG_PAM_DOC_024": "No se puede actualizar la tabla de documentos con este estado",
+    "PRG_PAM_ACK_001": "Falta el número de teléfono móvil o la dirección de correo electrónico",
+    "PRG_PAM_ACK_002": "Faltan campos obligatorios",
+    "PRG_PAM_ACK_003": "Excepción de solicitud HTTP JSON",
+    "PRG_PAM_ACK_004": "No se puede analizar el JSON",
+    "PRG_PAM_ACK_005": "EXCEPCION_ENTRADA_SALIDA",
+    "PRG_PAM_ACK_006": "El correo electrónico no es válido",
+    "PRG_PAM_ACK_007": "El número de teléfono no es válido",
+    "PRG_PAM_ACK_008": "El nombre completo no es válido",
+    "PRG_PAM_ACK_009": "La fecha de la cita no es válida",
+    "PRG_PAM_ACK_010": "La hora de la cita no es válida",
+    "PRG_PAM_ACK_011": "Error en la llamada de servicio demográfico",
+    "PRG_PAM_ACK_012": "Error en la llamada de reserva",
+    "PRG_QRC_001": "Excepción de E/S de archivo",
+    "PRG_QRC_002": "Error al generar el código QR",
+    "PRG_QRC_004": "Formato de hora de solicitud no válido",
+    "PRG_TRL_APP_001": "Error al transcribir",
+    "PRG_TRL_APP_002": "Campos obligatorios incorrectos, idioma no compatible",
+    "PRG_TRL_APP_004": "Solicitud JSON no válida",
+    "PRG_TRL_APP_005": "No se puede acceder a la tabla de transcripción previa a la inscripción",
+    "PRG_TRL_APP_006": "Error al analizar JSON",
+    "PRG_APP_001": "Error al guardar la especificación de la interfaz de usuario",
+    "PRG_APP_002": "Error al actualizar la especificación de la interfaz de usuario",
+    "PRG_APP_003": "Error al obtener la especificación de la interfaz de usuario",
+    "PRG_APP_004": "Error al eliminar la especificación de la interfaz de usuario",
+    "PRG_APP_005": "Error al publicar la especificación de la interfaz de usuario",
+    "PRG_APP_006": "Error al analizar JSON",
+    "PRG_APP_007": "Error de auditoría",
+    "PRG_APP_015": "El ID de la aplicación solicitada no pertenece al usuario",
+    "PRG_APP_016": "Tipo de reserva no válido",
+    "PRG_DATA_SYNC_001": "No se encontraron datos para el rango de fechas solicitado",
+    "PRG_DATA_SYNC_005": "No se puede crear el archivo zip",
+    "PRG_DATA_SYNC_006": "No se puede obtener el documento",
+    "PRG_DATA_SYNC_007": "Error al obtener el registro demográfico",
+    "PRG_DATA_SYNC_009": "El ID del centro de registro no es válido",
+    "PRG_DATA_SYNC_011": "Los ID de preinscripción solicitados no son válidos",
+    "PRG_DATA_SYNC_012": "Error al almacenar el ID de preinscripción",
+    "PRG_DATA_SYNC_014": "Excepción de E/S de archivo",
+    "PRG_DATA_SYNC_016": "No se encontraron datos de reserva",
+    "PRG_DATA_SYNC_017": "Se produjo un error al analizar los datos",
+    "PRG_DATA_SYNC_018": "Error al obtener la información del ID de preinscripción",
+    "PRG_DATA_SYNC_019": "Error al obtener la clave pública de cifrado de máquinas",
+    "PRG_PAM_CORE_001": "Falta el parámetro de solicitud, el ID de solicitud no es válido",
+    "PRG_PAM_CORE_002": "La versión de solicitud no es válida",
+    "PRG_PAM_CORE_003": "Hora de solicitud no válida",
+    "PRG_PAM_CORE_004": "El cuerpo de la solicitud no es válido",
+    "PRG_PAM_CORE_010": "Error de hash",
+    "PRG_CORE_REQ_013": "La fecha de solicitud debe ser la fecha actual",
+    "PRG_CORE_REQ_014": "El código de idioma no es válido",
+    "PRG_CORE_REQ_015": "Entrada de solicitud no válida",
+    "PRG_CORE_REQ_016": "Error interno del servidor",
+    "PRG_CORE_REQ_017": "El código de categoría de documento no es válido",
+    "PRG_CORE_REQ_018": "El código de categoría de documento no es válido + documento válido + código de idioma",
+    "PRG_CORE_REQ_019": "Por favor ingrese la fecha en formato: dd/mm/aaaa",
+    "PRG_CORE_REQ_020": "La fecha de inicio es mayor que la fecha de fin",
+    "PRG_CORE_REQ_021": "Error al analizar la respuesta del kernel",
+    "PRG_CORE_REQ_022": "Error al llamar a los datos maestros",
+    "PRG_BOOK_RCI_002": "No se puede reservar/reprogramar la cita ya que el horario solicitado no está disponible. Por favor seleccione otro horario o intente más tarde",
+    "PRG_BOOK_RCI_003": "El usuario no ha seleccionado un horario",
+    "PRG_BOOK_RCI_006": "No se ha ingresado el ID de preregistro",
+    "PRG_BOOK_RCI_007": "No se ha ingresado el ID del centro de registro",
+    "PRG_BOOK_RCI_008": "No se ha seleccionado la fecha y hora de reserva",
+    "PRG_BOOK_RCI_015": "No se encontraron horarios disponibles para el centro de registro especificado",
+    "PRG_BOOK_RCI_013": "No se encontraron datos de reserva",
+    "PRG_BOOK_RCI_017": "No se puede acceder a la tabla de disponibilidad",
+    "PRG_BOOK_RCI_018": "No se puede cancelar su cita. Por favor descarte su solicitud y cree una nueva.",
+    "PRG_BOOK_RCI_020": "No se encontraron datos maestros",
+    "PRG_BOOK_RCI_021": "No se pudo modificar la fecha de su cita. Por favor intente nuevamente o contacte al administrador.",
+    "PRG_BOOK_RCI_024": "Error al actualizar la disponibilidad",
+    "PRG_BOOK_RCI_026": "No se puede cancelar su cita. Por favor descarte su solicitud y cree una nueva.",
+    "PRG_BOOK_RCI_028": "No se pudo eliminar el registro de preregistro",
+    "PRG_BOOK_RCI_031": "Fecha y hora de reserva no válidas",
+    "PRG_BOOK_RCI_032": "No se encontró ningún registro para el rango de fechas e ID del centro de registro",
+    "PRG_BOOK_RCI_033": "Error en la llamada al servicio de notificaciones",
+    "PRG_BOOK_RCI_034": "Excepción al procesar JSON",
+    "PRG_BOOK_RCI_035": "No se encontró el ID del centro de registro",
+    "PRG_BOOK_RCI_036": "Por favor complete su solicitud antes de reservar una cita"
+  },
+  "UI_VALIDATION_ERROR_CODES": {
+    "UI_1000": "Solo se permiten letras",
+    "UI_1001": "Por favor ingrese entre 3 y 50 caracteres",
+    "UI_1003": "Por favor ingrese valores que comiencen con una letra seguida de 6 dígitos y terminen con una letra",
+    "UI_1004": "Ingrese solo números de 10 dígitos"
+  }
+}
