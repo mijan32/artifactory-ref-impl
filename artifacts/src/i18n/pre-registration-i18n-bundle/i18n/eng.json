@@ -370,9 +370,9 @@
   },
   "acknowledgement": {
     "title": "Appointment Confirmed",
-    "message": "The Application ID and Appointment details have been sent to the registered email id and phone number",
+    "message": "The Registration Number and Appointment details have been sent to the registered email id and phone number",
     "label_name": "Name",
-    "label_pre_id": "Application ID",
+    "label_pre_id": "Registration Number",
     "label_reg_cntr": "Center Name",
     "label_cntr_contact_number": "Center Contact Number",
     "label_appointment_date_time": "Appointment Date & Time",
@@ -383,8 +383,9 @@
     "label_reg_cntr_dtl": "Center Address"
   },
   "preview": {
-    "title_preview": "Preview",
+    "title_preview": "Registration Details",
     "language": "English",
+    "label_pre_id": "Registration Number",
     "subheading_information": "Personal Information",
     "label_name": "Full Name",
     "label_age": "Age",
@@ -458,7 +459,7 @@
     "action_lost_uin": "Lost UIN ",
     "action_update_registration": "Update Registration ",
     "card": {
-      "text_app_id": "Application ID",
+      "text_app_id": "Registration Number",
       "text_name": "Name",
       "text_type": "Application Type",
       "text_appoinment_date": "Appointment Date",
@@ -524,6 +525,7 @@
     "text_slots": "slots",
     "action_done": "DONE",
     "action_back": "Back",
+    "action_add": "Add",
     "action_bookLater": "Book Later",
     "action_continue": "Continue",
     "note_text": "Please note that the application details cannot be modified once appointment is booked for it.",
