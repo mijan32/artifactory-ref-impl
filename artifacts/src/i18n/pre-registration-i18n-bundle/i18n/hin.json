@@ -369,9 +369,9 @@
 	},
 	"acknowledgement": {
 		"title": "नियुक्ति की पुष्टि",
-		"message": "आवेदन आईडी और नियुक्ति विवरण पंजीकृत ईमेल आईडी और फोन नंबर पर भेज दिया गया है",
+		"message": "पंजीकरण संख्या और नियुक्ति विवरण पंजीकृत ईमेल आईडी और फोन नंबर पर भेज दिया गया है",
 		"label_name": "नाम",
-		"label_pre_id": "आवेदन पहचान पत्र",
+		"label_pre_id": "पंजीकरण संख्या",
 		"label_reg_cntr": "केंद्र का नाम",
 		"label_cntr_contact_number": "केंद्र संपर्क नंबर",
 		"label_appointment_date_time": "अपॉइंटमेंट दिनांक और समय",
@@ -382,7 +382,7 @@
 		"label_reg_cntr_dtl": "केंद्र का पता"
 	},
 	"preview": {
-		"title_preview": "पूर्वावलोकन",
+		"title_preview": "पंजीकरण के विवरण",
 		"language": "हिंदी",
 		"subheading_information": "निजी जानकारी",
 		"label_name": "पूरा नाम",
@@ -457,7 +457,7 @@
     	"action_lost_uin": "खो गया UIN ",
     	"action_update_registration": "पंजीकरण अपडेट करें ",
 		"card": {
-			"text_app_id": "एप्लिकेशन आईडी",
+			"text_app_id": "पंजीकरण संख्या",
 			"text_name": "नाम",
 			"text_type": "आवेदन का प्रकार",
 			"text_appoinment_date": "नियुक्ति तिथि",
