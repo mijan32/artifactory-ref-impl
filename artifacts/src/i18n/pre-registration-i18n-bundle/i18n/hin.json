@@ -388,6 +388,7 @@
 		"label_name": "पूरा नाम",
 		"label_age": "आयु",
 		"label_DOB": "डीओबी",
+		"label_pre_id": "पंजीकरण संख्या",
 		"text_years": "साल",
 		"text_gender": "लिंग",
 		"text_resident_status": "निवासी स्थिति",
