@@ -630,7 +630,7 @@
 Working on new Css by taleev
 */
 #loginScreen {
-	-fx-background-image: url('/images/background.jpg');
+	-fx-background-image: url('/images/LoginBackGround.png');
 	-fx-background-size: cover, auto;
 	-fx-background-position: left top, center;
 }
@@ -845,22 +845,22 @@ Working on new Css by taleev
 }
 
 .contiuneButton {
-	-fx-background-color: #005baa;
+	-fx-background-color: #aa0096;
 	-fx-border-width: 1.0 1.0 1.0 1.0;
-	-fx-border-color: #005baa;
+	-fx-border-color: #aa0096;
 	-fx-text-fill: #FFFFFF;
 	-fx-border-radius: 3.0, 3.0, 3.0, 3.0;
 	-fx-font-size: 1.2em;
 }
 
 .contiuneButton:hover {
-	-fx-background-color: #004887;
-	-fx-border-color: #004887;
+	-fx-background-color: #9f00aa;
+	-fx-border-color: #9f00aa;
 }
 
 .contiuneButton:pressed {
-	-fx-background-color: #004887;
-	-fx-border-color: #004887;
+	-fx-background-color: #9f00aa;
+	-fx-border-color: #9f00aa;
 }
 
 .contiuneButton:disabled {
