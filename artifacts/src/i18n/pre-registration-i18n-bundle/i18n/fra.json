@@ -410,7 +410,8 @@
     "action_modify": "modifier",
     "action_back": "RETOUR",
     "action_add_applicant": "AJOUTER LE CANDIDAT",
-    "action_continue": "CONTINUER"
+    "action_continue": "CONTINUER",
+    "action_bookLater": "RÉSERVER PLUS TARD"
   },
   "message": {
     "login": {
