@@ -332,7 +332,6 @@
     "action_continue": "CONTINUER",
     "action_preview": "APERÇU",
     "read_only_message": "** Vous ne pouvez plus modifier cette application, car vous avez actuellement ou précédemment réservé un rendez-vous pour elle. Si vous souhaitez toujours apporter des modifications, supprimez cette application et créez-en une nouvelle.",
-    "read_only_message_prefetched": "** Vous ne pouvez plus modifier cette application, car l'application est prérécupérée. Si vous souhaitez toujours apporter des modifications, supprimez cette application et créez-en une nouvelle.",
     "lookup_search_message": "Rechercher ",
     "lookup_no_results_found": "Aucun résultat correspondant trouvé.",
     "change_data_capture_langs": "Changer les langues de capture de données",
@@ -410,7 +409,8 @@
     "action_modify": "modifier",
     "action_back": "RETOUR",
     "action_add_applicant": "AJOUTER LE CANDIDAT",
-    "action_continue": "CONTINUER"
+    "action_continue": "CONTINUER",
+    "action_bookLater": "RÉSERVER PLUS TARD"
   },
   "message": {
     "login": {
@@ -458,13 +458,10 @@
     "title": "Vos applications",
     "action_modify_information": "Modifier les informations",
     "action_modify_appointment": "Réserver / modifier un rendez-vous",
-    "action_cre_application": "Pré-inscription ",
-    "action_lost_uin": "Perdue UIN ",
-    "action_update_registration": "Mettre à jour l'enregistrement ",
+    "action_cre_application": "Créer une nouvelle application ",
     "card": {
       "text_app_id": "Numéro d'enregistrement",
       "text_name": "prénom",
-      "text_type": "Type de demande",
       "text_appoinment_date": "Date de rendez-vous",
       "text_status": "Statut",
       "action_modify_information": "Modifier les informations",
@@ -535,7 +532,6 @@
         "Voulez-vous continuer à réserver"
       ],
       "noSlotsSelectedForApplicant":"Aucune date/slot n'a été sélectionné pour une candidature",
-      "noApplicantSelected": "Aucun candidat n'a été sélectionné pour une candidature",
       "yesButtonText": "Oui",
       "noButtonText": "Non",
       "applicationLockConfirm":{
@@ -584,8 +580,7 @@
     "action_nearBy": "Proche",
     "display_recommended": "Centres recommandés",
     "text_found": "A trouvé",
-    "text_centers": "centres.",
-    "use_search_option": "Veuillez utiliser l'option de recherche pour trouver un centre.",
+    "text_centers": "centres",
     "text_timing": "Timing",
     "text_open": "Ouvrir",
     "text_select": "Sélectionner les types d'emplacement",
@@ -690,7 +685,6 @@
     "PRE-REG-OTP-406": "Échec de la validation des données d'entrée",
     "PRE-REG-OTP-407": "La génération du jeton a échoué",
     "PRE-REG-OTP-408": "OTP a déjà été généré et envoyé à votre adresse e-mail / numéro de téléphone. Si vous voulez un nouvel OTP, veuillez réessayer après un certain temps.",
-    "PRE-REG-OTP-409": "Tentative de validation OTP dépassée, veuillez régénérer OTP et réessayer après un certain temps",
     "PRG_PAM_APP_001": "Impossible de créer la pré-inscription avec les données démographiques fournies",
     "PRG_PAM_APP_002": "Impossible d'accéder à la table de pré-inscription",
     "PRG_PAM_APP_003": "l'opération de suppression n'est pas autorisée",
