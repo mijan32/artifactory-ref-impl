@@ -385,6 +385,7 @@
   "preview": {
     "title_preview": "Detalles de registro",
     "language": "English",
+    "label_pre_id": "Número de registro",
     "subheading_information": "Información Personal",
     "label_name": "Nombre Completo",
     "label_age": "Edad",
@@ -528,6 +529,7 @@
     "text_slots": "espacios",
     "action_done": "HECHO",
     "action_back": "Volver",
+    "action_add": "Agregar",
     "action_bookLater": "Reservar más tarde",
     "action_continue": "Continuar",
     "note_text": "Ten en cuenta que los detalles de la solicitud no se pueden modificar una vez que se haya reservado una cita para ella.",

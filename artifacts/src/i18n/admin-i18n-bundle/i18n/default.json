@@ -33,7 +33,7 @@
     "spa": {
       "name": "Spanish",
       "nativeName": "Española",
-      "locale": "sp_IN"
+      "locale": "es_ES"
     }
   },
   "keyboardMapping" :{
@@ -43,7 +43,7 @@
     "hin": "hi",
     "tam": "ta",
     "kan": "kn",
-    "spa": "sp"
+    "spa": "es"
   },
   "masterdataMapping" :{
     "blocklisted-words": {
