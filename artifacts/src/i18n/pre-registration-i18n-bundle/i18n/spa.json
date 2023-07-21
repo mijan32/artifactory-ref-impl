@@ -408,8 +408,7 @@
     "action_modify": "modificar",
     "action_back": "ATRÁS",
     "action_add_applicant": "AGREGAR SOLICITANTE",
-    "action_continue": "CONTINUAR",
-    "action_bookLater": "RESERVAR MÁS TARDE"
+    "action_continue": "CONTINUAR"
   },
   "message": {
     "login": {
