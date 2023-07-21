@@ -408,7 +408,8 @@
     "action_modify": "modify",
     "action_back": "BACK",
     "action_add_applicant": "ADD APPLICANT",
-    "action_continue": "CONTINUE"
+    "action_continue": "CONTINUE",
+    "action_bookLater": "BOOK LATER"
   },
   "message": {
     "login": {

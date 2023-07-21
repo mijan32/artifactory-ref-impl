@@ -407,7 +407,8 @@
 		"action_modify": "संशोधित करें",
 		"action_back": "बैक",
 		"action_add_applicant": "आवेदक जोड़ें",
-		"action_continue": "जारी रखें"
+		"action_continue": "जारी रखें",
+		"action_bookLater": "बाद में बुक करें"
 	},
 	"message": {
 		"login": {
