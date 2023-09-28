@@ -538,7 +538,7 @@
       "msg_success": "La cita se ha reservado correctamente",
       "title_failure": "Error",
       "msg_failure": "Error al reservar la cita",
-      "noSlotsSelectedForApplicant": "No se ha seleccionado ninguna fecha/horario para una solicitud",
+      "noSlotsSelectedForApplicant": "Ninguna solicitante ha sido seleccionada",
       "noApplicantSelected": "No se ha seleccionado ningún solicitante para una solicitud",
       "deletedApplicant1": [
         "No has seleccionado ningún horario para el siguiente usuario \r\n",

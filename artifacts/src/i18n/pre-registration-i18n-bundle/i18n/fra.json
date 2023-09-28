@@ -535,7 +535,7 @@
         "Vous n'avez sélectionné aucune plage horaire pour l'utilisateur suivant",
         "Voulez-vous continuer à réserver"
       ],
-      "noSlotsSelectedForApplicant":"Aucune date/slot n'a été sélectionné pour une candidature",
+      "noSlotsSelectedForApplicant":"Aucun candidat n'a été sélectionné",
       "noApplicantSelected": "Aucun candidat n'a été sélectionné pour une candidature",
       "yesButtonText": "Oui",
       "noButtonText": "Non",
