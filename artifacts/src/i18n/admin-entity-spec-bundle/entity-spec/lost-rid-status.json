@@ -1,5 +1,6 @@
 {
   "auditEventIds": ["ADM-030", "ADM-052"],
+  "names" : ["firstName", "middleName", "lastName"],
   "actionButtons": [
     {
       "buttonName": { "eng": "Filter", "ara": "تصفيه", "fra": "filtre" ,
@@ -75,15 +76,52 @@
       "ismandatory": "true"
     },
     {
-      "filtername": "name",
+      "filtername": "firstName",
       "filterlabel": {
-        "eng": "Name",
-        "ara": "اسم",
-        "fra": "prénom",
-        "tam": "பெயர்",
-        "hin": "नाम",
-        "kan": "ಹೆಸರು",
-        "spa": "Nombre"
+        "eng": "First Name",
+        "ara": "الاسم الأول",
+        "fra": "Prénom",
+        "tam": "முதல் பெயர்",
+        "hin": "पहला नाम",
+        "kan": "ಮೊದಲ ಹೆಸರು"
+      },
+      "filterType": "equals",
+      "autocomplete": "false",
+      "dropdown": "false",
+      "datePicker": "false",
+      "apiName": "lostRid",
+      "fieldName": "name",
+      "methodCallName": "",
+      "ismandatory": "true"
+    },
+    {
+      "filtername": "middleName",
+      "filterlabel": {
+        "eng": "Middle Name",
+        "ara": "الاسم الأوسط",
+        "fra": "Deuxième prénom",
+        "tam": "நடுத்தர பெயர்",
+        "hin": "मध्य नाम",
+        "kan": "ಮಧ್ಯದ ಹೆಸರು"
+      },
+      "filterType": "equals",
+      "autocomplete": "false",
+      "dropdown": "false",
+      "datePicker": "false",
+      "apiName": "lostRid",
+      "fieldName": "name",
+      "methodCallName": "",
+      "ismandatory": "false"
+    },
+    {
+      "filtername": "lastName",
+      "filterlabel": {
+        "eng": "Last Name",
+        "ara": "اسم العائلة",
+        "fra": "Nom de famille",
+        "tam": "கடைசி பெயர்",
+        "hin": "उपनाम",
+        "kan": "ಕೊನೆಯ ಹೆಸರು"
       },
       "filterType": "equals",
       "autocomplete": "false",
@@ -117,9 +155,7 @@
     {
       "filtername": "phone",
       "filterlabel": {
-        "eng":
-
-        "Phone",
+        "eng": "Phone",
         "ara": "هاتف",
         "fra": "Téléphoner",
         "hin": "फ़ोन",
