@@ -529,7 +529,7 @@
       "deletedApplicant1": ["لم تقم بتحديد أي فترة زمنية لمتابعة المستخدم", "هل ترغب في مواصلة الحجز"],
       "yesButtonText": "نعم فعلا",
       "noButtonText": "لا",
-      "noSlotsSelectedForApplicant":"لم يتم تحديد تاريخ / فترة زمنية للتطبيق",
+      "noSlotsSelectedForApplicant":"لم يتم اختيار أي متقدم",
       "noApplicantSelected": "لم يتم اختيار أي متقدم لتقديم طلب",
       "applicationLockConfirm":{
         "title":"تأكيد",

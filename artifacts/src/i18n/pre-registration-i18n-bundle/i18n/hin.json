@@ -369,9 +369,9 @@
 	},
 	"acknowledgement": {
 		"title": "नियुक्ति की पुष्टि",
-		"message": "आवेदन आईडी और नियुक्ति विवरण पंजीकृत ईमेल आईडी और फोन नंबर पर भेज दिया गया है",
+		"message": "पंजीकरण संख्या और नियुक्ति विवरण पंजीकृत ईमेल आईडी और फोन नंबर पर भेज दिए गए हैं",
 		"label_name": "नाम",
-		"label_pre_id": "आवेदन पहचान पत्र",
+		"label_pre_id": "पंजीकरण संख्या",
 		"label_reg_cntr": "केंद्र का नाम",
 		"label_cntr_contact_number": "केंद्र संपर्क नंबर",
 		"label_appointment_date_time": "अपॉइंटमेंट दिनांक और समय",
@@ -382,8 +382,9 @@
 		"label_reg_cntr_dtl": "केंद्र का पता"
 	},
 	"preview": {
-		"title_preview": "पूर्वावलोकन",
+		"title_preview": "पंजीकरण के विवरण",
 		"language": "हिंदी",
+		"label_pre_id": "पंजीकरण संख्या",
 		"subheading_information": "निजी जानकारी",
 		"label_name": "पूरा नाम",
 		"label_age": "आयु",
@@ -406,7 +407,8 @@
 		"action_modify": "संशोधित करें",
 		"action_back": "बैक",
 		"action_add_applicant": "आवेदक जोड़ें",
-		"action_continue": "जारी रखें"
+		"action_continue": "जारी रखें",
+		"action_bookLater": "बाद में बुक करें"
 	},
 	"message": {
 		"login": {
@@ -457,7 +459,7 @@
     	"action_lost_uin": "खो गया UIN ",
     	"action_update_registration": "पंजीकरण अपडेट करें ",
 		"card": {
-			"text_app_id": "एप्लिकेशन आईडी",
+			"text_app_id": "पंजीकरण संख्या",
 			"text_name": "नाम",
 			"text_type": "आवेदन का प्रकार",
 			"text_appoinment_date": "नियुक्ति तिथि",
@@ -519,6 +521,7 @@
 		"text_slots": "स्लॉट्स",
 		"action_done": "हो गया",
 		"action_back": "बैक",
+		"action_add": "जोड़ना",
 		"action_bookLater": "बाद में बुक करें",
 		"action_continue": "जारी रखें",
 		"note_text":"नोट: एक बार बुक करने के बाद आवेदन विवरण को संशोधित नहीं किया जा सकता है।",
@@ -527,7 +530,7 @@
 			"msg_success": "अपॉइंटमेंट बुकिंग सफलतापूर्वक पूर्ण हुई",
 			"title_failure": "विफलता",
 			"msg_failure": "अपॉइंटमेंट बुकिंग विफल",
-			"noSlotsSelectedForApplicant":"किसी आवेदन के लिए कोई तिथि/स्लॉट नहीं चुना गया है",
+			"noSlotsSelectedForApplicant":"किसी भी आवेदक का चयन नहीं किया गया है",
 			"noApplicantSelected": "आवेदन के लिए किसी आवेदक का चयन नहीं किया गया है",
 			"deletedApplicant1": [
 				"आपने निम्नलिखित उपयोगकर्ता के लिए कोई समय स्लॉट नहीं चुना है",
