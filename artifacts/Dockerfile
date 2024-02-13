@@ -88,6 +88,12 @@ ENV i18n_zip_path=${base_path}/libs-release-local/i18n
 # environment variable for idp auth wrapper zip path
 ENV idp_auth_wrapper_lib_zip_path=${base_path}/libs-release-local/idp/idp-auth-wrapper
 
+# environment variable for tech5 jar path
+ENV tech5_zip_path=${base_path}/libs-release-local/sdk/tech5
+
+# environment variable for thales jar path
+ENV thales_zip_path=${base_path}/libs-release-local/sdk/thales
+
 # environment variable for esignet wrappers zip path
 ENV esignet_wrapper_lib_zip_path=${base_path}/libs-release-local/esignet
 
@@ -95,6 +101,9 @@ ENV esignet_wrapper_lib_zip_path=${base_path}/libs-release-local/esignet
 ENV clamav_path=${base_path}/libs-release-local/clamav
 
 ENV regclient_jar_path=${base_path}/libs-release-local
+
+# environment variable for custom-impl jar path
+ENV custom_zip_path=${base_path}/libs-release-local/impl
 
 ENV master_template_path=${base_path}/libs-release-local/master-templates
 
@@ -109,7 +118,7 @@ ENV version=1.2.1-SNAPSHOT
 ENV idp_auth_wrapper_version=0.0.1-SNAPSHOT
 
 # Create all the jar paths.
-RUN mkdir -p ${biosdk_client_zip_path}/biosdk-client ${demosdk_zip_path}/demosdk ${biosdk_lib_zip_path}/biosdk-lib ${cache_path} ${ida_sh_path} ${hsm_client_path} ${mosip_plugins_zip_path} ${kernel_jar_path} ${test_jar_path} ${idobject_jar_path} ${regproc_jar_path} ${sdk_path} ${icu4j_jar_path} ${clamav_path} ${i18n_zip_path} ${child_auth_filter_jar_path} ${base_path}/libs-release-local/reg-client ${scripts_path} ${master_template_path} ${jpeg_sdk_path} ${jpegsdk_lib_zip_path}/jpeg-sdk-lib/ ${idp_auth_wrapper_lib_zip_path} ${esignet_wrapper_lib_zip_path}/esignet-wrapper
+RUN mkdir -p ${biosdk_client_zip_path}/biosdk-client ${demosdk_zip_path}/demosdk ${biosdk_lib_zip_path}/biosdk-lib ${cache_path} ${ida_sh_path} ${hsm_client_path} ${mosip_plugins_zip_path} ${kernel_jar_path} ${test_jar_path} ${idobject_jar_path} ${regproc_jar_path} ${sdk_path} ${icu4j_jar_path} ${clamav_path} ${i18n_zip_path} ${child_auth_filter_jar_path} ${base_path}/libs-release-local/reg-client ${scripts_path} ${master_template_path} ${jpeg_sdk_path} ${jpegsdk_lib_zip_path}/jpeg-sdk-lib/ ${idp_auth_wrapper_lib_zip_path} ${esignet_wrapper_lib_zip_path}/esignet-wrapper ${custom_zip_path}
 
 # Copy all the respective jars to the location
 
@@ -128,6 +137,8 @@ COPY /src/testing/regproc-reprocessor-ceylon-cache-repo.zip ${test_jar_path}/
 COPY /src/testing/glowroot.zip ${test_jar_path}/
 
 COPY /src/i18n/regclient-i18n-bundle/*  ${work_dir}/resources/
+
+COPY /src/sms/* ${kernel_jar_path}/
 
 COPY /src/i18n/admin-entity-spec-bundle/*  ${work_dir}/admin-entity-spec-bundle/
 
@@ -149,6 +160,11 @@ COPY /src/i18n/mock-relying-party-i18n-bundle/*  ${work_dir}/mock-relying-party-
 
 COPY /src/i18n/esignet-i18n-bundle/*  ${work_dir}/esignet-i18n-bundle/
 
+COPY /src/sdk/tech5/* ${tech5_zip_path}/
+
+COPY /src/sdk/thales/* ${thales_zip_path}/
+
+COPY /src/impl/* ${custom_zip_path}/
 COPY /src/jre/zulu11.41.23-ca-fx-jre11.0.8-win_x64.zip ${regclient_jar_path}/zulu11.41.23-ca-fx-jre11.0.8-win_x64.zip
 
 COPY /src/icu4j/* ${icu4j_jar_path}/
