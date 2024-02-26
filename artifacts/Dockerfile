@@ -49,6 +49,8 @@ ENV biosdk_lib_zip_path=${base_path}/libs-release-local/biosdk/
 # environment variable for Biosdk lib Zip path
 ENV jpegsdk_lib_zip_path=${base_path}/libs-release-local/jpeg-sdk/
 
+ENV kernel_jar_path=${base_path}/libs-release-local/io/mosip/kernel
+
 # environment variable for Cache Provider Jar path
 ENV cache_path=${base_path}/libs-release-local/cache
 
@@ -128,6 +130,8 @@ COPY /src/testing/regproc-reprocessor-ceylon-cache-repo.zip ${test_jar_path}/
 COPY /src/testing/glowroot.zip ${test_jar_path}/
 
 COPY /src/i18n/regclient-i18n-bundle/*  ${work_dir}/resources/
+
+COPY /src/sms/* ${kernel_jar_path}/
 
 COPY /src/i18n/admin-entity-spec-bundle/*  ${work_dir}/admin-entity-spec-bundle/
 
