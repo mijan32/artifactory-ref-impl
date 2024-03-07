@@ -107,7 +107,7 @@ ENV child_auth_filter_jar_path=${base_path}/libs-release-local/io/mosip/authenti
 ENV scripts_path=/home/mosip/scripts
 
 # environment variable for jar version to be downloaed, this needed to be passed buildtime
-ENV version=1.2.1-SNAPSHOT
+ENV version=1.2.0.1
 ENV idp_auth_wrapper_version=0.0.1-SNAPSHOT
 
 # Create all the jar paths.
