@@ -188,7 +188,7 @@
     "device_not_found_msg": "Device Not Found",
     "biometric_capture_failed_msg": "Biometric Capture Failed",
     "authentication_failed_msg": "Authentication Failed",
-    "send_otp_failed_msg": "Failed to Send OTP",
+    "send_otp_failed_msg": "Invalid NRCID/ NRCID does not exist",
     "parsing_error_msg": "Unable to Parse",
     "unauthorized_access": "Unauthorized Access",
     "Network Error": "Network Error",
@@ -390,7 +390,7 @@
       "IDA-OTA-010": "Input Identity Type does not match Identity Type of OTP Request",
       "IDA-OTA-011": "Input Partner-ID does not match Partner-ID of OTP Request",
       "send_otp_failed": "Send OTP Failed. Invalid/Unknown IndividualId.",
-      "send_otp_failed_msg": "Failed to Send OTP",
+      "send_otp_failed_msg": "Invalid NRCID/ NRCID does not exist",
       "invalid_otp_channel": "Invalid OTP Channel Provided.",
       "auth_failed": "Incorrect OTP. Please try again.",
       "IDA-MLC-018": "Incorrect OTP. Please try again."
