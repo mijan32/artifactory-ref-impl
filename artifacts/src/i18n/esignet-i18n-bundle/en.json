@@ -258,6 +258,7 @@
     "failed_to_generate_header_hash": "Failed to generate oauth-details-hash http header value.",
     "invalid_individual_id": "Invalid Individual ID",
     "IDA-MLC-018":"Invalid/unknown NRCID",
+    "IDA-OTA-004": "Invalid OTP",
     "invalid_pin": "Invalid Pin",
     "invalid_email": "Invalid Email ID",
     "invalid_phone": "Invalid Phone number",
