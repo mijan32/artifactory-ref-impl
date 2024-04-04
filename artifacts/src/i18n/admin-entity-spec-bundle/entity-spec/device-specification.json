@@ -7,7 +7,8 @@
       "fra": "déclencher",
       "tam": "செயல்படுத்த",
       "hin": "सक्रिय",
-      "kan": "ಸಕ್ರಿಯಗೊಳಿಸಿ"
+        "kan": "ಸಕ್ರಿಯಗೊಳಿಸಿ",
+        "spa": "Activar"
     },
     "actionURL": "",
     "redirectURL": "",
@@ -22,7 +23,8 @@
         "fra": "désactiver",
         "tam": "செயலிழக்க",
         "hin": "निष्क्रिय करें",
-        "kan": "ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ"
+        "kan": "ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ",
+        "spa": "Desactivar"
       },
       "actionURL": "",
       "redirectURL": "",
@@ -37,7 +39,8 @@
         "fra": "modifier",
         "tam": "தொகு",
         "hin": "संपादित करें",
-        "kan": "ತಿದ್ದು"
+        "kan": "ತಿದ್ದು",
+        "spa": "Editar"
       },
       "actionURL": "",
       "redirectURL": "/admin/masterdata/device-specs/single-view/$id",
@@ -52,7 +55,8 @@
         "fra": "Ajouter le centre",
         "tam": "உருவாக்கு",
         "hin": "बनाएं",
-        "kan": "ರಚಿಸಿ"
+        "kan": "ರಚಿಸಿ",
+        "spa": "Crear"
       },
       "imagePath": "assets/images/add-icon.png",
       "actionListType": "redirect",
@@ -68,7 +72,8 @@
         "ara": "تصفيه",
         "tam": "வடிகட்டி",
         "hin": "फ़िल्टर",
-        "kan": "ಫಿಲ್ಟರ್ ಮಾಡಿ"
+        "kan": "ಫಿಲ್ಟರ್ ಮಾಡಿ",
+        "spa": "Filtrar"
       },
       "imagePath": "assets/images/filter.png",
       "actionListType": "action",
@@ -90,7 +95,8 @@
       "fra": "prénom",
       "tam": "பெயர்",
       "hin": "नाम",
-      "kan": "ಹೆಸರು"
+        "kan": "ಹೆಸರು",
+        "spa": "Nombre"
     },
     "sortOrder": "",
     "showAsLink": "",
@@ -109,7 +115,8 @@
         "fra": "description",
         "tam": "விளக்கம்",
         "hin": "विवरण",
-        "kan": "ವಿವರಣೆ"
+        "kan": "ವಿವರಣೆ",
+        "spa": "Descripción"
       },
       "sortOrder": "",
       "showAsLink": "",
@@ -128,7 +135,8 @@
         "fra": "Marque",
         "tam": "பிராண்ட்",
         "hin": "ब्रांड",
-        "kan": "ಬ್ರಾಂಡ್"
+        "kan": "ಬ್ರಾಂಡ್",
+        "spa": "Marca"
       },
       "sortOrder": "",
       "showAsLink": "",
@@ -147,7 +155,8 @@
         "fra": "Modèle",
         "tam": "மாதிரி",
         "hin": "नमूना",
-        "kan": "ಮಾದರಿ"
+        "kan": "ಮಾದರಿ",
+        "spa": "Modelo"
       },
       "sortOrder": "",
       "showAsLink": "",
@@ -166,7 +175,8 @@
         "fra": "Minimum Driver Version",
         "tam": "குறைந்தபட்ச இயக்கி பதிப்பு",
         "hin": "न्यूनतम चालक संस्करण",
-        "kan": "ಕನಿಷ್ಠ ಚಾಲಕ ಆವೃತ್ತಿ"
+        "kan": "ಕನಿಷ್ಠ ಚಾಲಕ ಆವೃತ್ತಿ",
+        "spa": "Versión Mínima del Controlador"
       },
       "sortOrder": "",
       "showAsLink": "",
@@ -185,7 +195,8 @@
         "fra": "Type de Device",
         "tam": "கருவியின் வகை",
         "hin": "उपकरण का प्रकार",
-        "kan": "ಸಾಧನ ಪ್ರಕಾರ"
+        "kan": "ಸಾಧನ ಪ್ರಕಾರ",
+        "spa": "Tipo de Dispositivo"
       },
       "sortOrder": "",
       "showAsLink": "",
@@ -204,7 +215,8 @@
         "fra": "ID de spécification",
         "tam": "இயந்திர விவரக்குறிப்பு ஐடி",
         "hin": "मशीन युक्ति आईडी",
-        "kan": "ಮೆಷಿನ್ ಸ್ಪೆಕ್ ಐಡಿ"
+        "kan": "ಮೆಷಿನ್ ಸ್ಪೆಕ್ ಐಡಿ",
+        "spa": "ID de Especificación de la Máquina"
       },
       "sortOrder": "3",
       "showAsLink": "",
@@ -221,7 +233,8 @@
         "fra": "Créé par",
         "tam": "உருவாக்கப்பட்டது",
         "hin": "के द्वारा बनाई गई",
-        "kan": "ರಚಿಸಿದವರು"
+        "kan": "ರಚಿಸಿದವರು",
+        "spa": "Creado Por"
       },
       "sortOrder": "",
       "showAsLink": "",
@@ -238,7 +251,8 @@
         "fra": "Mise à jour par",
         "tam": "புதுப்பிக்கப்பட்டது",
         "hin": "द्वारा अपडेट",
-        "kan": "ಇವರಿಂದ ನವೀಕರಿಸಲಾಗಿದೆ"
+        "kan": "ಇವರಿಂದ ನವೀಕರಿಸಲಾಗಿದೆ",
+        "spa": "Actualizado Por"
       },
       "sortOrder": "",
       "showAsLink": "",
@@ -255,7 +269,8 @@
         "fra": "Temps mis à jour",
         "tam": "புதுப்பிக்கப்பட்ட நேரம்",
         "hin": "अद्यतन समय",
-        "kan": "ನವೀಕರಿಸಿದ ಸಮಯ"
+        "kan": "ನವೀಕರಿಸಿದ ಸಮಯ",
+        "spa": "Tiempo de Actualización"
       },
       "sortOrder": "3",
       "showAsLink": "",
@@ -272,7 +287,8 @@
         "fra": "Temps créé",
         "tam": "Created Time",
         "hin": "बनाया गया समय",
-        "kan": "ಸಮಯವನ್ನು ರಚಿಸಲಾಗಿದೆ"
+        "kan": "ಸಮಯವನ್ನು ರಚಿಸಲಾಗಿದೆ",
+        "spa": "Tiempo de Creación"
       },
       "sortOrder": "",
       "showAsLink": "",
@@ -289,7 +305,8 @@
         "fra": "c'est actif",
         "tam": "நிலை",
         "hin": "स्थिति",
-        "kan": "ಸ್ಥಿತಿ"
+        "kan": "ಸ್ಥಿತಿ",
+        "spa": "Estado"
       },
       "sortOrder": "",
       "showAsLink": "false",
@@ -312,7 +329,8 @@
       "fra": "prénom",
       "tam": "பெயர்",
       "hin": "नाम",
-      "kan": "ಹೆಸರು"
+        "kan": "ಹೆಸರು",
+        "spa": "Nombre"
     },
     "filterType": "equals",
     "autocomplete": "false",
@@ -330,7 +348,8 @@
         "fra": "Statut",
         "tam": "நிலை",
         "hin": "स्थिति",
-        "kan": "ಸ್ಥಿತಿ"
+        "kan": "ಸ್ಥಿತಿ",
+        "spa": "Estado"
       },
       "filterType": "equals",
       "autocomplete": "false",
@@ -348,11 +367,12 @@
         "fra": "Marque",
         "tam": "பிராண்ட்",
         "hin": "ब्रांड",
-        "kan": "ಬ್ರಾಂಡ್"
+        "kan": "ಬ್ರಾಂಡ್",
+        "spa": "Marca"
       },
       "filterType": "equals",
       "autocomplete": "false",
-      "dropdown": "fasle",
+      "dropdown": "false",
       "datePicker": "false",
       "apiName": "devicespecifications",
       "fieldName": "brand",
@@ -366,12 +386,12 @@
         "fra": "Modèle",
         "tam": "மாதிரி",
         "hin": "नमूना",
-        "kan": "ಮಾದರಿ"
-
+        "kan": "ಮಾದರಿ",
+        "spa": "Modelo"
       },
       "filterType": "equals",
       "autocomplete": "false",
-      "dropdown": "fasle",
+      "dropdown": "false",
       "datePicker": "false",
       "apiName": "devicespecifications",
       "fieldName": "model",
@@ -385,8 +405,8 @@
         "fra": "Type de Device",
         "tam": "கருவியின் வகை",
         "hin": "उपकरण का प्रकार",
-        "kan": "ಸಾಧನ ಪ್ರಕಾರ"
-
+        "kan": "ಸಾಧನ ಪ್ರಕಾರ",
+        "spa": "Tipo de Dispositivo"
       },
       "filterType": "equals",
       "autocomplete": "false",

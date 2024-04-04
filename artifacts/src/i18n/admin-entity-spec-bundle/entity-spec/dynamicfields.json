@@ -4,6 +4,7 @@
     {
       "buttonName": {
         "eng": "Activate",
+        "spa": "Activar",
         "ara": "تنشيط",
         "fra": "déclencher",
         "hin": "सक्रिय",
@@ -19,6 +20,7 @@
     {
       "buttonName": {
         "eng": "Deactivate",
+        "spa": "Desactivar",
         "ara": "الغاء تنشيط",
         "fra": "désactiver",
         "hin": "निष्क्रिय करें",
@@ -34,6 +36,7 @@
     {
       "buttonName": {
         "eng": "Edit",
+        "spa": "Editar",
         "ara": "تصحيح",
         "fra": "modifier",
         "hin": "संपादित करें",
@@ -49,6 +52,7 @@
     {
       "buttonName": {
         "eng": "Create",
+        "spa": "Crear",
         "ara": "إضافة مركز",
         "fra": "Ajouter le centre",
         "hin": "बनाएं",
@@ -63,7 +67,15 @@
       "validations": ""
     },
     {
-      "buttonName": { "eng": "Filter", "ara": "تصفيه", "fra": "filtre","hin": "फ़िल्टर", "kan": "ಫಿಲ್ಟರ್ ಮಾಡಿ", "tam": "வடிகட்டி" },
+      "buttonName": {
+        "eng": "Filter",
+        "spa": "Filtrar",
+        "ara": "تصفيه",
+        "fra": "filtre",
+        "hin": "फ़िल्टर",
+        "kan": "ಫಿಲ್ಟರ್ ಮಾಡಿ",
+        "tam": "வடிகட்டி"
+      },
       "imagePath": "assets/images/filter.png",
       "actionListType": "action",
       "actionURL": { "case": "filter" },
@@ -74,6 +86,7 @@
     {
       "buttonName": {
         "eng": "Code & Value not present in English",
+        "spa": "Código y valor no presentes en inglés",
         "ara": "الرمز والقيمة غير موجودين باللغة العربية",
         "fra": "Code & Valeur non présents en Français",
         "tam": "குறியீடு & மதிப்பு தமிழில் இல்லை",
@@ -86,6 +99,7 @@
         "case": "missingData",
         "title": {
           "eng": "Code & Value not present in English",
+          "spa": "Código y valor no presentes en inglés",
           "ara": "الرمز والقيمة غير موجودين باللغة العربية",
           "fra": "Code & Valeur non présents en Français",
           "tam": "குறியீடு & மதிப்பு தமிழில் இல்லை",
@@ -94,6 +108,7 @@
         },
         "columnNames": [{
           "eng": "Code",
+            "spa": "Código",
           "ara": "الشفرة",
           "fra": "Code",
           "tam": "குறியீடு",
@@ -101,6 +116,7 @@
           "kan": "ಕೋಡ್"
         }, {
           "eng": "Name",
+            "spa": "Nombre",
           "ara": "اسم",
           "fra": "prénom",
           "tam": "பெயர்",
@@ -119,7 +135,15 @@
       "name": "code",
       "showInListView": "true",
       "showInSingleView": "true",
-      "label": { "eng": "Code", "ara": "الشفرة", "fra": "Code","hin": "कोड", "kan": "ಕೋಡ್", "tam": "குறியீடு"},
+      "label": {
+        "eng": "Code",
+        "ara": "الشفرة",
+        "fra": "Code",
+        "hin": "कोड",
+        "kan": "ಕೋಡ್",
+        "tam": "குறியீடு",
+        "spa": "Código"
+      },
       "sortOrder": "3",
       "showAsLink": "",
       "linkType": "",
@@ -132,7 +156,15 @@
       "name": "name",
       "showInListView": "true",
       "showInSingleView": "true",
-      "label": { "eng": "Name", "ara": "اسم", "fra": "Nom","hin": "नाम", "kan": "ಹೆಸರು", "tam": "பெயர்" },
+      "label": {
+        "eng": "Name",
+        "ara": "اسم",
+        "fra": "Nom",
+        "hin": "नाम",
+        "kan": "ಹೆಸರು",
+        "tam": "பெயர்",
+        "spa": "Nombre"
+      },
       "sortOrder": "",
       "showAsLink": "",
       "linkType": "",
@@ -144,7 +176,15 @@
       "name": "description",
       "showInListView": "true",
       "showInSingleView": "true",
-      "label": { "eng": "Description", "ara": "وصف", "fra": "La description","hin": "विवरण", "kan": "ವಿವರಣೆ", "tam": "விளக்கம்"},
+      "label": {
+        "eng": "Description",
+        "ara": "وصف",
+        "fra": "La description",
+        "hin": "विवरण",
+        "kan": "ವಿವರಣೆ",
+        "tam": "விளக்கம்",
+        "spa": "Descripción"
+      },
       "sortOrder": "3",
       "showAsLink": "",
       "linkType": "",
@@ -156,7 +196,15 @@
       "name": "value",
       "showInListView": "true",
       "showInSingleView": "true",
-      "label": { "eng": "Value", "ara": "قيمة", "fra": "Valeur","hin": "मूल्य", "kan": "ಮೌಲ್ಯ", "tam": "மதிப்பு" },
+      "label": {
+        "eng": "Value",
+        "ara": "قيمة",
+        "fra": "Valeur",
+        "hin": "मूल्य",
+        "kan": "ಮೌಲ್ಯ",
+        "tam": "மதிப்பு",
+        "spa": "Valor"
+      },
       "sortOrder": "3",
       "showAsLink": "",
       "linkType": "",
@@ -169,7 +217,15 @@
       "name": "dataType",
       "showInListView": "false",
       "showInSingleView": "false",
-      "label": { "eng": "Data Type", "ara": "نوع البيانات", "fra": "Type de données","hin": "डाटा प्रकार", "kan": "ಡೇಟಾ ಪ್ರಕಾರ", "tam": "தரவு வகை"},
+      "label": {
+        "eng": "Data Type",
+        "ara": "نوع البيانات",
+        "fra": "Type de données",
+        "hin": "डाटा प्रकार",
+        "kan": "ಡೇಟಾ ಪ್ರಕಾರ",
+        "tam": "தரவு வகை",
+        "spa": "Tipo de datos"
+      },
       "sortOrder": "3",
       "showAsLink": "",
       "linkType": "",
@@ -179,7 +235,15 @@
       "name": "fieldVal",
       "showInListView": "false",
       "showInSingleView": "false",
-      "label": { "eng": "Value", "ara": "قيمة", "fra": "Valeur","hin": "मूल्य", "kan": "ಮೌಲ್ಯ", "tam": "மதிப்பு" },
+      "label": {
+        "eng": "Value",
+        "ara": "قيمة",
+        "fra": "Valeur",
+        "hin": "मूल्य",
+        "kan": "ಮೌಲ್ಯ",
+        "tam": "மதிப்பு",
+        "spa": "Valor"
+      },
       "sortOrder": "",
       "showAsLink": "",
       "linkType": "",
@@ -189,7 +253,15 @@
       "name": "isActive",
       "showInListView": "true",
       "showInSingleView": "false",
-      "label": { "eng": "Status", "ara": "حاله", "fra": "statut","hin": "स्थिति", "kan": "ಸ್ಥಿತಿ", "tam": "நிலை" },
+      "label": {
+        "eng": "Status",
+        "ara": "حاله",
+        "fra": "statut",
+        "hin": "स्थिति",
+        "kan": "ಸ್ಥಿತಿ",
+        "tam": "நிலை",
+        "spa": "Estado"
+      },
       "sortOrder": "",
       "showAsLink": "false",
       "linkType": "",
@@ -204,7 +276,8 @@
         "fra": "Temps créé",
         "hin": "बनाया गया समय",
         "kan": "ಸಮಯವನ್ನು ರಚಿಸಲಾಗಿದೆ",
-        "tam": "நேரம் உருவாக்கப்பட்டது"
+        "tam": "நேரம் உருவாக்கப்பட்டது",
+        "spa": "Hora de creación"
       },
       "sortOrder": "",
       "showAsLink": "",
@@ -220,7 +293,8 @@
         "fra": "Créé par",
         "hin": "के द्वारा बनाई गई",
         "kan": "ರಚಿಸಿದವರು",
-        "tam": "உருவாக்கியது"
+        "tam": "உருவாக்கியது",
+        "spa": "Creado por"
       },
       "sortOrder": "",
       "showAsLink": "",
@@ -236,7 +310,8 @@
         "fra": "Mise à jour par",
         "hin": "द्वारा अपडेट",
         "kan": "ಇವರಿಂದ ನವೀಕರಿಸಲಾಗಿದೆ",
-        "tam": "புதுப்பிக்கப்பட்டது"
+        "tam": "புதுப்பிக்கப்பட்டது",
+        "spa": "Actualizado por"
       },
       "sortOrder": "",
       "showAsLink": "",
@@ -252,7 +327,8 @@
         "fra": "Temps mis à jour",
         "hin": "अद्यतन समय",
         "kan": "ನವೀಕರಿಸಿದ ಸಮಯ",
-        "tam": "புதுப்பிக்கப்பட்ட நேரம்"
+        "tam": "புதுப்பிக்கப்பட்ட நேரம்",
+        "spa": "Hora de actualización"
       },
       "sortOrder": "3",
       "showAsLink": "",
@@ -268,7 +344,7 @@
   "filterColumns":  [
     {
       "filtername": "description",
-      "filterlabel": { "eng": "Description", "ara": "وصف", "fra": "La description","hin": "विवरण", "kan": "ವಿವರಣೆ", "tam": "விளக்கம்"},
+      "filterlabel": { "eng": "Description", "ara": "وصف", "fra": "La description","hin": "विवरण", "kan": "ವಿವರಣೆ", "tam": "விளக்கம்", "spa": "Descripción" },
       "filterType": "equals",
       "autocomplete": "false",
       "dropdown": "false",
@@ -279,7 +355,7 @@
     },
     {
       "filtername": "isActive",
-      "filterlabel": { "eng": "Status", "ara": "نشط", "fra": "Statut","hin": "स्थिति", "kan": "ಸ್ಥಿತಿ", "tam": "நிலை" },
+      "filterlabel": { "eng": "Status", "ara": "نشط", "fra": "Statut","hin": "स्थिति", "kan": "ಸ್ಥಿತಿ", "tam": "நிலை", "spa": "Estado" },
       "filterType": "equals",
       "autocomplete": "false",
       "dropdown": "true",

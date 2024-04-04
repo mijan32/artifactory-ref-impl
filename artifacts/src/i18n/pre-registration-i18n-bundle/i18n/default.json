@@ -5,6 +5,11 @@
       "nativeName": "English",
       "locale": "en_GB"
     },
+    "spa": {
+      "name": "Spanish",
+      "nativeName": "Española",
+      "locale": "es_ES"
+    },
     "ara": {
       "name": "Arabic",
       "nativeName": "العَرَبِيَّة‎",

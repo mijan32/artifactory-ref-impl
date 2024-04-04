@@ -8,7 +8,8 @@
           "fra": "Type de centre",
           "hin": "केंद्र प्रकार   ",
           "kan": "ಕೇಂದ್ರ ಪ್ರಕಾರಗಳು    ",
-          "tam": "மைய வகைகள்  "
+          "tam": "மைய வகைகள்",
+          "spa": "Tipos de centros"
         },
         "actionURL": "admin/masterdata/center-type/view",
         "auditEventId": "ADM-010"
@@ -20,7 +21,8 @@
           "fra": "Mots bloqués",
           "tam": "தடுப்புப்பட்டியலில் உள்ள வார்த்தைகள்",
           "kan": "ನಿರ್ಬಂಧಿತ ಪದಗಳು",
-          "hin": "ब्लॉक लिस्टेड शब्द"
+          "hin": "ब्लॉक लिस्टेड शब्द",
+          "spa": "Palabras en la lista negra"
         },
         "actionURL": "admin/masterdata/blocklisted-words/view",
         "auditEventId": "ADM-011"
@@ -32,7 +34,8 @@
           "fra": "Liste de vacances",
           "hin": "छुट्टियों की सूची    ",
           "kan": "ರಜಾದಿನಗಳ ಪಟ್ಟಿ   ",
-          "tam": "விடுமுறை பட்டியல்   "
+          "tam": "விடுமுறை பட்டியல்",
+          "spa": "Lista de días festivos"
         },
         "actionURL": "admin/masterdata/holiday/view",
         "auditEventId": "ADM-014"
@@ -44,7 +47,8 @@
           "fra": "Modèles",
           "hin": "टेम्पलेट्स     ",
           "kan": "ಟೆಂಪ್ಲೇಟ್‌ಗಳು  ",
-          "tam": "வார்ப்புருக்கள்    "
+          "tam": "வார்ப்புருக்கள்",
+          "spa": "Plantillas"
         },
         "actionURL": "admin/masterdata/templates/view",
         "auditEventId": "ADM-016"
@@ -58,7 +62,8 @@
           "fra": "Spécifications de l'appareil",
           "hin": "डिवाइस चश्मा      ",
           "kan": "ಸಾಧನ ವಿವರಣೆಗಳು ",
-          "tam": "சாதன விவரக்குறிப்புகள்    "
+          "tam": "சாதன விவரக்குறிப்புகள்",
+          "spa": "Especificaciones del dispositivo"
         },
         "actionURL": "admin/masterdata/device-specs/view",
         "auditEventId": "ADM-018"
@@ -70,7 +75,8 @@
           "fra": "Types de périphériques",
           "hin": "डिवाइस के प्रकार  ",
           "kan": "ಸಾಧನ ಪ್ರಕಾರಗಳು ",
-          "tam": "சாதன வகைகள்     "
+          "tam": "சாதன வகைகள்",
+          "spa": "Tipos de dispositivos"
         },
         "actionURL": "admin/masterdata/device-types/view",
         "auditEventId": "ADM-019"
@@ -84,7 +90,8 @@
           "fra": "Spécifications de la machine",
           "hin": "मशीन चश्मा  ",
           "kan": "ಯಂತ್ರ ವಿವರಣೆಗಳು  ",
-          "tam": "இயந்திர விவரக்குறிப்புகள்    "
+          "tam": "இயந்திர விவரக்குறிப்புகள்",
+          "spa": "Especificaciones de la máquina"
         },
         "actionURL": "admin/masterdata/machine-specs/view",
         "auditEventId": "ADM-020"
@@ -96,7 +103,8 @@
           "fra": "Types de machines",
           "hin": "मशीन के प्रकार   ",
           "kan": "ಯಂತ್ರ ಪ್ರಕಾರಗಳು",
-          "tam": "இயந்திர வகைகள்      "
+          "tam": "இயந்திர வகைகள்",
+          "spa": "Tipos de máquinas"
         },
         "actionURL": "admin/masterdata/machine-type/view",
         "auditEventId": "ADM-021"
@@ -110,7 +118,8 @@
           "fra": "Types de documents",
           "hin": "दस्तावेज़ प्रकार  ",
           "kan": "ಡಾಕ್ಯುಮೆಂಟ್ ಪ್ರಕಾರಗಳು  ",
-          "tam": "ஆவண வகைகள்    "
+          "tam": "ஆவண வகைகள்",
+          "spa": "Tipos de documentos"
         },
         "actionURL": "admin/masterdata/document-type/view",
         "auditEventId": "ADM-022"
@@ -122,7 +131,8 @@
           "fra": "Catégories de document",
           "hin": "दस्तावेज़ श्रेणियाँ   ",
           "kan": "ಡಾಕ್ಯುಮೆಂಟ್ ವರ್ಗಗಳು  ",
-          "tam": "ஆவண வகைகள்      "
+          "tam": "ஆவண வகைகள்",
+          "spa": "Categorías de documentos"
         },
         "actionURL": "admin/masterdata/document-categories/view",
         "auditEventId": "ADM-023"
@@ -134,7 +144,8 @@
           "fra": "Catégorie de document - Mappage de types",
           "hin": "दस्तावेज़ श्रेणी - प्रकार मानचित्रण ",
           "kan": "ಡಾಕ್ಯುಮೆಂಟ್ ವರ್ಗ - ಟೈಪ್ ಮ್ಯಾಪಿಂಗ್  ",
-          "tam": "  ஆவண வகை - வகை மேப்பிங்  "
+          "tam": "ஆவண வகை - வகை மேப்பிங்",
+          "spa": "Mapeo de Categoría de Documento - Tipo"
         },
         "actionURL": "admin/masterdata/documentCategoryMapping",
         "auditEventId": "ADM-024"

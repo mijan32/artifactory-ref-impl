@@ -7,7 +7,8 @@
       "fra": "déclencher",
       "tam": "செயல்படுத்த",
       "hin": "सक्रिय",
-      "kan": "ಸಕ್ರಿಯಗೊಳಿಸಿ"
+      "kan": "ಸಕ್ರಿಯಗೊಳಿಸಿ",
+      "spa": "Activar"
     },
     "actionURL": "",
     "redirectURL": "",
@@ -22,7 +23,8 @@
         "fra": "désactiver",
         "tam": "செயலிழக்க",
         "hin": "निष्क्रिय करें",
-        "kan": "ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ"
+      "kan": "ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ",
+      "spa": "Desactivar"
       },
       "actionURL": "",
       "redirectURL": "",
@@ -37,7 +39,8 @@
         "fra": "mettre hors service",
         "tam": "நீக்கம்",
         "hin": "डीकमिशन",
-        "kan": "ಡಿಕೊಮಿಷನ್"
+      "kan": "ಡಿಕೊಮಿಷನ್",
+      "spa": "Desactivar"
       },
       "actionURL": "",
       "redirectURL": "",
@@ -52,7 +55,8 @@
         "fra": "modifier",
         "tam": "தொகு",
         "hin": "संपादित करें",
-        "kan": "ತಿದ್ದು"
+      "kan": "ತಿದ್ದು",
+      "spa": "Editar"
       },
       "actionURL": "",
       "redirectURL": "/admin/resources/devices/single-view/$id",
@@ -67,7 +71,8 @@
         "fra": "Créer un appareil",
         "tam": "சாதனத்தை உருவாக்கவும்",
         "hin": "डिवाइस बनाएं",
-        "kan": "ಸಾಧನವನ್ನು ರಚಿಸಿ"
+      "kan": "ಸಾಧನವನ್ನು ರಚಿಸಿ",
+      "spa": "Crear dispositivo"
       },
       "imagePath": "assets/images/add-icon.png",
       "actionListType": "redirect",
@@ -83,7 +88,8 @@
         "fra": "filtre",
         "tam": "வடிகட்டி",
         "hin": "फ़िल्टर",
-        "kan": "ಫಿಲ್ಟರ್ ಮಾಡಿ"
+      "kan": "ಫಿಲ್ಟರ್ ಮಾಡಿ",
+      "spa": "Filtrar"
       },
       "imagePath": "assets/images/filter.png",
       "actionListType": "action",
@@ -104,7 +110,8 @@
       "fra": "Nom de la Device",
       "tam": "சாதனத்தின் பெயர்",
       "hin": "डिवाइस का नाम",
-      "kan": "ಸಾಧನದ ಹೆಸರು"
+        "kan": "ಸಾಧನದ ಹೆಸರು",
+        "spa": "Nombre del dispositivo"
     },
     "sortOrder": "3",
     "showAsLink": "",
@@ -120,7 +127,8 @@
         "fra": "Type de Device",
         "tam": "கருவியின் வகை",
         "hin": "उपकरण का प्रकार",
-        "kan": "ಸಾಧನ ಪ್ರಕಾರ"
+        "kan": "ಸಾಧನ ಪ್ರಕಾರ",
+        "spa": "Tipo de dispositivo"
       },
       "sortOrder": "",
       "showAsLink": "",
@@ -136,7 +144,8 @@
         "fra": "Mac Adresse",
         "tam": "Mac முகவரி",
         "hin": "मैक पते",
-        "kan": "ಮ್ಯಾಕ್ ವಿಳಾಸ"
+        "kan": "ಮ್ಯಾಕ್ ವಿಳಾಸ",
+        "spa": "Dirección Mac"
       },
       "sortOrder": "",
       "showAsLink": "",
@@ -152,7 +161,8 @@
         "fra": "numéro",
         "tam": "வரிசை எண்",
         "hin": "क्रमिक संख्या",
-        "kan": "ಕ್ರಮ ಸಂಖ್ಯೆ"
+        "kan": "ಕ್ರಮ ಸಂಖ್ಯೆ",
+        "spa": "Número de serie"
       },
       "sortOrder": "",
       "showAsLink": "",
@@ -168,7 +178,8 @@
         "fra": "Centre",
         "hin": "केंद्र",
         "kan": "ಕೇಂದ್ರ",
-        "tam": "மையம்"
+        "tam": "மையம்",
+        "spa": "Centro"
       },
       "sortOrder": "",
       "showAsLink": "",
@@ -184,7 +195,8 @@
         "fra": "Temps créé",
         "tam": "நேரம் உருவாக்கப்பட்டது",
         "hin": "बनाया गया समय",
-        "kan": "ಸಮಯವನ್ನು ರಚಿಸಲಾಗಿದೆ"
+        "kan": "ಸಮಯವನ್ನು ರಚಿಸಲಾಗಿದೆ",
+        "spa": "Hora de creación"
       },
       "sortOrder": "",
       "showAsLink": "",
@@ -200,7 +212,8 @@
         "fra": "statut",
         "tam": "நிலை",
         "hin": "स्थिति",
-        "kan": "ಸ್ಥಿತಿ"
+        "kan": "ಸ್ಥಿತಿ",
+        "spa": "Estado"
       },
       "sortOrder": "",
       "showAsLink": "false",
@@ -221,7 +234,8 @@
       "fra": "Nom de l'appareil",
       "tam": "பெயர்",
       "hin": "नाम",
-      "kan": "ಹೆಸರು"
+        "kan": "ಹೆಸರು",
+        "spa": "Nombre del dispositivo"
     },
     "filterType": "contains",
     "fieldType": "input",
@@ -240,7 +254,8 @@
         "fra": "Statut",
         "tam": "நிலை",
         "hin": "स्थिति",
-        "kan": "ಸ್ಥಿತಿ"
+        "kan": "ಸ್ಥಿತಿ",
+        "spa": "Estado"
       },
       "filterType": "contains",
       "fieldType": "input",
@@ -259,7 +274,8 @@
         "fra": "Adresse Mac",
         "tam": "Mac முகவரி",
         "hin": "मैक पते",
-        "kan": "ಮ್ಯಾಕ್ ವಿಳಾಸ"
+        "kan": "ಮ್ಯಾಕ್ ವಿಳಾಸ",
+        "spa": "Dirección MAC"
       },
       "filterType": "equals",
       "autocomplete": "false",
@@ -277,7 +293,8 @@
         "fra": "Numéro de série",
         "tam": "வரிசை எண்",
         "hin": "क्रमिक संख्या",
-        "kan": "ಕ್ರಮ ಸಂಖ್ಯೆ"
+        "kan": "ಕ್ರಮ ಸಂಖ್ಯೆ",
+        "spa": "Número de serie"
       },
       "filterType": "equals",
       "autocomplete": "false",
@@ -295,7 +312,8 @@
         "fra": "Type d'appareil",
         "tam": "கருவியின் வகை",
         "hin": "उपकरण का प्रकार",
-        "kan": "ಸಾಧನ ಪ್ರಕಾರ"
+        "kan": "ಸಾಧನ ಪ್ರಕಾರ",
+        "spa": "Tipo de dispositivo"
       },
       "filterType": "equals",
       "autocomplete": "false",

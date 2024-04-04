@@ -7,7 +7,8 @@
       "fra": "déclencher",
       "tam": "செயல்படுத்த",
       "hin": "सक्रिय",
-      "kan": "ಸಕ್ರಿಯಗೊಳಿಸಿ"
+        "kan": "ಸಕ್ರಿಯಗೊಳಿಸಿ",
+        "spa": "Activar"
     },
     "actionURL": "",
     "redirectURL": "",
@@ -22,7 +23,8 @@
         "fra": "désactiver",
         "tam": "செயலிழக்க",
         "hin": "निष्क्रिय करें",
-        "kan": "ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ"
+        "kan": "ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ",
+        "spa": "Desactivar"
       },
       "actionURL": "",
       "redirectURL": "",
@@ -37,7 +39,8 @@
         "fra": "modifier",
         "tam": "தொகு",
         "hin": "संपादित करें",
-        "kan": "ತಿದ್ದು"
+        "kan": "ತಿದ್ದು",
+        "spa": "Editar"
       },
       "actionURL": "",
       "redirectURL": "/admin/masterdata/document-categories/single-view/$id",
@@ -52,7 +55,8 @@
         "fra": "Ajouter le centre",
         "tam": "உருவாக்கு",
         "hin": "बनाएं",
-        "kan": "ರಚಿಸಿ"
+        "kan": "ರಚಿಸಿ",
+        "spa": "Crear"
       },
       "imagePath": "assets/images/add-icon.png",
       "actionListType": "redirect",
@@ -68,7 +72,8 @@
         "ara": "تصفيه",
         "tam": "வடிகட்டி",
         "hin": "फ़िल्टर",
-        "kan": "ಫಿಲ್ಟರ್ ಮಾಡಿ"
+        "kan": "ಫಿಲ್ಟರ್ ಮಾಡಿ",
+        "spa": "Filtrar"
       },
       "imagePath": "assets/images/filter.png",
       "actionListType": "action",
@@ -86,7 +91,8 @@
         "fra": "Catégorie de document non disponible en français",
         "tam": "ஆவண வகை தமிழில் இல்லை",
         "hin": "दस्तावेज़ श्रेणी हिंदी में उपलब्ध नहीं है",
-        "kan": "ಡಾಕ್ಯುಮೆಂಟ್ ವರ್ಗವು ಕನ್ನಡದಲ್ಲಿ ಲಭ್ಯವಿಲ್ಲ"
+        "kan": "ಡಾಕ್ಯುಮೆಂಟ್ ವರ್ಗವು ಕನ್ನಡದಲ್ಲಿ ಲಭ್ಯವಿಲ್ಲ",
+        "spa": "Categoría de documento no disponible en español"
       },
       "imagePath": "",
       "actionListType": "action",
@@ -98,7 +104,8 @@
           "fra": "Catégorie de document non disponible en français",
           "tam": "ஆவண வகை தமிழில் இல்லை",
           "hin": "दस्तावेज़ श्रेणी हिंदी में उपलब्ध नहीं है",
-          "kan": "ಡಾಕ್ಯುಮೆಂಟ್ ವರ್ಗವು ಕನ್ನಡದಲ್ಲಿ ಲಭ್ಯವಿಲ್ಲ"
+          "kan": "ಡಾಕ್ಯುಮೆಂಟ್ ವರ್ಗವು ಕನ್ನಡದಲ್ಲಿ ಲಭ್ಯವಿಲ್ಲ",
+          "spa": "Categoría de documento no disponible en español"
         },
         "columnNames": [{
           "eng": "Code",
@@ -106,14 +113,16 @@
           "fra": "Code",
           "tam": "குறியீடு",
           "hin": "कोड",
-          "kan": "ಕೋಡ್"
+          "kan": "ಕೋಡ್",
+          "spa": "Código"
         }, {
           "eng": "Name",
           "ara": "اسم",
           "fra": "prénom",
           "tam": "பெயர்",
           "hin": "नाम",
-          "kan": "ಹೆಸರು"
+          "kan": "ಹೆಸರು",
+          "spa": "Nombre"
         }],
         "fieldName": "name"
       },
@@ -128,6 +137,7 @@
     "showInSingleView": "true",
     "label": {
       "eng": "Code",
+        "spa": "Código",
       "ara": "الشفرة",
       "fra": "Code",
       "tam": "குறியீடு",
@@ -147,6 +157,7 @@
       "showInSingleView": "true",
       "label": {
         "eng": "Name",
+        "spa": "Nombre",
         "ara": "اسم",
         "fra": "prénom",
         "tam": "பெயர்",
@@ -166,6 +177,7 @@
       "showInSingleView": "true",
       "label": {
         "eng": "Description",
+        "spa": "Descripción",
         "ara": "وصف",
         "fra": "description",
         "tam": "விளக்கம்",
@@ -186,6 +198,7 @@
       "showInSingleView": "false",
       "label": {
         "eng": "Created By",
+        "spa": "Creado por",
         "ara": "تم إنشاؤه من قبل",
         "fra": "Créé par",
         "tam": "உருவாக்கப்பட்டது",
@@ -203,6 +216,7 @@
       "showInSingleView": "false",
       "label": {
         "eng": "Updated By",
+        "spa": "Actualizado por",
         "ara": "تم التحديث بواسطة",
         "fra": "Mise à jour par",
         "tam": "புதுப்பிக்கப்பட்டது",
@@ -220,6 +234,7 @@
       "showInSingleView": "false",
       "label": {
         "eng": "Updated Time",
+        "spa": "Tiempo de actualización",
         "ara": "وقت التحديث",
         "fra": "Temps mis à jour",
         "tam": "புதுப்பிக்கப்பட்ட நேரம்",
@@ -237,6 +252,7 @@
       "showInSingleView": "false",
       "label": {
         "eng": "Created Time",
+        "spa": "Tiempo de creación",
         "ara": "الوقت الذي تم إنشاؤه",
         "fra": "Temps créé",
         "tam": "Created Time",
@@ -255,6 +271,7 @@
       "showInSingleView": "false",
       "label": {
         "eng": "Status",
+        "spa": "Estado",
         "ara": "نشط",
         "fra": "c'est actif",
         "tam": "நிலை",
@@ -277,6 +294,7 @@
     "filtername": "code",
     "filterlabel": {
       "eng": "Code",
+        "spa": "Código",
       "ara": "الشفرة",
       "fra": "Code",
       "tam": "குறியீடு",
@@ -295,6 +313,7 @@
     "filtername": "name",
     "filterlabel": {
       "eng": "Name",
+        "spa": "Nombre",
       "ara": "اسم",
       "fra": "prénom",
       "tam": "பெயர்",
@@ -313,6 +332,7 @@
     "filtername": "isActive",
     "filterlabel": {
       "eng": "Status",
+        "spa": "Estado",
       "ara": "نشط",
       "fra": "Statut",
       "tam": "நிலை",
