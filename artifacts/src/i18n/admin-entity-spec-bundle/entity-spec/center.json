@@ -3,6 +3,7 @@
   "actionButtons": [{
     "buttonName": {
       "eng": "Activate",
+        "spa": "Activar",
       "ara": "تنشيط",
       "fra": "déclencher",
       "tam": "செயல்படுத்த",
@@ -18,6 +19,7 @@
     {
       "buttonName": {
         "eng": "Deactivate",
+        "spa": "Desactivar",
         "ara": "الغاء تنشيط",
         "fra": "désactiver",
         "tam": "செயலிழக்க",
@@ -33,6 +35,7 @@
     {
       "buttonName": {
         "eng": "Decommission",
+        "spa": "Desactivar",
         "ara": "وقف التشغيل",
         "fra": "mettre hors service",
         "tam": "நீக்கம்",
@@ -49,6 +52,7 @@
     {
       "buttonName": {
         "eng": "Edit",
+        "spa": "Editar",
         "ara": "تصحيح",
         "fra": "modifier",
         "tam": "தொகு",
@@ -64,6 +68,7 @@
     {
       "buttonName": {
         "eng": "Create Center",
+        "spa": "Crear Centro",
         "ara": "إضافة مركز",
         "fra": "Ajouter le centre",
         "tam": "மையத்தை உருவாக்கவும்",
@@ -80,6 +85,7 @@
     {
       "buttonName": {
         "eng": "Filter",
+        "spa": "Filtrar",
         "ara": "تصفيه",
         "fra": "filtre",
         "tam": "வடிகட்டி",
@@ -98,6 +104,7 @@
     {
       "buttonName": {
         "eng": "Centers not available in English",
+        "spa": "Centros no disponibles en inglés",
         "ara": "المراكز غير متوفرة باللغة الإنجليزية",
         "fra": "Centres non disponibles en anglais",
         "tam": "மையங்கள் ஆங்கிலத்தில் கிடைக்கவில்லை",
@@ -110,6 +117,7 @@
         "case": "missingData",
         "title": {
           "eng": "Centers not available in English",
+          "spa": "Centros no disponibles en inglés",
           "ara": "المراكز غير متوفرة باللغة الإنجليزية",
           "fra": "Centres non disponibles en anglais",
           "tam": "மையங்கள் ஆங்கிலத்தில் கிடைக்கவில்லை",
@@ -118,6 +126,7 @@
         },
         "columnNames": [{
           "eng": "Center Id",
+            "spa": "ID del Centro",
           "ara": "معرف المركز",
           "fra": "Identifiant du centre",
           "tam": "மைய ஐடி",
@@ -125,6 +134,7 @@
           "kan": "ಸೆಂಟರ್ ಐಡಿ"
         }, {
           "eng": "Center Name",
+            "spa": "Nombre del Centro",
           "ara": "اسم المركز",
           "fra": "Nom du centre",
           "tam": "மையத்தின் பெயர்",
@@ -143,6 +153,7 @@
     "showInListView": "true",
     "label": {
       "eng": "Center",
+        "spa": "Centro",
       "ara": "مركز ",
       "fra": "Centre",
       "tam": "மையம்",
@@ -159,6 +170,7 @@
       "showInListView": "true",
       "label": {
         "eng": "Center Type",
+        "spa": "Tipo de Centro",
         "ara": "نوع المركز",
         "fra": "Type de centre",
         "tam": "மைய வகை",
@@ -176,6 +188,7 @@
       "showInListView": "",
       "label": {
         "eng": "Users",
+        "spa": "Usuarios",
         "ara": "المستخدمين",
         "fra": "Utilisateur",
         "tam": "பயனர்கள்",
@@ -192,6 +205,7 @@
       "showInListView": "",
       "label": {
         "eng": "Devices",
+        "spa": "Dispositivos",
         "ara": "الأجهزة",
         "fra": "Dispositifs",
         "tam": "சாதனங்கள்",
@@ -208,6 +222,7 @@
       "showInListView": "",
       "label": {
         "eng": "Machines",
+        "spa": "Máquinas",
         "ara": "آلات",
         "fra": "Machines",
         "tam": "இயந்திரங்கள்",
@@ -224,6 +239,7 @@
       "showInListView": "",
       "label": {
         "eng": "Contact Phone",
+        "spa": "Teléfono de Contacto",
         "ara": "هاتف مُتَكَون",
         "fra": "Téléphone Contact",
         "tam": "தொலைபேசியைத் தொடர்பு கொள்ளுங்கள்",
@@ -240,6 +256,7 @@
       "showInListView": "",
       "label": {
         "eng": "Contact Person",
+        "spa": "Persona de Contacto",
         "ara": "الشخص المسؤول",
         "fra": "Personne-ressource",
         "tam": "நபரைத் தொடர்பு கொள்ளுங்கள்",
@@ -256,6 +273,7 @@
       "showInListView": "",
       "label": {
         "eng": "Created Time",
+        "spa": "Hora de Creación",
         "ara": "الوقت الذي تم إنشاؤه",
         "fra": "Temps créé",
         "tam": "Created Time",
@@ -272,6 +290,7 @@
       "showInListView": "true",
       "label": {
         "eng": "Status",
+        "spa": "Estado",
         "ara": "الحالة",
         "fra": "Statut",
         "tam": "நிலை",
@@ -294,6 +313,7 @@
     "filtername": "name",
     "filterlabel": {
       "eng": "Center",
+        "spa": "Centro",
       "ara": "مركز",
       "fra": "Centre",
       "tam": "மையம்",
@@ -313,6 +333,7 @@
       "filtername": "centerTypeName",
       "filterlabel": {
         "eng": "Center Type",
+        "spa": "Tipo de Centro",
         "ara": "نوع المركز",
         "fra": "Type de centre",
         "tam": "மைய வகை",
@@ -332,6 +353,7 @@
       "filtername": "locationCode",
       "filterlabel": {
         "eng": "Location Code",
+        "spa": "Código de Ubicación",
         "ara": "كود الموقع",
         "fra": "Le code d'emplacement",
         "tam": "இருப்பிடக் குறியீடு",
@@ -351,6 +373,7 @@
       "filtername": "isActive",
       "filterlabel": {
         "eng": "Status",
+        "spa": "Estado",
         "ara": "الحالة",
         "fra": "Statut",
         "tam": "நிலை",

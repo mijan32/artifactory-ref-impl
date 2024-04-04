@@ -8,7 +8,8 @@
         "fra": "Ajouter le centre",
         "hin": "पैकेट अपलोड करें  ",
         "kan": "ಪ್ಯಾಕೆಟ್ ಅಪ್‌ಲೋಡ್ ಮಾಡಿ  ",
-        "tam": "பாக்கெட்டை பதிவேற்றுக  "
+        "tam": "பாக்கெட்டை பதிவேற்றுக",
+        "spa": "Subir paquete"
       },
       "imagePath": "assets/images/add-icon.png",
       "actionListType": "redirect",
@@ -25,7 +26,9 @@
       "label": { "eng": "Transcation ID", "ara": "مركز ", "fra": "Centre" ,
         "hin": "पैकेट अपलोड करें  ",
         "kan": "ವಹಿವಾಟು ID  ",
-        "tam": "பரிவர்த்தனை ஐடி"},
+        "tam": "பரிவர்த்தனை ஐடி",
+        "spa": "ID de transacción"
+      },
       "sortOrder": "3",
       "showAsLink": "",
       "linkType": "",
@@ -37,7 +40,9 @@
       "label": {"eng": "Status", "ara": "الأجهزة", "fra": "Dispositifs",
         "hin": "स्थिति   ",
         "kan": "ಸ್ಥಿತಿ   ",
-        "tam": "நிலை "},
+        "tam": "நிலை",
+        "spa": "Estado"
+      },
       "sortOrder": "",
       "showAsLink": "",
       "linkType": "",
@@ -49,7 +54,9 @@
       "label": {"eng": "Count","ara": "المستخدمين","fra": "Utilisateur",
         "hin": "गिनती   ",
         "kan": "ಎಣಿಕೆ  ",
-        "tam": "எண்ணிக்கை "},
+        "tam": "எண்ணிக்கை",
+        "spa": "Cantidad"
+      },
       "sortOrder": "",
       "showAsLink": "",
       "linkType": "",
@@ -61,7 +68,9 @@
       "label": {"eng": "Uploaded By", "ara": "آلات", "fra": "Machines",
         "hin": "द्वारा डाली गई  ",
         "kan": "ಇವರಿಂದ ಅಪ್‌ಲೋಡ್ ಮಾಡಲಾಗಿದೆ   ",
-        "tam": "பதிவேற்றியது  "},
+        "tam": "பதிவேற்றியது",
+        "spa": "Subido por"
+      },
       "sortOrder": "",
       "showAsLink": "",
       "linkType": "",
@@ -73,7 +82,9 @@
       "label": {"eng": "Date Time", "ara": "هاتف مُتَكَون", "fra": "Téléphone Contact",
         "hin": "दिनांक और समय ",
         "kan": "ದಿನಾಂಕ ಸಮಯ  ",
-        "tam": "தேதி நேரம்  "},
+        "tam": "தேதி நேரம்",
+        "spa": "Fecha y hora"
+      },
       "sortOrder": "",
       "showAsLink": "",
       "linkType": "",

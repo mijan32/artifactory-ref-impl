@@ -8,7 +8,8 @@
         "fra": "déclencher",
         "hin": "सक्रिय",
         "kan": "ಸಕ್ರಿಯಗೊಳಿಸಿ",
-        "tam": "செயல்படுத்த"
+        "tam": "செயல்படுத்த",
+        "spa": "Activar"
       },
       "actionURL": "",
       "redirectURL": "",
@@ -23,7 +24,8 @@
         "fra": "désactiver",
         "hin": "निष्क्रिय करें",
         "kan": "ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ",
-        "tam": "செயலிழக்க"
+        "tam": "செயலிழக்க",
+        "spa": "Desactivar"
       },
       "actionURL": "",
       "redirectURL": "",
@@ -38,7 +40,8 @@
         "fra": "modifier",
         "hin": "संपादित करें",
         "kan": "ತಿದ್ದು",
-        "tam": "தொகு"
+        "tam": "தொகு",
+        "spa": "Editar"
       },
       "actionURL": "",
       "redirectURL": "/admin/masterdata/holiday/single-view/$id",
@@ -53,7 +56,8 @@
         "fra": "Ajouter le centre",
         "hin": "बनाएं",
         "kan": "ರಚಿಸಿ",
-        "tam": "உருவாக்கு"
+        "tam": "உருவாக்கு",
+        "spa": "Crear"
       },
       "imagePath": "assets/images/add-icon.png",
       "actionListType": "redirect",
@@ -63,7 +67,7 @@
       "validations": ""
     },
     {
-      "buttonName": { "eng": "Filter", "ara": "تصفيه", "fra": "filtre","hin": "फ़िल्टर", "kan": "ಫಿಲ್ಟರ್ ಮಾಡಿ", "tam": "வடிகட்டி"},
+      "buttonName": { "eng": "Filter", "ara": "تصفيه", "fra": "filtre","hin": "फ़िल्टर", "kan": "ಫಿಲ್ಟರ್ ಮಾಡಿ", "tam": "வடிகட்டி", "spa": "Filtrar" },
       "imagePath": "assets/images/filter.png",
       "actionListType": "action",
       "actionURL": { "case": "filter" },
@@ -78,7 +82,8 @@
         "fra": "Vacances non disponibles en français",
         "hin": "अवकाश अंग्रेजी में उपलब्ध नहीं है",
         "kan": "ರಜಾದಿನಗಳು ಇಂಗ್ಲಿಷ್ನಲ್ಲಿ ಲಭ್ಯವಿಲ್ಲ",
-        "tam": "விடுமுறை ஆங்கிலத்தில் கிடைக்கவில்லை"
+        "tam": "விடுமுறை ஆங்கிலத்தில் கிடைக்கவில்லை",
+        "spa": "Fiesta no disponible en inglés"
       },
       "imagePath": "",
       "actionListType": "action",
@@ -90,7 +95,8 @@
           "fra": "Vacances non disponibles en français",
           "hin": "अवकाश अंग्रेजी में उपलब्ध नहीं है",
           "kan": "ರಜಾದಿನಗಳು ಇಂಗ್ಲಿಷ್ನಲ್ಲಿ ಲಭ್ಯವಿಲ್ಲ",
-          "tam": "விடுமுறை ஆங்கிலத்தில் கிடைக்கவில்லை"
+          "tam": "விடுமுறை ஆங்கிலத்தில் கிடைக்கவில்லை",
+          "spa": "Fiesta no disponible en inglés"
         },
         "columnNames": [
           {
@@ -99,7 +105,8 @@
           "fra": "ಹಾಲಿಡೇ ಐಡಿ",
           "hin": "हॉलिडे आईडी",
           "kan": "ರಜಾ ಐಡಿ",
-          "tam": "விடுமுறை ஐடி"
+            "tam": "விடுமுறை ஐடி",
+            "spa": "ID de vacaciones"
           },
           {
           "eng": "Holiday Name",
@@ -107,7 +114,8 @@
           "fra": "Nom des vacances",
           "hin": "छुट्टी का नाम",
           "kan": "ರಜಾದಿನದ ಹೆಸರು",
-          "tam": "விடுமுறை பெயர்"
+            "tam": "விடுமுறை பெயர்",
+            "spa": "Nombre de vacaciones"
           }],
         "fieldName": "holidayName"
       },
@@ -127,7 +135,8 @@
         "fra": "Nom des vacances",
         "hin": "छुट्टी का नाम",
         "kan": "ರಜಾದಿನದ ಹೆಸರು",
-        "tam": "விடுமுறை பெயர்"
+        "tam": "விடுமுறை பெயர்",
+        "spa": "Nombre de la fiesta"
       },
       "sortOrder": "",
       "showAsLink": "",
@@ -140,7 +149,7 @@
       "name": "holidayDesc",
       "showInListView": "false",
       "showInSingleView": "true",
-      "label": { "eng": "Description", "ara": "وصف", "fra": "description","hin": "विवरण", "kan": "ವಿವರಣೆ", "tam": "விளக்கம்"},
+      "label": { "eng": "Description", "ara": "وصف", "fra": "description","hin": "विवरण", "kan": "ವಿವರಣೆ", "tam": "விளக்கம்", "spa": "Descripción" },
       "sortOrder": "",
       "showAsLink": "",
       "linkType": "",
@@ -152,7 +161,7 @@
       "name": "holidayDate",
       "showInListView": "true",
       "showInSingleView": "true",
-      "label": { "eng": "Holiday Date", "ara": "تاريخ", "fra": "date","hin": "छुट्टी की तारीख", "kan": "ರಜಾದಿನದ ದಿನಾಂಕ", "tam": "விடுமுறை தேதி"},
+      "label": { "eng": "Holiday Date", "ara": "تاريخ", "fra": "date","hin": "छुट्टी की तारीख", "kan": "ರಜಾದಿನದ ದಿನಾಂಕ", "tam": "விடுமுறை தேதி", "spa": "Fecha de la fiesta" },
       "sortOrder": "3",
       "showAsLink": "",
       "linkType": "",
@@ -164,7 +173,7 @@
       "name": "locationCode",
       "showInSingleView": "true",
       "showInListView": "false",
-      "label": { "eng": "Location", "ara": "موقع", "fra": "Emplacement","hin": "स्थान", "kan": "ಸ್ಥಳ", "tam": "இடம்" },
+      "label": { "eng": "Location", "ara": "موقع", "fra": "Emplacement","hin": "स्थान", "kan": "ಸ್ಥಳ", "tam": "இடம்", "spa": "Ubicación" },
       "sortOrder": "",
       "showAsLink": "",
       "linkType": "",
@@ -182,7 +191,8 @@
         "fra": "Mise à jour par",
         "hin": "द्वारा अपडेट",
         "kan": "ಇವರಿಂದ ನವೀಕರಿಸಲಾಗಿದೆ",
-        "tam": "புதுப்பிக்கப்பட்டது"
+        "tam": "புதுப்பிக்கப்பட்டது",
+        "spa": "Actualizado por"
       },
       "sortOrder": "",
       "showAsLink": "",
@@ -199,7 +209,8 @@
         "fra": "Temps créé",
         "hin": "बनाया गया समय",
         "kan": "ಸಮಯವನ್ನು ರಚಿಸಲಾಗಿದೆ",
-        "tam": "நேரம் உருவாக்கப்பட்டது"
+        "tam": "நேரம் உருவாக்கப்பட்டது",
+        "spa": "Hora de creación"
       },
       "sortOrder": "",
       "showAsLink": "",
@@ -210,7 +221,7 @@
       "name": "isActive",
       "showInListView": "true",
       "showInSingleView": "false",
-      "label": { "eng": "Status", "ara": "حاله", "fra": "statut","hin": "स्थिति", "kan": "ಸ್ಥಿತಿ", "tam": "நிலை" },
+      "label": { "eng": "Status", "ara": "حاله", "fra": "statut","hin": "स्थिति", "kan": "ಸ್ಥಿತಿ", "tam": "நிலை", "spa": "Estado" },
       "sortOrder": "",
       "showAsLink": "false",
       "linkType": "",
@@ -227,7 +238,7 @@
   "filterColumns": [
     {
       "filtername": "holidayDateFrom",
-      "filterlabel": { "eng": "Holiday Date From", "ara": "تاريخ عطلة من", "fra": "Date de vacances de","hin": "छुट्टी की तारीख", "kan": "ರಜಾದಿನದ ದಿನಾಂಕದಿಂದ", "tam": "விடுமுறை தேதி" },
+      "filterlabel": { "eng": "Holiday Date From", "ara": "تاريخ عطلة من", "fra": "Date de vacances de","hin": "छुट्टी की तारीख", "kan": "ರಜಾದಿನದ ದಿನಾಂಕದಿಂದ", "tam": "விடுமுறை தேதி", "spa": "Fecha de la fiesta desde" },
       "filterType": "between",
       "autocomplete": "false",
       "dropdown": "false",
@@ -238,7 +249,7 @@
     },
     {
       "filtername": "holidayDateTo",
-      "filterlabel": { "eng": "Holiday Date To", "ara": "تاريخ عطلة ل", "fra": "Date de vacances à","hin": "छुट्टी की तारीख", "kan": "ರಜಾದಿನದ ದಿನಾಂಕ", "tam": "விடுமுறை தேதி" },
+      "filterlabel": { "eng": "Holiday Date To", "ara": "تاريخ عطلة ل", "fra": "Date de vacances à","hin": "छुट्टी की तारीख", "kan": "ರಜಾದಿನದ ದಿನಾಂಕ", "tam": "விடுமுறை தேதி", "spa": "Fecha de la fiesta hasta" },
       "filterType": "between",
       "autocomplete": "false",
       "dropdown": "false",
@@ -255,7 +266,8 @@
         "fra": "Nom des vacances",
         "hin": "छुट्टी का नाम",
         "kan": "ರಜಾದಿನದ ಹೆಸರು",
-        "tam": "விடுமுறை பெயர்"
+        "tam": "விடுமுறை பெயர்",
+        "spa": "Nombre de la fiesta"
       },
       "filterType": "equals",
       "autocomplete": "false",
@@ -267,7 +279,7 @@
     },
     {
       "filtername": "isActive",
-      "filterlabel": { "eng": "Status", "ara": "حاله", "fra": "statut","hin": "स्थिति", "kan": "ಸ್ಥಿತಿ", "tam": "நிலை"},
+      "filterlabel": { "eng": "Status", "ara": "حاله", "fra": "statut","hin": "स्थिति", "kan": "ಸ್ಥಿತಿ", "tam": "நிலை", "spa": "Estado" },
       "filterType": "equals",
       "autocomplete": "false",
       "dropdown": "true",

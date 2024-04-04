@@ -8,7 +8,8 @@
         "fra": "déclencher",
         "hin": "सक्रिय ",
         "kan": "ಸಕ್ರಿಯಗೊಳಿಸಿ  ",
-        "tam": "செயல்படுத்த "
+        "tam": "செயல்படுத்த",
+        "spa": "Activar"
       },
       "actionURL": "",
       "redirectURL": "",
@@ -23,7 +24,8 @@
         "fra": "désactiver",
         "hin": "निष्क्रिय करें  ",
         "kan": "ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ   ",
-        "tam": "செயலிழக்க  "
+        "tam": "செயலிழக்க",
+        "spa": "Desactivar"
       },
       "actionURL": "",
       "redirectURL": "",
@@ -38,7 +40,8 @@
         "fra": "modifier",
         "tam": "தொகு",
         "hin": "संपादित करें",
-        "kan": "ತಿದ್ದು"
+        "kan": "ತಿದ್ದು",
+        "spa": "Editar"
       },
       "actionURL": "",
       "redirectURL": "/admin/masterdata/machine-type/single-view/$id",
@@ -53,7 +56,8 @@
         "fra": "Ajouter le centre",
         "hin": "सर्जन करना  ",
         "kan": "ರಚಿಸಿ  ",
-        "tam": "உருவாக்கு    "
+        "tam": "உருவாக்கு",
+        "spa": "Crear"
       },
       "imagePath": "assets/images/add-icon.png",
       "actionListType": "redirect",
@@ -65,8 +69,10 @@
     {
       "buttonName": { "eng": "Filter", "ara": "تصفيه", "fra": "filtre"  ,
         "hin": "पफ़िल्टर ",
-        "kan": "ಫಿಲ್ಟರ್ ಮಾಡಿ     ",
-        "tam": "வடிகட்டி  "},
+        "kan": "ಫಿಲ್ಟರ್ ಮಾಡಿ",
+        "tam": "வடிகட்டி",
+        "spa": "Filtrar"
+      },
       "imagePath": "assets/images/filter.png",
       "actionListType": "action",
       "actionURL": { "case": "filter" },
@@ -86,7 +92,8 @@
         "fra": "Code",
         "hin": "कोड   ",
         "kan": "ಕೋಡ್ ",
-        "tam": "குறியீடு   "
+        "tam": "குறியீடு",
+        "spa": "Código"
       },
       "sortOrder": "",
       "showAsLink": "false",
@@ -106,7 +113,8 @@
         "fra": "prénom",
         "hin": "नाम    ",
         "kan": "ಹೆಸರು  ",
-        "tam": "பெயர்  "
+        "tam": "பெயர்",
+        "spa": "Nombre"
       },
       "sortOrder": "",
       "showAsLink": "false",
@@ -123,7 +131,9 @@
       "label": { "eng": "Description", "ara": "وصف", "fra": "description" ,
         "hin": "विवरण  ",
         "kan": "ವಿವರಣೆ    ",
-        "tam": "விளக்கம்   " },
+        "tam": "விளக்கம்",
+        "spa": "Descripción"
+      },
       "sortOrder": "",
       "showAsLink": "",
       "linkType": "",
@@ -141,7 +151,8 @@
         "fra": "Créé par",
         "hin": "बनाया गया समय  ",
         "kan": "ಸಮಯವನ್ನು ರಚಿಸಲಾಗಿದೆ  ",
-        "tam": "நேரம் உருவாக்கப்பட்டது  "
+        "tam": "நேரம் உருவாக்கப்பட்டது",
+        "spa": "Creado por"
       },
       "sortOrder": "",
       "showAsLink": "",
@@ -158,7 +169,8 @@
         "fra": "Mise à jour par",
         "hin": "द्वारा अपडेट   ",
         "kan": "ಇವರಿಂದ ನವೀಕರಿಸಲಾಗಿದೆ   ",
-        "tam": "புதுப்பிக்கப்பட்டது   "
+        "tam": "புதுப்பிக்கப்பட்டது",
+        "spa": "Actualizado por"
       },
       "sortOrder": "",
       "showAsLink": "",
@@ -175,7 +187,8 @@
         "fra": "Temps mis à jour",
         "hin": "दअपडेट किया गया समय  ",
         "kan": "ನವೀಕರಿಸಿದ ಸಮಯ   ",
-        "tam": "புதுப்பிக்கப்பட்ட நேரம்  "
+        "tam": "புதுப்பிக்கப்பட்ட நேரம்",
+        "spa": "Hora de actualización"
       },
       "sortOrder": "3",
       "showAsLink": "",
@@ -192,7 +205,8 @@
         "fra": "Temps créé",
         "hin": "बनाया गया समय  ",
         "kan": "ಸಮಯವನ್ನು ರಚಿಸಲಾಗಿದೆ  ",
-        "tam": "நேரம் உருவாக்கப்பட்டது  "
+        "tam": "நேரம் உருவாக்கப்பட்டது",
+        "spa": "Hora de creación"
       },
       "sortOrder": "",
       "showAsLink": "",
@@ -205,7 +219,9 @@
       "showInSingleView": "false",
       "label": { "eng": "Status", "ara": "نشط", "fra": "c'est actif", "hin": "स्थिति   ",
         "kan": "ಸ್ಥಿತಿ   ",
-        "tam": "நிலை "},
+        "tam": "நிலை",
+        "spa": "Estado"
+      },
       "sortOrder": "",
       "showAsLink": "false",
       "linkType": "",
@@ -224,7 +240,9 @@
       "filtername": "name",
       "filterlabel": { "eng": "Name", "ara": "اسم", "fra": "prénom" ,"hin": "नाम  ",
         "kan": "ಹೆಸರು    ",
-        "tam": "பெயர் " },
+        "tam": "பெயர்",
+        "spa": "Nombre"
+      },
       "filterType": "equals",
       "autocomplete": "false",
       "dropdown": "false",
@@ -237,7 +255,9 @@
       "filtername": "isActive",
       "filterlabel": { "eng": "Status", "ara": "نشط", "fra": "Statut" ,"hin": "स्थिति ",
         "kan": "ಸ್ಥಿತಿ    ",
-        "tam": "நிலை" },
+        "tam": "நிலை",
+        "spa": "Estado"
+      },
       "filterType": "equals",
       "autocomplete": "false",
       "dropdown": "true",

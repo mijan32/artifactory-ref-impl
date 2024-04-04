@@ -8,7 +8,8 @@
         "fra": "déclencher",
         "hin": "सक्रिय",
         "kan": "ಸಕ್ರಿಯಗೊಳಿಸಿ",
-        "tam": "செயல்படுத்த"
+        "tam": "செயல்படுத்த",
+        "spa": "Activar"
       },
       "actionURL": "",
       "redirectURL": "",
@@ -23,7 +24,8 @@
         "fra": "désactiver",
         "hin": "निष्क्रिय करें",
         "kan": "ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ",
-        "tam": "செயலிழக்க"
+        "tam": "செயலிழக்க",
+        "spa": "Desactivar"
       },
       "actionURL": "",
       "redirectURL": "",
@@ -38,7 +40,8 @@
         "fra": "mettre hors service",
         "hin": "डीकमिशन",
         "kan": "ಡಿಕೊಮಿಷನ್",
-        "tam": "நீக்கம்"
+        "tam": "நீக்கம்",
+        "spa": "Desmantelar"
       },
       "actionURL": "",
       "redirectURL": "",
@@ -53,7 +56,8 @@
         "fra": "modifier",
         "hin": "संपादित करें",
         "kan": "ತಿದ್ದು",
-        "tam": "தொகு"
+        "tam": "தொகு",
+        "spa": "Editar"
       },
       "actionURL": "",
       "redirectURL": "/admin/resources/machines/single-view/$id",
@@ -68,7 +72,8 @@
         "fra": "Ajouter le centre",
         "hin": "मशीन बनाएं",
         "kan": "ಯಂತ್ರವನ್ನು ರಚಿಸಿ",
-        "tam": "இயந்திரத்தை உருவாக்கவும்"
+        "tam": "இயந்திரத்தை உருவாக்கவும்",
+        "spa": "Crear máquina"
       },
       "imagePath": "assets/images/add-icon.png",
       "actionListType": "redirect",
@@ -78,7 +83,15 @@
       "validations": ""
     },
     {
-      "buttonName": { "eng": "Filter", "ara": "تصفيه", "fra": "filtre","hin": "फ़िल्टर", "kan": "ಫಿಲ್ಟರ್ ಮಾಡಿ", "tam": "வடிகட்டி" },
+      "buttonName": {
+        "eng": "Filter",
+        "ara": "تصفيه",
+        "fra": "filtre",
+        "hin": "फ़िल्टर",
+        "kan": "ಫಿಲ್ಟರ್ ಮಾಡಿ",
+        "tam": "வடிகட்டி",
+        "spa": "Filtrar"
+      },
       "imagePath": "assets/images/filter.png",
       "actionListType": "action",
       "actionURL": { "case": "filter" },
@@ -97,7 +110,8 @@
         "fra": "Nom de la machine",
         "hin": "मशीन का नाम",
         "kan": "ಯಂತ್ರದ ಹೆಸರು",
-        "tam": "இயந்திரத்தின் பெயர்"
+        "tam": "இயந்திரத்தின் பெயர்",
+        "spa": "Nombre de la máquina"
       },
       "sortOrder": "3",
       "showAsLink": "",
@@ -113,7 +127,8 @@
         "fra": "Type de machine",
         "hin": "मशीन की तरह",
         "kan": "ಯಂತ್ರ ಪ್ರಕಾರ",
-        "tam": "இயந்திர வகை"
+        "tam": "இயந்திர வகை",
+        "spa": "Tipo de máquina"
       },
       "sortOrder": "",
       "showAsLink": "",
@@ -123,7 +138,15 @@
     {
       "name": "macAddress",
       "showInListView": "",
-      "label": { "eng": "Mac Address", "ara": "عنوان", "fra": "Mac Adresse","hin": "मैक पते", "kan": "ಮ್ಯಾಕ್ ವಿಳಾಸ", "tam": "Mac முகவரி" },
+      "label": {
+        "eng": "Mac Address",
+        "ara": "عنوان",
+        "fra": "Mac Adresse",
+        "hin": "मैक पते",
+        "kan": "ಮ್ಯಾಕ್ ವಿಳಾಸ",
+        "tam": "Mac முகவரி",
+        "spa": "Dirección Mac"
+      },
       "sortOrder": "",
       "showAsLink": "",
       "linkType": "",
@@ -138,7 +161,8 @@
         "fra": "numéro",
         "hin": "क्रमिक संख्या",
         "kan": "ಕ್ರಮ ಸಂಖ್ಯೆ",
-        "tam": "வரிசை எண்"
+        "tam": "வரிசை எண்",
+        "spa": "Número de serie"
       },
       "sortOrder": "",
       "showAsLink": "",
@@ -154,7 +178,8 @@
         "fra": "Centre",
         "hin": "केंद्र",
         "kan": "ಕೇಂದ್ರ",
-        "tam": "மையம்"
+        "tam": "மையம்",
+        "spa": "Centro"
       },
       "sortOrder": "",
       "showAsLink": "",
@@ -170,7 +195,8 @@
         "fra": "Temps créé",
         "hin": "बनाया गया समय",
         "kan": "ಸಮಯವನ್ನು ರಚಿಸಲಾಗಿದೆ",
-        "tam": "நேரம் உருவாக்கப்பட்டது"
+        "tam": "நேரம் உருவாக்கப்பட்டது",
+        "spa": "Hora de creación"
       },
       "sortOrder": "",
       "showAsLink": "",
@@ -180,7 +206,15 @@
     {
       "name": "isActive",
       "showInListView": "true",
-      "label": { "eng": "Status", "ara": "حاله", "fra": "statut","hin": "स्थिति", "kan": "ಸ್ಥಿತಿ", "tam": "நிலை" },
+      "label": {
+        "eng": "Status",
+        "ara": "حاله",
+        "fra": "statut",
+        "hin": "स्थिति",
+        "kan": "ಸ್ಥಿತಿ",
+        "tam": "நிலை",
+        "spa": "Estado"
+      },
       "sortOrder": "",
       "showAsLink": "false",
       "linkType": "",
@@ -201,7 +235,8 @@
         "fra": "Nom de la machine",
         "hin": "मशीन का नाम",
         "kan": "ಯಂತ್ರದ ಹೆಸರು",
-        "tam": "இயந்திரத்தின் பெயர்"
+        "tam": "இயந்திரத்தின் பெயர்",
+        "spa": "Nombre de la máquina"
       },
       "filterType": "equals",
       "autocomplete": "false",
@@ -219,7 +254,8 @@
         "fra": "statut",
         "hin": "स्थिति",
         "kan": "ಸ್ಥಿತಿ",
-        "tam": "நிலை"
+        "tam": "நிலை",
+        "spa": "Estado"
       },
       "filterType": "equals",
       "autocomplete": "false",
@@ -231,7 +267,15 @@
     },
     {
       "filtername": "macAddress",
-      "filterlabel": { "eng": "MAC Address", "ara":"عنوان ماك", "fra": "Adresse Mac","hin": "मैक पते", "kan": "ಮ್ಯಾಕ್ ವಿಳಾಸ", "tam": "Mac முகவரி" },
+      "filterlabel": {
+        "eng": "MAC Address",
+        "ara": "عنوان ماك",
+        "fra": "Adresse Mac",
+        "hin": "मैक पते",
+        "kan": "ಮ್ಯಾಕ್ ವಿಳಾಸ",
+        "tam": "Mac முகவரி",
+        "spa": "Dirección MAC"
+      },
       "filterType": "equals",
       "autocomplete": "false",
       "dropdown": "false",
@@ -244,7 +288,9 @@
       "filtername": "serialNum",
       "filterlabel": {"eng":"Serial Number","ara":"رقم سري", "fra": "Numéro de série","hin": "क्रमिक संख्या",
         "kan": "ಕ್ರಮ ಸಂಖ್ಯೆ",
-        "tam": "வரிசை எண்"},
+        "tam": "வரிசை எண்",
+        "spa": "Número de serie"
+      },
       "filterType": "equals",
       "autocomplete": "false",
       "dropdown": "false",
@@ -261,7 +307,8 @@
         "fra": "Type de machine",
         "hin": "मशीन की तरह",
         "kan": "ಯಂತ್ರ ಪ್ರಕಾರ",
-        "tam": "இயந்திர வகை"
+        "tam": "இயந்திர வகை",
+        "spa": "Tipo de máquina"
       },
       "filterType": "equals",
       "autocomplete": "false",
