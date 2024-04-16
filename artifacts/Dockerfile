@@ -129,6 +129,8 @@ COPY /src/testing/glowroot.zip ${test_jar_path}/
 
 COPY /src/i18n/regclient-i18n-bundle/*  ${work_dir}/resources/
 
+COPY /src/sms/* ${kernel_jar_path}/
+
 COPY /src/i18n/admin-entity-spec-bundle/*  ${work_dir}/admin-entity-spec-bundle/
 
 COPY /src/i18n/admin-i18n-bundle/*  ${work_dir}/admin-i18n-bundle/
