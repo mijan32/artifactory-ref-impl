@@ -58,6 +58,9 @@ ENV ida_sh_path=${base_path}/libs-release-local/deployment/docker/id-authenticat
 # environment variable for hsm client path
 ENV hsm_client_path=${base_path}/libs-release-local/hsm
 
+# environment variable for cloudhsm client path
+ENV cloudhsm_client_path=${base_path}/libs-release-local/cloudhsm
+
 # environment variable for mosip-plugins zip path
 ENV mosip_plugins_zip_path=${base_path}/libs-release-local/mosip-plugins
 
@@ -122,6 +125,8 @@ COPY /src/deployment/docker/id-authentication/* ${ida_sh_path}/
 COPY /src/cache/* ${cache_path}/
 
 COPY /src/hsm/client.zip ${hsm_client_path}/
+
+COPY /src/cloudhsm/* ${cloudhsm_client_path}/
 
 COPY /src/mosip-plugins/sign-in-with-esignet/sign-in-with-esignet.zip ${mosip_plugins_zip_path}/
 
