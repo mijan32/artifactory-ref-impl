@@ -188,8 +188,3 @@ USER ${container_user_uid}:${container_user_gid}
 EXPOSE 8080
 
 CMD ["nginx", "-g", "daemon off;"]
-
-# environment variable for tech5 jar path
-ENV tech5_zip_path=${base_path}/libs-release-local/sdk/tech5
-
-COPY /src/sdk/tech5/* ${tech5_zip_path}/
