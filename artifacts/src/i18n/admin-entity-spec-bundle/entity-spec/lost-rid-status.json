@@ -36,16 +36,28 @@
       "noSort": "true"
     },
     {
-      "name": "name",
+      "name": "firstName",
       "showInListView": "true",
       "showInSingleView": "true",
-      "label": {"eng": "Name","ara": "اسم","fra": "prénom","tam": "பெயர்","hin": "नाम","kan": "ಹೆಸರು"},
+     "label": {"eng": "First Name","ara": "الاسم الأول","fra": "Prénom","tam": "முதல் பெயர்","hin": "प्रथम नाम", "kan": "ಮೊದಲ ಹೆಸರು"},
+      "sortOrder": "3",
+      "showAsLink": "",
+      "linkType": "",
+      "LinkURL": "",
+      "noSort": "true"
+    },
+    {
+      "name": "lastName",
+      "showInListView": "true",
+      "showInSingleView": "true",
+      "label": {"eng": "Last Name", "ara": "الكنية", "fra": "Nom de famille", "tam": "கடைசி பெயர்", "hin": "अंतिम नाम", "kan": "ಕೊನೆಯ ಹೆಸರು"},
       "sortOrder": "3",
       "showAsLink": "",
       "linkType": "",
       "LinkURL": "",
       "noSort": "true"
     }
+
   ],
   "paginator": {},
   "filterColumns": [
@@ -74,21 +86,59 @@
       "ismandatory": "true"
     },
     {
-      "filtername": "name",
-      "filterlabel": {
-        "eng": "Name",
-        "ara": "اسم",
-        "fra": "prénom",
-        "tam": "பெயர்",
-        "hin": "नाम",
-        "kan": "ಹೆಸರು"
+      "filtername": "firstName",
+    "filterlabel": {
+    "eng": "First Name",
+    "ara": "الاسم الأول",
+    "fra": "Prénom",
+    "tam": "முதல் பெயர்",
+    "hin": "प्रथम नाम",
+    "kan": "ಮೊದಲ ಹೆಸರು"
+   },
+      "filterType": "equals",
+      "autocomplete": "false",
+      "dropdown": "false",
+      "datePicker": "false",
+      "apiName": "lostRid",
+      "fieldName": "firstName",
+      "methodCallName": "",
+      "ismandatory": "true"
+    },
+    {
+      "filtername": "middleName",
+        "filterlabel": {
+        "eng": "Middle Name",
+        "ara": "الاسم الأوسط",
+        "fra": "Deuxième prénom",
+        "hin": "मध्य नाम",
+        "kan": "ಮಧ್ಯ ಹೆಸರು",
+        "tam": "நடுத்தர பெயர்"
       },
       "filterType": "equals",
       "autocomplete": "false",
       "dropdown": "false",
       "datePicker": "false",
       "apiName": "lostRid",
-      "fieldName": "name",
+      "fieldName": "middleName",
+      "methodCallName": "",
+      "ismandatory": "false"
+    },
+    {
+      "filtername": "lastName",
+        "filterlabel": {
+        "eng": "Last Name",
+        "ara": "الكنية",
+        "fra": "Nom de famille",
+        "tam": "கடைசி பெயர்",
+        "hin": "अंतिम नाम",
+        "kan": "ಕೊನೆಯ ಹೆಸರು"
+      },
+      "filterType": "equals",
+      "autocomplete": "false",
+      "dropdown": "false",
+      "datePicker": "false",
+      "apiName": "lostRid",
+      "fieldName": "lastName",
       "methodCallName": "",
       "ismandatory": "true"
     },
