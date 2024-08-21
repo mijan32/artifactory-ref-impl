@@ -39,7 +39,7 @@
       "name": "firstName",
       "showInListView": "true",
       "showInSingleView": "true",
-      "label": {"eng": "First Name","ara": "اسم","fra": "prénom","tam": "பெயர்","hin": "नाम","kan": "ಹೆಸರು"},
+     "label": {"eng": "First Name","ara": "الاسم الأول","fra": "Prénom","tam": "முதல் பெயர்","hin": "प्रथम नाम", "kan": "ಮೊದಲ ಹೆಸರು"},
       "sortOrder": "3",
       "showAsLink": "",
       "linkType": "",
@@ -50,7 +50,7 @@
       "name": "lastName",
       "showInListView": "true",
       "showInSingleView": "true",
-      "label": {"eng": "Last Name","ara": "اسم","fra": "prénom","tam": "பெயர்","hin": "नाम","kan": "ಹೆಸರು"},
+      "label": {"eng": "Last Name", "ara": "الكنية", "fra": "Nom de famille", "tam": "கடைசி பெயர்", "hin": "अंतिम नाम", "kan": "ಕೊನೆಯ ಹೆಸರು"},
       "sortOrder": "3",
       "showAsLink": "",
       "linkType": "",
@@ -87,14 +87,14 @@
     },
     {
       "filtername": "firstName",
-      "filterlabel": {
-        "eng": "First Name",
-        "ara": "اسم",
-        "fra": "prénom",
-        "tam": "பெயர்",
-        "hin": "नाम",
-        "kan": "ಹೆಸರು"
-      },
+    "filterlabel": {
+    "eng": "First Name",
+    "ara": "الاسم الأول",
+    "fra": "Prénom",
+    "tam": "முதல் பெயர்",
+    "hin": "प्रथम नाम",
+    "kan": "ಮೊದಲ ಹೆಸರು"
+   },
       "filterType": "equals",
       "autocomplete": "false",
       "dropdown": "false",
@@ -106,13 +106,13 @@
     },
     {
       "filtername": "middleName",
-      "filterlabel": {
+        "filterlabel": {
         "eng": "Middle Name",
-        "ara": "بريد الالكتروني",
-        "fra": "E-mail",
-        "hin": "ईमेल",
-        "kan": "ಇಮೇಲ್",
-        "tam": "மின்னஞ்சல்"
+        "ara": "الاسم الأوسط",
+        "fra": "Deuxième prénom",
+        "hin": "मध्य नाम",
+        "kan": "ಮಧ್ಯ ಹೆಸರು",
+        "tam": "நடுத்தர பெயர்"
       },
       "filterType": "equals",
       "autocomplete": "false",
@@ -125,13 +125,13 @@
     },
     {
       "filtername": "lastName",
-      "filterlabel": {
+        "filterlabel": {
         "eng": "Last Name",
-        "ara": "اسم",
-        "fra": "prénom",
-        "tam": "பெயர்",
-        "hin": "नाम",
-        "kan": "ಹೆಸರು"
+        "ara": "الكنية",
+        "fra": "Nom de famille",
+        "tam": "கடைசி பெயர்",
+        "hin": "अंतिम नाम",
+        "kan": "ಕೊನೆಯ ಹೆಸರು"
       },
       "filterType": "equals",
       "autocomplete": "false",
